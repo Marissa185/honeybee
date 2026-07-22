@@ -1,0 +1,16 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May  7 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    marissa-ASUS-TUF-Gaming-F16-FX607VJ-FX607VJ (AVX2, FMA3, 15 GB RAM)
+Command: /home/marissa/anaconda3/envs/2_phylogeny/bin/iqtree3_intel -t Apis_m_mtDNA_NA_total.fst.treefile -minsupnew 80/95 -czb
+Seed:    2629 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  6 15:46:37 2026
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Tree with collapsed branches written to Apis_m_mtDNA_NA_total.fst.treefile.collapsed
+Date and Time: Mon Jul  6 15:46:37 2026

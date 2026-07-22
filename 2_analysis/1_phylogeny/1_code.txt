@@ -1,0 +1,48 @@
+- aliview install
+
+git clone https://github.com/AliView/AliView.git
+
+sudo add-apt-repository ppa:ts.sch.gr/ppa
+sudo apt update
+sudo apt install default-jdk
+
+which java
+java -version
+readlink -f $(which java)
+
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+
+mvn clean compile install package | tee mvn.build.log
+
+./make_installer_linux.sh
+cd target/linux-version-1.31/
+sudo ./aliview-no-java.install.run
+
+sudo apt purge oracle-java8-installer #to uninstall an app
+
+-conda rename an env
+conda rename -n project 1_phylogeny
+
+- softwares install in conda env project 
+
+iqtree3 (model selection)
+downloaded iqtree-3.1.2-Linux.tar.gz
+tar -xvf ....Linux.tar.gz
+a synlink is created with the following code in the project envs' bin
+ln -s /home/marissa/Downloads/project_softwares/1_phylogeny/iqtree-3.1.2-Linux/bin/iqtree3
+ln -s /home/marissa/Downloads/project_softwares/1_phylogeny/iqtree-3.1.2-Linux/bin/iqtree3_intel
+the working directory is : /home/marissa/anaconda3/envs/project/bin
+iqtree3 -h
+new 
+NA
+iqtree3 -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m MF --msub mitochondrial -mrate E,I,G,I+G,R
+iqtree3 -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m K3Pu+F+R3 -bb 1000 -alrt 1000 (bootstrap) (BIC)
+iqtree3 -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m TIM+F+R3 -bb 1000 -alrt 1000 (bootstrap) (AIC)
+
+
+iqtree3 -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m K3Pu+F+R3 -bb 1000 -alrt 1000 -keep-ident -minsupnew 80/95 -czb
+
+smaller subset
+iqtree3 -s Apis_m_mtDNA_NA_subset.fst --seqtype DNA -m MF --msub mitochondrial -mrate E,I,G,I+G,R --keep-ident
+iqtree3 -s Apis_m_mtDNA_NA_subset.fst --seqtype DNA -m HKY+F+I -bb 1000 -alrt 1000 --keep-ident

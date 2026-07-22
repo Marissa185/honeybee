@@ -1,0 +1,1025 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May  7 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    marissa-ASUS-TUF-Gaming-F16-FX607VJ-FX607VJ (AVX2, FMA3, 15 GB RAM)
+Command: /home/marissa/anaconda3/envs/2_phylogeny/bin/iqtree3_intel -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m MF --msub mitochondrial -mrate E,I,G,I+G,R
+Seed:    318239 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jul  1 00:03:38 2026
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Apis_m_mtDNA_NA_total.fst ... Fasta format detected
+Reading fasta file: done in 0.0875108 secs using 83.85% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.053618 secs using 81.26% CPU
+WARNING: 72 sites contain only gaps or ambiguous characters.
+Alignment has 382 sequences with 11190 columns, 648 distinct patterns
+586 parsimony-informative, 227 singleton sites, 10377 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00212097 secs using 99.86% CPU
+   1  AmMe_IRL_F_001      1.74%    passed     99.98%
+   2  AmMe_IRL_F_002      1.74%    passed     99.99%
+   3  AmMe_IRL_F_003      1.74%    passed     99.94%
+   4  AmMe_IRL_F_004      1.74%    passed     99.97%
+   5  AmMe_IRL_F_005      1.74%    passed     99.99%
+   6  AmMe_IRL_F_006      1.74%    passed     99.95%
+   7  AmMe_IRL_F_007      1.74%    passed     99.99%
+   8  AmMe_IRL_F_008      1.74%    passed     99.95%
+   9  AmMe_IRL_F_009      1.74%    passed     99.98%
+  10  AmMe_IRL_F_010      1.85%    passed    100.00%
+  11  AmMe_IRL_F_011      1.75%    passed     99.91%
+  12  AmMe_IRL_F_012      1.74%    passed     99.98%
+  13  AmMe_IRL_F_013      1.74%    passed     99.99%
+  14  AmMe_IRL_F_014      1.74%    passed     99.99%
+  15  AmMe_IRL_F_015      1.74%    passed     99.91%
+  16  AmMe_IRL_F_016      1.74%    passed     99.99%
+  17  AmMe_IRL_F_017      1.74%    passed     99.99%
+  18  AmMe_IRL_F_018      1.74%    passed     99.99%
+  19  AmMe_IRL_F_019      1.74%    passed     99.99%
+  20  AmMe_IRL_F_020      1.74%    passed     99.99%
+  21  AmMe_IRL_F_021      1.74%    passed     99.99%
+  22  AmMe_IRL_F_022      1.74%    passed     99.99%
+  23  AmMe_IRL_F_023      1.74%    passed     99.99%
+  24  AmMe_IRL_F_024      1.74%    passed     99.97%
+  25  AmMe_IRL_F_025      1.74%    passed     99.99%
+  26  AmMe_IRL_F_026      1.74%    passed     99.41%
+  27  AmMe_IRL_F_027      1.74%    passed     99.99%
+  28  AmMe_IRL_F_028      1.74%    passed     99.99%
+  29  AmMe_IRL_F_029      1.74%    passed     99.99%
+  30  AmMe_IRL_F_030      1.74%    passed     99.99%
+  31  AmMe_IRL_F_031      1.74%    passed     99.99%
+  32  AmMe_IRL_F_032      1.74%    passed     99.99%
+  33  AmHy_IRL_F_033      1.74%    passed     99.75%
+  34  AmHy_IRL_F_034      1.75%    passed     98.86%
+  35  AmHy_IRL_F_035      1.74%    passed     99.99%
+  36  AmHy_IRL_F_036      1.75%    passed     99.86%
+  37  AmHy_IRL_F_037      1.74%    passed     99.90%
+  38  AmHy_IRL_F_038      1.74%    passed     99.90%
+  39  AmHy_IRL_F_039      1.74%    passed    100.00%
+  40  AmHy_IRL_F_040      1.74%    passed    100.00%
+  41  AmHy_IRL_F_041      1.74%    passed     99.89%
+  42  AmHy_IRL_F_042      1.75%    passed     99.84%
+  43  AmHy_IRL_F_043      1.74%    passed     99.21%
+  44  AmHy_GBR_F_044      1.74%    passed     99.93%
+  45  AmHy_IRL_M_045      1.74%    passed     91.39%
+  46  AmHy_IRL_M_046      1.74%    passed     99.99%
+  47  AmHy_IRL_M_047      1.74%    passed     99.99%
+  48  AmHy_IRL_M_048      1.96%    passed     99.90%
+  49  AmHy_IRL_M_049      1.74%    passed     99.98%
+  50  AmHy_IRL_M_050      1.74%    passed     99.98%
+  51  AmHy_IRL_M_051      1.74%    passed     99.99%
+  52  AmMe_IRL_M_052      1.74%    passed     99.99%
+  53  AmMe_IRL_M_053      1.74%    passed     99.99%
+  54  AmMe_IRL_M_054      6.74%    passed     90.61%
+  55  AmMe_IRL_M_055      1.74%    passed     99.99%
+  56  AmMe_IRL_M_056      1.74%    passed     99.99%
+  57  AmMe_IRL_M_057      1.74%    passed     99.99%
+  58  AmMe_IRL_M_058      1.74%    passed     99.97%
+  59  AmMe_IRL_M_059      1.75%    passed     99.99%
+  60  AmMe_IRL_M_060      1.74%    passed     99.99%
+  61  AmMe_IRL_M_061      1.74%    passed     99.99%
+  62  AmMe_IRL_M_062      1.74%    passed     99.06%
+  63  AmMe_IRL_M_063      1.74%    passed     99.99%
+  64  AmMe_IRL_M_064      1.74%    passed     99.96%
+  65  AmMe_IRL_M_065      1.74%    passed     99.99%
+  66  AmMe_IRL_M_066      1.74%    passed     99.95%
+  67  AmMe_IRL_M_067      6.61%    passed     90.29%
+  68  AmMe_IRL_M_068      1.74%    passed     99.99%
+  69  AmMe_IRL_M_069      1.75%    passed     99.61%
+  70  AmMe_IRL_M_070      1.74%    passed     99.99%
+  71  AmMe_IRL_M_071      1.74%    passed     99.99%
+  72  AmMe_IRL_M_072      1.74%    passed     99.99%
+  73  AmMe_IRL_M_073      1.74%    passed     99.99%
+  74  AmMe_IRL_M_074      1.75%    passed     99.99%
+  75  AmMe_IRL_M_075      1.74%    passed     99.99%
+  76  AmMe_IRL_F_076      1.75%    passed     99.99%
+  77  AmMe_IRL_F_077      1.74%    passed     99.98%
+  78  AmMe_IRL_F_078      1.74%    passed     99.21%
+  79  AmMe_IRL_F_079      1.74%    passed     99.99%
+  80  AmMe_IRL_M_080      1.74%    passed     99.98%
+  81  AmCr_DEU_M_081      1.74%    passed     99.92%
+  82  AmCr_DEU_M_082      1.74%    passed     99.97%
+  83  AmCr_DEU_M_083      1.74%    passed     99.56%
+  84  AmMe_IRL_C_295      1.74%    passed     99.83%
+  85  Am_IRL_B_296        1.74%    passed     99.99%
+  86  Am_IRL_B_297        1.74%    passed     99.98%
+  87  Am_IRL_B_298        1.74%    passed    100.00%
+  88  Am_IRL_B_299        1.74%    passed     99.88%
+  89  AmMe_GBR_A_300      1.74%    passed     99.99%
+  90  Am_GBR_B_301        1.74%    passed     99.06%
+  91  Am_GBR_B_302        1.74%    passed     99.90%
+  92  Am_GBR_B_303        1.74%    passed     98.54%
+  93  Am_GBR_B_304        1.74%    passed     99.69%
+  94  Am_GBR_B_305        1.74%    passed     99.44%
+  95  Am_GBR_B_306        1.74%    passed     99.84%
+  96  Am_GBR_B_307        1.74%    passed     99.14%
+  97  Am_GBR_B_308        1.74%    passed     99.89%
+  98  Am_GBR_B_309        1.74%    passed     99.89%
+  99  Am_GBR_B_310        1.74%    passed     99.41%
+ 100  Am_GBR_B_312        1.74%    passed     99.98%
+ 101  Am_GBR_B_313        1.74%    passed     99.92%
+ 102  Am_GBR_B_314        1.74%    passed     99.43%
+ 103  Am_GBR_B_315        1.74%    passed     99.88%
+ 104  Am_GBR_B_316        1.74%    passed     99.98%
+ 105  Am_GBR_B_317        1.74%    passed     99.99%
+ 106  Am_GBR_B_318        1.74%    passed     99.41%
+ 107  Am_GBR_B_319        1.74%    passed    100.00%
+ 108  Am_GBR_B_320        1.74%    passed     99.89%
+ 109  Am_JEY_B_321        1.74%    passed     99.88%
+ 110  Am_JEY_B_322        1.74%    passed     99.74%
+ 111  Am_CHE_B_323        1.74%    passed     99.89%
+ 112  Am_CHE_B_324        1.74%    passed     99.76%
+ 113  AmMe_FRA_A_325      1.74%    passed     99.38%
+ 114  AmMe_FRA_A_326      1.74%    passed     99.62%
+ 115  AmMe_FRA_A_327      1.74%    passed     99.62%
+ 116  AmMe_FRA_A_328      1.74%    passed     99.87%
+ 117  AmMe_FRA_A_329      1.80%    passed     99.48%
+ 118  AmMe_FRA_A_330      1.74%    passed     99.89%
+ 119  AmMe_FRA_A_331      1.74%    passed     99.87%
+ 120  AmMe_FRA_A_332      1.74%    passed     99.39%
+ 121  AmMe_FRA_A_333      1.74%    passed     99.64%
+ 122  AmMe_FRA_A_334      1.74%    passed     99.64%
+ 123  AmMe_FRA_A_335      1.74%    passed     99.64%
+ 124  AmMe_FRA_A_336      1.74%    passed     99.96%
+ 125  AmMe_FRA_A_337      1.74%    passed     99.96%
+ 126  AmMe_FRA_A_338      1.74%    passed     99.96%
+ 127  AmMe_FRA_A_339      1.74%    passed     99.96%
+ 128  AmMe_FRA_A_340      1.74%    passed     99.40%
+ 129  AmMe_FRA_A_341      1.74%    passed     99.40%
+ 130  AmMe_FRA_A_342      1.74%    passed     99.99%
+ 131  AmMe_FRA_A_343      1.74%    passed     99.99%
+ 132  AmMe_FRA_A_344      1.74%    passed     99.40%
+ 133  AmMe_FRA_A_345      1.74%    passed     99.41%
+ 134  AmMe_FRA_A_346      1.74%    passed     99.41%
+ 135  AmMe_FRA_A_347      1.74%    passed     99.21%
+ 136  AmMe_FRA_A_348      1.74%    passed     99.41%
+ 137  AmMe_FRA_A_349      1.74%    passed     99.40%
+ 138  AmMe_FRA_A_350      1.74%    passed     99.40%
+ 139  AmMe_FRA_A_351      1.74%    passed     99.85%
+ 140  AmMe_FRA_A_352      1.74%    passed     99.85%
+ 141  AmMe_FRA_A_353      1.74%    passed     99.38%
+ 142  AmMe_FRA_A_354      1.74%    passed     99.38%
+ 143  AmMe_FRA_A_355      1.74%    passed     99.38%
+ 144  AmMe_FRA_A_356      1.74%    passed     99.62%
+ 145  AmMe_FRA_A_357      1.74%    passed     99.41%
+ 146  AmMe_FRA_A_358      1.74%    passed     99.64%
+ 147  AmMe_FRA_A_359      1.74%    passed     99.64%
+ 148  AmMe_FRA_A_360      1.74%    passed     99.62%
+ 149  AmMe_FRA_A_361      1.74%    passed     99.40%
+ 150  AmMe_FRA_A_362      1.74%    passed     99.96%
+ 151  AmMe_FRA_A_363      1.74%    passed     99.40%
+ 152  AmMe_FRA_A_364      1.74%    passed     99.40%
+ 153  AmMe_FRA_A_365      1.74%    passed     99.40%
+ 154  AmMe_FRA_A_366      1.74%    passed     99.69%
+ 155  AmMe_FRA_A_367      1.74%    passed     99.99%
+ 156  AmMe_FRA_A_368      1.74%    passed     99.77%
+ 157  AmMe_FRA_A_369      1.74%    passed     99.80%
+ 158  Am_NOR_B_370        1.74%    passed     99.96%
+ 159  Am_NOR_B_371        1.74%    passed     99.92%
+ 160  Am_NOR_B_372        1.74%    passed     99.92%
+ 161  Am_NOR_B_373        1.74%    passed     99.56%
+ 162  Am_NOR_B_374        1.74%    passed     99.96%
+ 163  Am_NOR_B_375        1.74%    passed     99.92%
+ 164  Am_NOR_B_376        1.74%    passed     99.92%
+ 165  Am_NOR_B_377        1.74%    passed     99.99%
+ 166  Am_NOR_B_378        1.74%    passed     99.92%
+ 167  Am_SWE_B_379        1.74%    passed     99.97%
+ 168  Am_SWE_B_380        1.74%    passed     99.96%
+ 169  Am_SWE_B_381        1.74%    passed     99.96%
+ 170  Am_SWE_B_382        1.74%    passed     99.96%
+ 171  Am_SWE_B_383        1.74%    passed     99.96%
+ 172  AmLi_ITA_N_084      1.76%    passed     99.96%
+ 173  AmLi_ITA_N_085      1.47%    passed     99.48%
+ 174  AmSi_ITA_N_086      1.76%    passed     90.89%
+ 175  AmLi_ITA_N_087      1.76%    passed     99.99%
+ 176  AmLi_ITA_N_088      1.76%    passed     99.99%
+ 177  AmLi_ITA_N_089      1.76%    passed     99.99%
+ 178  AmLi_ITA_N_090      1.76%    passed     99.91%
+ 179  AmLi_ITA_N_091      1.76%    passed     99.99%
+ 180  AmLi_ITA_N_092      1.76%    passed     99.99%
+ 181  AmLi_ITA_N_093      1.76%    passed     99.91%
+ 182  AmLi_ITA_N_094      1.76%    passed     99.98%
+ 183  AmLi_ITA_N_095      1.76%    passed     99.99%
+ 184  AmLi_ITA_N_096      1.76%    passed     99.72%
+ 185  AmLi_ITA_N_097      1.76%    passed     99.99%
+ 186  AmLi_ITA_N_098      1.76%    passed     99.99%
+ 187  AmLi_ITA_N_099      1.76%    passed     99.91%
+ 188  AmLi_ITA_N_100      1.76%    passed     99.99%
+ 189  AmLi_ITA_N_101      1.76%    passed     99.99%
+ 190  AmLi_ITA_N_102      1.76%    passed     99.91%
+ 191  AmLi_ITA_N_103      1.76%    passed     99.99%
+ 192  AmLi_ITA_N_104      1.76%    passed     99.99%
+ 193  AmLi_ITA_N_105      1.76%    passed     99.46%
+ 194  AmLi_ITA_N_106      1.76%    passed     99.99%
+ 195  AmLi_ITA_N_107      1.76%    passed     99.99%
+ 196  AmLi_ITA_N_108      1.76%    passed     99.99%
+ 197  AmLi_ITA_N_109      1.76%    passed     99.99%
+ 198  AmLi_ITA_N_110      1.76%    passed     99.99%
+ 199  AmLi_ITA_N_111      1.76%    passed     99.99%
+ 200  AmLi_ITA_N_112      1.76%    passed     99.99%
+ 201  AmLi_ITA_N_113      1.76%    passed     99.99%
+ 202  AmLi_ITA_N_114      1.76%    passed     99.99%
+ 203  AmLi_ITA_N_115      1.76%    passed     99.99%
+ 204  AmLi_ITA_N_116      1.76%    passed     99.99%
+ 205  AmRu_MLT_N_117      1.76%    passed     87.23%
+ 206  AmMe_NOR_N_118      1.47%    passed     99.81%
+ 207  AmCr_POL_N_119      0.82%    passed     97.81%
+ 208  AmCr_POL_N_120      0.82%    passed     97.81%
+ 209  AmCr_POL_N_121      1.04%    passed     97.85%
+ 210  AmCr_POL_N_122      0.82%    passed     97.06%
+ 211  AmCr_POL_N_123      0.82%    passed     97.06%
+ 212  AmCr_POL_N_124      0.82%    passed     97.81%
+ 213  AmCr_POL_N_125      0.82%    passed     97.81%
+ 214  AmIb_POR_N_126      1.76%    passed     94.88%
+ 215  AmIb_POR_N_127      1.76%    passed     99.89%
+ 216  AmCr_SEE_N_128      1.76%    passed     99.96%
+ 217  AmCr_SVN_N_129      1.47%    passed     99.19%
+ 218  AmCr_SVN_N_130      1.47%    passed     99.19%
+ 219  AmLi_AUS_N_131      1.47%    passed     99.84%
+ 220  AmCu_EUA_N_132      1.76%    passed     99.22%
+ 221  AmSc_MEX_N_133      1.77%    passed     94.73%
+ 222  AmJe_ARA_N_134      1.76%    passed     99.58%
+ 223  AmSc_ASI_N_135      1.76%    passed     99.81%
+ 224  AmSn_CHN_N_136      1.44%    passed     99.99%
+ 225  AmLi_CHN_N_137      1.76%    passed     99.91%
+ 226  AmLi_CHN_N_138      1.76%    passed     99.91%
+ 227  AmLi_CHN_N_139      1.76%    passed     99.91%
+ 228  AmLi_CHN_N_140      1.76%    passed     99.91%
+ 229  AmLi_CHN_N_141      1.76%    passed     99.91%
+ 230  AmLi_CHN_N_142      1.76%    passed     99.91%
+ 231  AmLi_CHN_N_143      1.76%    passed     99.91%
+ 232  AmLi_CHN_N_144      1.76%    passed     99.91%
+ 233  AmLi_CHN_N_145      1.76%    passed     99.91%
+ 234  AmLi_CHN_N_146      1.76%    passed     99.91%
+ 235  AmLi_CHN_N_147      1.76%    passed     99.99%
+ 236  AmLi_CHN_N_148      1.76%    passed     99.91%
+ 237  AmLi_CHN_N_149      1.76%    passed     99.77%
+ 238  AmLi_CHN_N_150      1.76%    passed     98.95%
+ 239  AmLi_CHN_N_151      1.76%    passed     99.99%
+ 240  AmLi_CHN_N_152      1.76%    passed     99.95%
+ 241  AmLi_CHN_N_153      1.76%    passed     99.91%
+ 242  AmLi_CHN_N_154      1.76%    passed     99.91%
+ 243  AmLi_CHN_N_155      1.76%    passed     99.91%
+ 244  AmLi_CHN_N_156      1.76%    passed     99.91%
+ 245  AmLi_CHN_N_157      1.76%    passed     99.91%
+ 246  AmLi_CHN_N_158      1.76%    passed     99.91%
+ 247  AmLi_CHN_N_159      1.76%    passed     99.91%
+ 248  AmLi_CHN_N_160      1.76%    passed     99.91%
+ 249  AmLi_CHN_N_161      1.76%    passed     99.91%
+ 250  AmLi_CHN_N_162      1.76%    passed     99.91%
+ 251  AmLi_CHN_N_163      1.76%    passed     99.91%
+ 252  AmLi_CHN_N_164      1.76%    passed     99.91%
+ 253  AmLi_CHN_N_165      1.76%    passed     99.91%
+ 254  AmLi_CHN_N_166      1.76%    passed     99.91%
+ 255  AmLi_CHN_N_167      1.76%    passed     99.91%
+ 256  AmLi_CHN_N_168      1.76%    passed     99.91%
+ 257  AmLi_CHN_N_169      1.76%    passed     99.91%
+ 258  AmLi_CHN_N_170      1.76%    passed     99.91%
+ 259  AmLi_CHN_N_171      1.76%    passed     99.84%
+ 260  AmLi_CHN_N_172      1.76%    passed     99.91%
+ 261  AmLi_CHN_N_173      1.76%    passed     99.99%
+ 262  AmLi_CHN_N_174      1.76%    passed     99.99%
+ 263  AmLi_CHN_N_175      1.76%    passed     99.99%
+ 264  AmLi_CHN_N_176      1.76%    passed     99.99%
+ 265  AmLi_CHN_N_177      1.76%    passed     99.91%
+ 266  AmLi_CHN_N_178      1.76%    passed     99.91%
+ 267  AmLi_CHN_N_179      1.76%    passed     99.91%
+ 268  AmLi_CHN_N_180      1.76%    passed     99.91%
+ 269  AmLi_CHN_N_181      1.76%    passed     99.91%
+ 270  AmLi_CHN_N_182      1.76%    passed     99.91%
+ 271  AmLi_CHN_N_183      1.76%    passed     99.91%
+ 272  AmLi_CHN_N_184      1.76%    passed     99.91%
+ 273  AmLi_CHN_N_185      1.76%    passed     99.91%
+ 274  AmLi_CHN_N_186      1.76%    passed     99.91%
+ 275  AmLi_CHN_N_187      1.76%    passed     99.91%
+ 276  AmLi_CHN_N_188      1.76%    passed     99.91%
+ 277  AmLi_CHN_N_189      1.76%    passed     99.99%
+ 278  AmLi_CHN_N_190      1.76%    passed     99.91%
+ 279  AmLi_CHN_N_191      1.76%    passed     99.91%
+ 280  AmLi_CHN_N_192      1.76%    passed     99.87%
+ 281  AmLi_CHN_N_193      1.76%    passed     99.92%
+ 282  AmLi_CHN_N_194      1.76%    passed     99.91%
+ 283  AmLi_CHN_N_195      1.76%    passed     99.92%
+ 284  AmLi_CHN_N_196      1.76%    passed     99.91%
+ 285  AmLi_CHN_N_197      1.76%    passed     99.91%
+ 286  AmLi_CHN_N_198      1.76%    passed     99.91%
+ 287  AmLi_CHN_N_199      1.76%    passed     99.91%
+ 288  AmLi_CHN_N_200      1.76%    passed     99.91%
+ 289  AmLi_CHN_N_201      1.76%    passed     99.91%
+ 290  AmLi_CHN_N_202      1.76%    passed     99.91%
+ 291  AmLi_CHN_N_203      1.76%    passed     99.99%
+ 292  AmLi_CHN_N_204      1.76%    passed     99.91%
+ 293  AmLi_CHN_N_205      1.76%    passed     99.91%
+ 294  AmLi_CHN_N_206      1.76%    passed     99.91%
+ 295  AmLi_CHN_N_207      1.76%    passed     99.91%
+ 296  AmLi_CHN_N_208      1.76%    passed     99.91%
+ 297  AmLi_CHN_N_209      1.76%    passed     99.91%
+ 298  AmLi_CHN_N_210      1.76%    passed     99.91%
+ 299  AmLi_CHN_N_211      1.76%    passed     99.91%
+ 300  AmLi_CHN_N_212      1.76%    passed     99.91%
+ 301  AmLi_CHN_N_213      1.76%    passed     99.91%
+ 302  AmLi_CHN_N_214      1.76%    passed     99.91%
+ 303  AmLi_CHN_N_215      1.76%    passed     99.91%
+ 304  AmLi_CHN_N_216      1.76%    passed     99.91%
+ 305  AmLi_CHN_N_217      1.76%    passed     99.91%
+ 306  AmLi_CHN_N_218      1.76%    passed     99.99%
+ 307  AmLi_CHN_N_219      1.76%    passed     99.99%
+ 308  AmLi_CHN_N_220      1.76%    passed     99.99%
+ 309  AmLi_CHN_N_221      1.76%    passed     99.91%
+ 310  AmLi_CHN_N_222      1.76%    passed     99.91%
+ 311  AmLi_CHN_N_223      1.76%    passed     99.91%
+ 312  AmLi_CHN_N_224      1.76%    passed     99.91%
+ 313  AmLi_CHN_N_225      1.76%    passed     99.91%
+ 314  AmLi_CHN_N_226      1.76%    passed     99.91%
+ 315  AmLi_CHN_N_227      1.76%    passed     99.91%
+ 316  AmLi_CHN_N_228      1.76%    passed     99.91%
+ 317  AmLi_CHN_N_229      1.76%    passed     99.91%
+ 318  AmLi_CHN_N_230      1.76%    passed     99.91%
+ 319  AmLi_CHN_N_231      1.76%    passed     99.91%
+ 320  AmLi_CHN_N_232      1.76%    passed     99.98%
+ 321  AmLi_CHN_N_233      1.76%    passed     99.91%
+ 322  AmLi_CHN_N_234      1.76%    passed     99.91%
+ 323  AmLi_CHN_N_235      1.76%    passed     99.91%
+ 324  AmLi_CHN_N_236      1.76%    passed     99.91%
+ 325  AmMd_IRN_N_237      1.49%    passed     98.80%
+ 326  Am_IRQ_N_238        1.76%    passed     99.60%
+ 327  Am_IRQ_N_239        1.76%    passed     99.91%
+ 328  AmLi_KOR_N_240      1.76%    passed     99.98%
+ 329  AmLi_KOR_N_241      1.76%    passed     99.79%
+ 330  Am_SAU_N_242        1.76%    passed     98.96%
+ 331  Am_SAU_N_243        1.76%    passed     98.96%
+ 332  Am_SAU_N_244        1.77%    passed     98.93%
+ 333  Am_SAU_N_245        1.73%    passed     98.71%
+ 334  Am_SAU_N_246        1.77%    passed     98.71%
+ 335  Am_SAU_N_247        1.77%    passed     98.71%
+ 336  Am_SAU_N_248        1.76%    passed     99.56%
+ 337  Am_SAU_N_249        1.76%    passed     99.47%
+ 338  Am_SAU_N_250        1.76%    passed     99.32%
+ 339  Am_SAU_N_251        1.76%    passed     99.47%
+ 340  Am_SAU_N_252        1.77%    passed     99.50%
+ 341  Am_SAU_N_253        1.76%    passed     99.85%
+ 342  Am_SAU_N_254        1.76%    passed     99.78%
+ 343  Am_SAU_N_255        1.76%    passed     99.85%
+ 344  Am_SAU_N_256        1.76%    passed     99.85%
+ 345  Am_SAU_N_257        1.76%    passed     98.96%
+ 346  AmSy_SYR_N_258      1.76%    passed     99.54%
+ 347  AmSy_SYR_N_259      1.69%    passed     96.36%
+ 348  AmAn_TUR_N_260      1.76%    passed     98.66%
+ 349  AmIn_DZA_N_261      1.52%    passed     93.85%
+ 350  AmSa_DZA_N_262      1.89%    passed     93.43%
+ 351  AmSa_DZA_N_263      1.89%    passed     93.43%
+ 352  AmLa_EGY_N_264      1.76%    passed     99.69%
+ 353  AmSm_ETH_N_265      1.76%    passed     98.09%
+ 354  AmMo_KEN_N_266      1.58%    passed     99.86%
+ 355  AmIn_MAR_N_267      1.75%    passed     67.93%
+ 356  AmUn_MDG_N_268      1.76%    passed     90.82%
+ 357  AmAd_WAF_N_269      1.79%    passed     93.75%
+ 358  AmCa_ZAF_N_270      1.76%    passed     97.37%
+ 359  AmScCa_ZAF_N_271    1.76%    passed     98.99%
+ 360  AmCa_ZAF_N_272      1.76%    passed     99.52%
+ 361  AmCa_ZAF_N_273      1.79%    passed     97.11%
+ 362  AmCa_ZAF_N_274      1.76%    passed     98.86%
+ 363  AmCa_ZAF_N_275      1.76%    passed     99.07%
+ 364  AmCa_ZAF_N_276      1.76%    passed     97.23%
+ 365  AmCa_ZAF_N_277      1.76%    passed     97.26%
+ 366  AmCa_ZAF_N_278      1.79%    passed     94.56%
+ 367  AmCa_ZAF_N_279      1.76%    passed     99.07%
+ 368  AmCa_ZAF_N_280      1.73%    passed     99.51%
+ 369  AmCa_ZAF_N_281      1.76%    passed     99.41%
+ 370  AmCa_ZAF_N_282      1.73%    passed     98.86%
+ 371  AmCa_ZAF_N_283      1.76%    passed     97.99%
+ 372  AmCa_ZAF_N_284      1.76%    passed     99.63%
+ 373  AmCa_ZAF_N_285      1.79%    passed     96.17%
+ 374  AmCa_ZAF_N_286      1.76%    passed     99.07%
+ 375  AmCa_ZAF_N_287      1.76%    passed     99.30%
+ 376  AmCaSc_ZAF_N_288    1.79%    passed     94.56%
+ 377  AmSc_ZAF_N_289      1.76%    passed     99.73%
+ 378  AmSc_ZAF_N_290      1.79%    passed     97.52%
+ 379  AmSc_ZAF_N_291      1.79%    passed     96.22%
+ 380  AmSc_ZAF_N_292      1.79%    passed     94.33%
+ 381  AmSc_ZAF_N_293      1.79%    passed     96.72%
+ 382  AmSc_ZAF_N_294      1.79%    passed     94.49%
+****  TOTAL               1.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Am_IRL_B_297 is identical to AmMe_IRL_F_001 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_007 is identical to AmMe_IRL_F_002 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_024 is identical to AmMe_IRL_F_004 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_008 is identical to AmMe_IRL_F_006 but kept for subsequent analysis
+NOTE: AmHy_IRL_M_049 is identical to AmMe_IRL_F_009 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_014 is identical to AmMe_IRL_F_013 but kept for subsequent analysis
+NOTE: AmMe_IRL_M_060 is identical to AmMe_IRL_F_019 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_022 is identical to AmMe_IRL_F_021 but kept for subsequent analysis
+NOTE: Am_GBR_B_310 is identical to AmMe_IRL_F_026 but kept for subsequent analysis
+NOTE: AmHy_IRL_F_038 is identical to AmHy_IRL_F_037 but kept for subsequent analysis
+NOTE: AmHy_IRL_F_040 is identical to AmHy_IRL_F_039 but kept for subsequent analysis
+NOTE: Am_GBR_B_308 is identical to AmHy_IRL_F_041 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_078 is identical to AmHy_IRL_F_043 but kept for subsequent analysis
+NOTE: AmMe_IRL_M_072 is identical to AmMe_IRL_M_053 but kept for subsequent analysis
+NOTE: AmMe_IRL_F_076 is identical to AmMe_IRL_M_059 but kept for subsequent analysis
+NOTE: Am_GBR_B_301 is identical to AmMe_IRL_M_062 but kept for subsequent analysis
+NOTE: Am_NOR_B_371 is identical to AmCr_DEU_M_081 but kept for subsequent analysis
+NOTE: Am_SWE_B_379 is identical to AmCr_DEU_M_082 but kept for subsequent analysis
+NOTE: Am_NOR_B_373 is identical to AmCr_DEU_M_083 but kept for subsequent analysis
+NOTE: Am_GBR_B_315 is identical to Am_IRL_B_299 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_353 is identical to AmMe_FRA_A_325 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_327 is identical to AmMe_FRA_A_326 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_331 is identical to AmMe_FRA_A_328 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_334 is identical to AmMe_FRA_A_333 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_337 is identical to AmMe_FRA_A_336 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_341 is identical to AmMe_FRA_A_340 but kept for subsequent analysis
+NOTE: AmMe_FRA_A_352 is identical to AmMe_FRA_A_351 but kept for subsequent analysis
+NOTE: Am_NOR_B_374 is identical to Am_NOR_B_370 but kept for subsequent analysis
+NOTE: Am_SWE_B_382 is identical to Am_SWE_B_380 but kept for subsequent analysis
+NOTE: AmLi_ITA_N_088 is identical to AmLi_ITA_N_087 but kept for subsequent analysis
+NOTE: AmLi_ITA_N_093 is identical to AmLi_ITA_N_090 but kept for subsequent analysis
+NOTE: AmLi_KOR_N_240 is identical to AmLi_ITA_N_094 but kept for subsequent analysis
+NOTE: AmCr_POL_N_120 is identical to AmCr_POL_N_119 but kept for subsequent analysis
+NOTE: AmCr_POL_N_123 is identical to AmCr_POL_N_122 but kept for subsequent analysis
+NOTE: AmCr_SVN_N_130 is identical to AmCr_SVN_N_129 but kept for subsequent analysis
+NOTE: AmLi_CHN_N_195 is identical to AmLi_CHN_N_193 but kept for subsequent analysis
+NOTE: Am_SAU_N_243 is identical to Am_SAU_N_242 but kept for subsequent analysis
+NOTE: Am_SAU_N_247 is identical to Am_SAU_N_246 but kept for subsequent analysis
+NOTE: Am_SAU_N_255 is identical to Am_SAU_N_253 but kept for subsequent analysis
+NOTE: AmSa_DZA_N_263 is identical to AmSa_DZA_N_262 but kept for subsequent analysis
+NOTE: AmCaSc_ZAF_N_288 is identical to AmCa_ZAF_N_278 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00462008 secs using 97.64% CPU
+Identifying sites to remove: done in 0.0194321 secs using 100% CPU
+NOTE: 178 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AmMe_IRL_F_025 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_F_028 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_F_029 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmHy_IRL_F_035 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmHy_IRL_M_047 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_052 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_056 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_065 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_068 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_070 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_071 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_075 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: Am_IRL_B_296 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_FRA_A_342 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_FRA_A_343 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_FRA_A_367 (identical to AmMe_IRL_F_002) is ignored but added at the end
+NOTE: AmMe_IRL_M_066 (identical to AmMe_IRL_F_006) is ignored but added at the end
+NOTE: AmHy_IRL_M_050 (identical to AmMe_IRL_F_009) is ignored but added at the end
+NOTE: AmMe_IRL_F_077 (identical to AmMe_IRL_F_009) is ignored but added at the end
+NOTE: AmMe_IRL_M_080 (identical to AmMe_IRL_F_009) is ignored but added at the end
+NOTE: AmMe_IRL_F_016 (identical to AmMe_IRL_F_013) is ignored but added at the end
+NOTE: AmMe_IRL_F_018 (identical to AmMe_IRL_F_013) is ignored but added at the end
+NOTE: AmMe_IRL_F_020 (identical to AmMe_IRL_F_013) is ignored but added at the end
+NOTE: AmHy_IRL_M_046 (identical to AmMe_IRL_F_013) is ignored but added at the end
+NOTE: AmMe_IRL_M_063 (identical to AmMe_IRL_F_013) is ignored but added at the end
+NOTE: AmMe_IRL_F_023 (identical to AmMe_IRL_F_021) is ignored but added at the end
+NOTE: AmMe_IRL_F_027 (identical to AmMe_IRL_F_021) is ignored but added at the end
+NOTE: AmMe_IRL_F_032 (identical to AmMe_IRL_F_021) is ignored but added at the end
+NOTE: AmHy_IRL_M_051 (identical to AmMe_IRL_F_021) is ignored but added at the end
+NOTE: AmMe_IRL_F_079 (identical to AmMe_IRL_F_021) is ignored but added at the end
+NOTE: Am_GBR_B_318 (identical to AmMe_IRL_F_026) is ignored but added at the end
+NOTE: AmMe_FRA_A_345 (identical to AmMe_IRL_F_026) is ignored but added at the end
+NOTE: AmMe_FRA_A_346 (identical to AmMe_IRL_F_026) is ignored but added at the end
+NOTE: AmMe_FRA_A_348 (identical to AmMe_IRL_F_026) is ignored but added at the end
+NOTE: Am_GBR_B_309 (identical to AmHy_IRL_F_041) is ignored but added at the end
+NOTE: AmMe_FRA_A_330 (identical to AmHy_IRL_F_041) is ignored but added at the end
+NOTE: AmMe_IRL_M_073 (identical to AmMe_IRL_M_053) is ignored but added at the end
+NOTE: Am_NOR_B_372 (identical to AmCr_DEU_M_081) is ignored but added at the end
+NOTE: Am_NOR_B_375 (identical to AmCr_DEU_M_081) is ignored but added at the end
+NOTE: Am_NOR_B_376 (identical to AmCr_DEU_M_081) is ignored but added at the end
+NOTE: Am_NOR_B_378 (identical to AmCr_DEU_M_081) is ignored but added at the end
+NOTE: AmMe_FRA_A_354 (identical to AmMe_FRA_A_325) is ignored but added at the end
+NOTE: AmMe_FRA_A_355 (identical to AmMe_FRA_A_325) is ignored but added at the end
+NOTE: AmMe_FRA_A_356 (identical to AmMe_FRA_A_326) is ignored but added at the end
+NOTE: AmMe_FRA_A_360 (identical to AmMe_FRA_A_326) is ignored but added at the end
+NOTE: AmMe_FRA_A_335 (identical to AmMe_FRA_A_333) is ignored but added at the end
+NOTE: AmMe_FRA_A_358 (identical to AmMe_FRA_A_333) is ignored but added at the end
+NOTE: AmMe_FRA_A_359 (identical to AmMe_FRA_A_333) is ignored but added at the end
+NOTE: AmMe_FRA_A_338 (identical to AmMe_FRA_A_336) is ignored but added at the end
+NOTE: AmMe_FRA_A_339 (identical to AmMe_FRA_A_336) is ignored but added at the end
+NOTE: AmMe_FRA_A_362 (identical to AmMe_FRA_A_336) is ignored but added at the end
+NOTE: AmMe_FRA_A_344 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_349 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_350 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_361 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_363 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_364 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: AmMe_FRA_A_365 (identical to AmMe_FRA_A_340) is ignored but added at the end
+NOTE: Am_SWE_B_381 (identical to Am_NOR_B_370) is ignored but added at the end
+NOTE: Am_SWE_B_383 (identical to Am_NOR_B_370) is ignored but added at the end
+NOTE: AmLi_ITA_N_089 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_091 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_092 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_095 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_097 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_098 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_100 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_101 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_103 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_104 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_106 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_107 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_108 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_109 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_110 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_111 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_112 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_113 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_114 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_115 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_116 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_147 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_151 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_173 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_174 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_175 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_176 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_189 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_203 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_218 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_219 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_CHN_N_220 (identical to AmLi_ITA_N_087) is ignored but added at the end
+NOTE: AmLi_ITA_N_099 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_137 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_138 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_139 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_140 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_141 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_142 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_143 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_144 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_145 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_146 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_148 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_153 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_154 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_155 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_156 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_157 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_158 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_159 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_160 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_161 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_162 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_163 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_164 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_165 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_166 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_167 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_168 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_169 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_170 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_172 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_177 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_178 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_179 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_180 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_181 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_182 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_183 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_184 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_185 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_186 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_187 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_188 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_190 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_191 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_194 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_196 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_197 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_198 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_199 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_200 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_201 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_202 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_204 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_205 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_206 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_207 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_208 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_209 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_210 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_211 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_212 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_213 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_214 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_215 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_216 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_217 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_221 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_222 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_223 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_224 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_225 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_226 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_227 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_228 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_229 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_230 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_231 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_233 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_234 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_235 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmLi_CHN_N_236 (identical to AmLi_ITA_N_090) is ignored but added at the end
+NOTE: AmCr_POL_N_124 (identical to AmCr_POL_N_119) is ignored but added at the end
+NOTE: AmCr_POL_N_125 (identical to AmCr_POL_N_119) is ignored but added at the end
+NOTE: Am_SAU_N_257 (identical to Am_SAU_N_242) is ignored but added at the end
+NOTE: Am_SAU_N_256 (identical to Am_SAU_N_253) is ignored but added at the end
+Alignment was printed to Apis_m_mtDNA_NA_total.fst.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Apis_m_mtDNA_NA_total.fst.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.042 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -22455.785
+Optimal log-likelihood: -22455.229
+Rate parameters:  A-C: 1.23665  A-G: 37.48678  A-T: 1.83095  C-G: 2.15574  C-T: 32.34930  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Proportion of invariable sites: 0.472
+Gamma shape alpha: 0.157
+Parameters optimization took 1 rounds (0.216 sec)
+Time for fast ML tree search: 2.821 seconds
+
+NOTE: ModelFinder requires 43 MB RAM!
+ModelFinder will test up to 572 DNA models (sample size: 11190 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            27131.042    405 55072.084    55102.580    58037.809
+  2  JC+I          26295.498    406 53402.997    53433.645    56376.044
+  3  JC+G4         26483.480    406 53778.961    53809.609    56752.008
+  4  JC+I+G4       26246.781    407 53307.562    53338.365    56287.932
+  5  JC+R2         26294.271    407 53402.541    53433.344    56382.911
+  6  JC+R3         26212.856    409 53243.712    53274.824    56238.728
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+  7  JC+R4         26213.714    411 53249.427    53280.849    56259.088
+ 14  JC            27131.042    405 55072.084    55102.580    58037.809
+ 15  JC+I          26295.498    406 53402.997    53433.645    56376.044
+ 16  JC+G4         26483.480    406 53778.961    53809.609    56752.008
+ 17  JC+I+G4       26246.781    407 53307.562    53338.365    56287.932
+ 18  JC+R2         26294.271    407 53402.541    53433.344    56382.911
+ 19  JC+R3         26212.856    409 53243.712    53274.824    56238.728
+ 20  JC+R4         26213.714    411 53249.427    53280.849    56259.088
+ 27  F81           27131.238    405 55072.475    55102.970    58038.199
+ 28  F81+I         26295.699    406 53403.399    53434.047    56376.446
+ 29  F81+G4        26483.661    406 53779.322    53809.971    56752.369
+ 30  F81+I+G4      26247.777    407 53309.554    53340.357    56289.924
+ 31  F81+R2        26295.638    407 53405.275    53436.078    56385.645
+ 32  F81+R3        26213.523    409 53245.045    53276.157    56240.061
+ 33  F81+R4        26213.617    411 53249.234    53280.656    56258.895
+ 40  F81+F         24413.684    408 49643.367    49674.324    52631.060
+ 41  F81+F+I       23625.855    409 48069.709    48100.820    51064.724
+ 42  F81+F+G4      23782.401    409 48382.801    48413.912    51377.816
+ 43  F81+F+I+G4    23586.102    410 47992.204    48023.470    50994.542
+ 44  F81+F+R2      23625.945    410 48071.890    48103.156    51074.228
+ 45  F81+F+R3      23568.722    412 47961.443    47993.021    50978.427
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+ 46  F81+F+R4      23568.972    414 47965.945    47997.835    50997.574
+ 53  K2P           26378.535    406 53569.071    53599.719    56542.118
+ 54  K2P+I         25533.562    407 51881.124    51911.927    54861.494
+ 55  K2P+G4        25727.078    407 52268.156    52298.959    55248.526
+ 56  K2P+I+G4      25481.464    408 51778.928    51809.885    54766.621
+ 57  K2P+R2        25533.142    408 51882.283    51913.240    54869.976
+ 58  K2P+R3        25444.367    410 51708.734    51740.000    54711.072
+ 59  K2P+R4        25444.350    412 51712.699    51744.277    54729.683
+ 66  K2P           26378.535    406 53569.071    53599.719    56542.118
+ 67  K2P+I         25533.562    407 51881.124    51911.927    54861.494
+ 68  K2P+G4        25727.078    407 52268.156    52298.959    55248.526
+ 69  K2P+I+G4      25481.464    408 51778.928    51809.885    54766.621
+ 70  K2P+R2        25533.142    408 51882.283    51913.240    54869.976
+ 71  K2P+R3        25444.367    410 51708.734    51740.000    54711.072
+ 72  K2P+R4        25444.350    412 51712.699    51744.277    54729.683
+ 79  HKY           26377.989    406 53567.979    53598.627    56541.026
+ 80  HKY+I         25533.024    407 51880.048    51910.850    54860.418
+ 81  HKY+G4        25726.595    407 52267.190    52297.992    55247.560
+ 82  HKY+I+G4      25481.234    408 51778.468    51809.424    54766.160
+ 83  HKY+R2        25533.018    408 51882.037    51912.994    54869.729
+ 84  HKY+R3        25444.325    410 51708.650    51739.916    54710.988
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+ 85  HKY+R4        25444.567    412 51713.133    51744.711    54730.117
+ 92  HKY+F         23224.143    409 47266.286    47297.397    50261.301
+ 93  HKY+F+I       22481.661    410 45783.322    45814.588    48785.660
+ 94  HKY+F+G4      22569.593    410 45959.186    45990.452    48961.524
+ 95  HKY+F+I+G4    22432.646    411 45687.291    45718.713    48696.952
+ 96  HKY+F+R2      22481.900    411 45785.800    45817.222    48795.461
+ 97  HKY+F+R3      22431.371    413 45688.742    45720.476    48713.048
+ 98  HKY+F+R4      22423.262    415 45676.523    45708.571    48715.475
+105  TNe           26378.186    407 53570.372    53601.174    56550.742
+106  TNe+I         25533.142    408 51882.283    51913.240    54869.976
+107  TNe+G4        25726.629    408 52269.258    52300.215    55256.951
+108  TNe+I+G4      25482.332    409 51782.664    51813.775    54777.679
+109  TNe+R2        25532.487    409 51882.974    51914.085    54877.989
+110  TNe+R3        25443.008    411 51708.016    51739.438    54717.677
+111  TNe+R4        25440.352    413 51706.705    51738.439    54731.011
+118  TNe           26378.186    407 53570.372    53601.174    56550.742
+119  TNe+I         25533.142    408 51882.283    51913.240    54869.976
+120  TNe+G4        25726.629    408 52269.258    52300.215    55256.951
+121  TNe+I+G4      25482.332    409 51782.664    51813.775    54777.679
+122  TNe+R2        25532.487    409 51882.974    51914.085    54877.989
+123  TNe+R3        25443.008    411 51708.016    51739.438    54717.677
+124  TNe+R4        25440.352    413 51706.705    51738.439    54731.011
+131  TN            26377.626    407 53569.252    53600.054    56549.621
+132  TN+I          25532.589    408 51881.177    51912.134    54868.870
+133  TN+G4         25726.135    408 52268.270    52299.226    55255.962
+134  TN+I+G4       25481.014    409 51780.029    51811.140    54775.044
+135  TN+R2         25532.573    409 51883.147    51914.258    54878.162
+136  TN+R3         25443.400    411 51708.800    51740.222    54718.461
+137  TN+R4         25440.551    413 51707.102    51738.836    54731.408
+144  TN+F          23222.272    410 47264.545    47295.811    50266.883
+145  TN+F+I        22477.172    411 45776.344    45807.766    48786.005
+146  TN+F+G4       22566.867    411 45955.734    45987.156    48965.395
+147  TN+F+I+G4     22431.692    412 45687.384    45718.962    48704.368
+148  TN+F+R2       22477.158    412 45778.316    45809.894    48795.300
+149  TN+F+R3       22421.919    414 45671.838    45703.728    48703.467
+150  TN+F+R4       22421.269    416 45674.538    45706.743    48720.813
+157  K3P           26335.844    407 53485.688    53516.491    56466.058
+158  K3P+I         25491.291    408 51798.582    51829.538    54786.274
+159  K3P+G4        25684.595    408 52185.190    52216.147    55172.883
+160  K3P+I+G4      25439.117    409 51696.233    51727.345    54691.248
+161  K3P+R2        25491.282    409 51800.563    51831.675    54795.579
+162  K3P+R3        25397.406    411 51616.812    51648.233    54626.472
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+163  K3P+R4        25397.751    413 51621.502    51653.236    54645.809
+170  K3P           26335.844    407 53485.688    53516.491    56466.058
+171  K3P+I         25491.291    408 51798.582    51829.538    54786.274
+172  K3P+G4        25684.595    408 52185.190    52216.147    55172.883
+173  K3P+I+G4      25439.117    409 51696.233    51727.345    54691.249
+174  K3P+R2        25491.282    409 51800.563    51831.675    54795.579
+175  K3P+R3        25397.406    411 51616.812    51648.233    54626.472
+176  K3P+R4        25397.751    413 51621.502    51653.236    54645.809
+183  K3Pu          26335.919    407 53485.839    53516.641    56466.209
+184  K3Pu+I        25491.380    408 51798.760    51829.717    54786.452
+185  K3Pu+G4       25684.665    408 52185.329    52216.286    55173.022
+186  K3Pu+I+G4     25439.228    409 51696.456    51727.567    54691.471
+187  K3Pu+R2       25491.363    409 51800.726    51831.837    54795.741
+188  K3Pu+R3       25397.676    411 51617.353    51648.774    54627.014
+189  K3Pu+R4       25397.687    413 51621.374    51653.108    54645.680
+196  K3Pu+F        23219.577    410 47259.155    47290.421    50261.493
+197  K3Pu+F+I      22476.912    411 45775.825    45807.247    48785.486
+198  K3Pu+F+G4     22566.643    411 45955.286    45986.708    48964.947
+199  K3Pu+F+I+G4   22429.562    412 45683.125    45714.702    48700.108
+200  K3Pu+F+R2     22478.051    412 45780.102    45811.679    48797.085
+201  K3Pu+F+R3     22418.628    414 45665.256    45697.147    48696.885
+202  K3Pu+F+R4     22418.338    416 45668.676    45700.881    48714.950
+209  TPM2          26351.798    407 53517.595    53548.398    56497.965
+210  TPM2+I        25499.212    408 51814.425    51845.382    54802.117
+211  TPM2+G4       25697.034    408 52210.068    52241.024    55197.760
+212  TPM2+I+G4     25444.109    409 51706.217    51737.328    54701.232
+213  TPM2+R2       25499.126    409 51816.252    51847.363    54811.267
+214  TPM2+R3       25398.551    411 51619.101    51650.523    54628.762
+215  TPM2+R4       25398.356    413 51622.712    51654.446    54647.019
+222  TPM2          26351.798    407 53517.595    53548.398    56497.965
+223  TPM2+I        25499.212    408 51814.425    51845.382    54802.117
+224  TPM2+G4       25697.034    408 52210.068    52241.024    55197.760
+225  TPM2+I+G4     25444.109    409 51706.217    51737.328    54701.232
+226  TPM2+R2       25499.126    409 51816.252    51847.363    54811.267
+227  TPM2+R3       25398.551    411 51619.101    51650.523    54628.762
+228  TPM2+R4       25398.356    413 51622.712    51654.446    54647.019
+235  TPM2u         26351.478    407 53516.956    53547.759    56497.326
+236  TPM2u+I       25498.833    408 51813.666    51844.622    54801.358
+237  TPM2u+G4      25696.762    408 52209.524    52240.480    55197.216
+238  TPM2u+I+G4    25443.797    409 51705.594    51736.706    54700.610
+239  TPM2u+R2      25498.812    409 51815.623    51846.735    54810.639
+240  TPM2u+R3      25398.370    411 51618.740    51650.162    54628.401
+241  TPM2u+R4      25398.312    413 51622.624    51654.358    54646.930
+248  TPM2u+F       23222.171    410 47264.343    47295.609    50266.681
+249  TPM2u+F+I     22479.933    411 45781.865    45813.287    48791.526
+250  TPM2u+F+G4    22568.662    411 45959.324    45990.746    48968.985
+251  TPM2u+F+I+G4  22432.306    412 45688.612    45720.189    48705.595
+252  TPM2u+F+R2    22481.247    412 45786.493    45818.071    48803.477
+253  TPM2u+F+R3    22421.519    414 45671.037    45702.928    48702.667
+254  TPM2u+F+R4    22421.175    416 45674.351    45706.556    48720.625
+261  TPM3          26360.844    407 53535.688    53566.491    56516.058
+262  TPM3+I        25505.238    408 51826.476    51857.433    54814.169
+263  TPM3+G4       25704.987    408 52225.975    52256.931    55213.667
+264  TPM3+I+G4     25450.709    409 51719.418    51750.529    54714.433
+265  TPM3+R2       25505.126    409 51828.252    51859.363    54823.267
+266  TPM3+R3       25406.185    411 51634.369    51665.791    54644.030
+267  TPM3+R4       25406.007    413 51638.015    51669.749    54662.321
+274  TPM3          26360.844    407 53535.688    53566.491    56516.058
+275  TPM3+I        25505.238    408 51826.476    51857.433    54814.169
+276  TPM3+G4       25704.987    408 52225.975    52256.931    55213.667
+277  TPM3+I+G4     25450.709    409 51719.418    51750.529    54714.433
+278  TPM3+R2       25505.126    409 51828.252    51859.363    54823.267
+279  TPM3+R3       25406.185    411 51634.369    51665.791    54644.030
+280  TPM3+R4       25406.007    413 51638.015    51669.749    54662.321
+287  TPM3u         26360.452    407 53534.904    53565.706    56515.274
+288  TPM3u+I       25504.846    408 51825.693    51856.649    54813.385
+289  TPM3u+G4      25704.627    408 52225.254    52256.210    55212.946
+290  TPM3u+I+G4    25450.335    409 51718.671    51749.782    54713.686
+291  TPM3u+R2      25504.833    409 51827.667    51858.778    54822.682
+292  TPM3u+R3      25405.998    411 51633.996    51665.417    54643.656
+293  TPM3u+R4      25405.945    413 51637.890    51669.624    54662.197
+300  TPM3u+F       23224.202    410 47268.403    47299.670    50270.741
+301  TPM3u+F+I     22481.471    411 45784.943    45816.365    48794.604
+302  TPM3u+F+G4    22569.958    411 45961.917    45993.339    48971.578
+303  TPM3u+F+I+G4  22434.354    412 45692.709    45724.286    48709.692
+304  TPM3u+F+R2    22482.920    412 45789.840    45821.417    48806.823
+305  TPM3u+F+R3    22423.961    414 45675.922    45707.813    48707.552
+306  TPM3u+F+R4    22423.575    416 45679.149    45711.354    48725.424
+313  TIMe          26337.099    408 53490.199    53521.155    56477.891
+314  TIMe+I        25492.515    409 51803.031    51834.142    54798.046
+315  TIMe+G4       25685.571    409 52189.143    52220.254    55184.158
+316  TIMe+I+G4     25440.791    410 51701.582    51732.849    54703.921
+317  TIMe+R2       25491.788    410 51803.577    51834.843    54805.915
+318  TIMe+R3       25398.637    412 51621.274    51652.851    54638.257
+319  TIMe+R4       25398.424    414 51624.849    51656.739    54656.478
+326  TIMe          26337.099    408 53490.199    53521.155    56477.891
+327  TIMe+I        25492.515    409 51803.031    51834.142    54798.046
+328  TIMe+G4       25685.571    409 52189.143    52220.254    55184.158
+329  TIMe+I+G4     25440.791    410 51701.582    51732.849    54703.921
+330  TIMe+R2       25491.788    410 51803.577    51834.843    54805.915
+331  TIMe+R3       25398.637    412 51621.274    51652.851    54638.257
+332  TIMe+R4       25398.424    414 51624.849    51656.739    54656.478
+339  TIM           26336.123    408 53488.246    53519.203    56475.938
+340  TIM+I         25491.491    409 51800.982    51832.094    54795.998
+341  TIM+G4        25684.706    409 52187.412    52218.523    55182.427
+342  TIM+I+G4      25439.515    410 51699.030    51730.296    54701.368
+343  TIM+R2        25491.477    410 51802.954    51834.220    54805.292
+344  TIM+R3        25398.356    412 51620.712    51652.289    54637.695
+345  TIM+R4        25398.291    414 51624.582    51656.472    54656.211
+352  TIM+F         23218.403    411 47258.807    47290.229    50268.468
+353  TIM+F+I       22473.117    412 45770.234    45801.811    48787.217
+354  TIM+F+G4      22564.544    412 45953.089    45984.666    48970.072
+355  TIM+F+I+G4    22429.011    413 45684.022    45715.755    48708.328
+356  TIM+F+R2      22473.045    413 45772.091    45803.824    48796.397
+357  TIM+F+R3      22417.525    415 45665.051    45697.098    48704.002
+358  TIM+F+R4      22417.113    417 45668.227    45700.590    48721.824
+365  TIM2e         26351.264    408 53518.529    53549.485    56506.221
+366  TIM2e+I       25498.530    409 51815.059    51846.171    54810.074
+367  TIM2e+G4      25696.141    409 52210.283    52241.394    55205.298
+368  TIM2e+I+G4    25443.776    410 51707.552    51738.818    54709.890
+369  TIM2e+R2      25497.686    410 51815.372    51846.638    54817.710
+370  TIM2e+R3      25398.354    412 51620.707    51652.285    54637.691
+371  TIM2e+R4      25398.174    414 51624.348    51656.238    54655.977
+378  TIM2e         26351.264    408 53518.529    53549.485    56506.221
+379  TIM2e+I       25498.530    409 51815.059    51846.170    54810.074
+380  TIM2e+G4      25696.141    409 52210.283    52241.394    55205.298
+381  TIM2e+I+G4    25443.776    410 51707.552    51738.818    54709.890
+382  TIM2e+R2      25497.686    410 51815.372    51846.638    54817.710
+383  TIM2e+R3      25398.354    412 51620.707    51652.285    54637.691
+384  TIM2e+R4      25398.174    414 51624.348    51656.238    54655.977
+391  TIM2          26350.682    408 53517.365    53548.321    56505.057
+392  TIM2+I        25497.948    409 51813.896    51845.007    54808.911
+393  TIM2+G4       25695.625    409 52209.250    52240.362    55204.266
+394  TIM2+I+G4     25443.154    410 51706.309    51737.575    54708.647
+395  TIM2+R2       25497.625    410 51815.250    51846.516    54817.588
+396  TIM2+R3       25398.310    412 51620.621    51652.199    54637.605
+397  TIM2+R4       25398.228    414 51624.455    51656.346    54656.085
+404  TIM2+F        23220.092    411 47262.184    47293.606    50271.845
+405  TIM2+F+I      22475.204    412 45774.409    45805.986    48791.392
+406  TIM2+F+G4     22565.817    412 45955.634    45987.212    48972.618
+407  TIM2+F+I+G4   22429.664    413 45685.328    45717.062    48709.634
+408  TIM2+F+R2     22475.189    413 45776.379    45808.112    48800.685
+409  TIM2+F+R3     22419.455    415 45668.911    45700.958    48707.863
+410  TIM2+F+R4     22419.009    417 45672.017    45704.380    48725.615
+417  TIM3e         26359.336    408 53534.673    53565.630    56522.365
+418  TIM3e+I       25503.945    409 51825.890    51857.001    54820.905
+419  TIM3e+G4      25703.737    409 52225.475    52256.586    55220.490
+420  TIM3e+I+G4    25450.371    410 51720.742    51752.009    54723.081
+421  TIM3e+R2      25503.561    410 51827.121    51858.388    54829.459
+422  TIM3e+R3      25405.323    412 51634.647    51666.224    54651.630
+423  TIM3e+R4      25405.181    414 51638.362    51670.253    54669.991
+430  TIM3e         26359.336    408 53534.673    53565.630    56522.365
+431  TIM3e+I       25503.945    409 51825.890    51857.001    54820.905
+432  TIM3e+G4      25703.737    409 52225.475    52256.586    55220.490
+433  TIM3e+I+G4    25450.371    410 51720.743    51752.009    54723.081
+434  TIM3e+R2      25503.561    410 51827.121    51858.388    54829.459
+435  TIM3e+R3      25405.323    412 51634.647    51666.224    54651.630
+436  TIM3e+R4      25405.181    414 51638.362    51670.253    54669.991
+443  TIM3          26359.322    408 53534.644    53565.601    56522.336
+444  TIM3+I        25503.936    409 51825.871    51856.982    54820.886
+445  TIM3+G4       25703.730    409 52225.460    52256.571    55220.475
+446  TIM3+I+G4     25449.596    410 51719.192    51750.459    54721.530
+447  TIM3+R2       25503.917    410 51827.834    51859.101    54830.173
+448  TIM3+R3       25405.313    412 51634.626    51666.204    54651.610
+449  TIM3+R4       25405.239    414 51638.479    51670.369    54670.108
+456  TIM3+F        23221.793    411 47265.586    47297.008    50275.247
+457  TIM3+F+I      22476.383    412 45776.765    45808.343    48793.749
+458  TIM3+F+G4     22566.710    412 45957.420    45988.997    48974.403
+459  TIM3+F+I+G4   22431.247    413 45688.493    45720.227    48712.800
+460  TIM3+F+R2     22476.374    413 45778.747    45810.481    48803.054
+461  TIM3+F+R3     22421.087    415 45672.175    45704.222    48711.127
+462  TIM3+F+R4     22420.621    417 45675.243    45707.606    48728.841
+469  TVMe          26323.599    409 53465.197    53496.308    56460.212
+470  TVMe+I        25463.607    410 51747.214    51778.481    54749.552
+471  TVMe+G4       25666.253    410 52152.506    52183.772    55154.844
+472  TVMe+I+G4     25407.110    411 51636.220    51667.642    54645.881
+473  TVMe+R2       25463.211    411 51748.423    51779.845    54758.084
+474  TVMe+R3       25357.933    413 51541.866    51573.600    54566.173
+475  TVMe+R4       25357.871    415 51545.742    51577.790    54584.694
+482  TVMe          26323.599    409 53465.197    53496.308    56460.212
+483  TVMe+I        25463.607    410 51747.214    51778.481    54749.552
+484  TVMe+G4       25666.253    410 52152.506    52183.772    55154.844
+485  TVMe+I+G4     25407.110    411 51636.220    51667.642    54645.881
+486  TVMe+R2       25463.211    411 51748.423    51779.845    54758.084
+487  TVMe+R3       25357.933    413 51541.866    51573.600    54566.173
+488  TVMe+R4       25357.871    415 51545.742    51577.790    54584.694
+495  TVM           26323.558    409 53465.115    53496.227    56460.131
+496  TVM+I         25463.596    410 51747.192    51778.458    54749.530
+497  TVM+G4        25666.231    410 52152.462    52183.728    55154.800
+498  TVM+I+G4      25407.146    411 51636.291    51667.713    54645.952
+499  TVM+R2        25463.578    411 51749.157    51780.579    54758.818
+500  TVM+R3        25357.931    413 51541.862    51573.596    54566.169
+501  TVM+R4        25357.874    415 51545.748    51577.795    54584.700
+508  TVM+F         23219.424    412 47262.849    47294.427    50279.833
+509  TVM+F+I       22476.852    413 45779.705    45811.439    48804.011
+510  TVM+F+G4      22566.244    413 45958.489    45990.223    48982.795
+511  TVM+F+I+G4    22429.397    414 45686.793    45718.684    48718.422
+512  TVM+F+R2      22476.778    414 45781.557    45813.447    48813.186
+513  TVM+F+R3      22417.876    416 45667.751    45699.956    48714.026
+514  TVM+F+R4      22417.444    418 45670.889    45703.410    48731.809
+521  SYM           26323.252    410 53466.503    53497.770    56468.841
+522  SYM+I         25463.244    411 51748.489    51779.911    54758.150
+523  SYM+G4        25665.816    411 52153.632    52185.054    55163.293
+524  SYM+I+G4      25406.872    412 51637.745    51669.322    54654.728
+525  SYM+R2        25463.205    412 51750.409    51781.987    54767.393
+526  SYM+R3        25357.849    414 51543.698    51575.589    54575.327
+527  SYM+R4        25357.784    416 51547.569    51579.774    54593.843
+534  SYM           26323.252    410 53466.503    53497.770    56468.841
+535  SYM+I         25463.244    411 51748.489    51779.911    54758.150
+536  SYM+G4        25665.816    411 52153.632    52185.054    55163.293
+537  SYM+I+G4      25406.872    412 51637.745    51669.322    54654.728
+538  SYM+R2        25463.205    412 51750.409    51781.987    54767.393
+539  SYM+R3        25357.849    414 51543.698    51575.589    54575.327
+540  SYM+R4        25357.784    416 51547.569    51579.774    54593.843
+547  GTR           26323.203    410 53466.406    53497.672    56468.744
+548  GTR+I         25463.195    411 51748.391    51779.812    54758.052
+549  GTR+G4        25665.774    411 52153.548    52184.970    55163.209
+550  GTR+I+G4      25406.710    412 51637.420    51668.998    54654.404
+551  GTR+R2        25463.176    412 51750.352    51781.929    54767.335
+552  GTR+R3        25357.858    414 51543.716    51575.607    54575.346
+553  GTR+R4        25357.804    416 51547.608    51579.813    54593.882
+560  GTR+F         23217.690    413 47261.379    47293.113    50285.686
+561  GTR+F+I       22472.492    414 45772.985    45804.875    48804.614
+562  GTR+F+G4      22563.690    414 45955.381    45987.271    48987.010
+563  GTR+F+I+G4    22428.103    415 45686.206    45718.254    48725.158
+564  GTR+F+R2      22472.392    415 45774.784    45806.832    48813.736
+565  GTR+F+R3      22416.831    417 45667.662    45700.025    48721.259
+566  GTR+F+R4      22416.286    419 45670.572    45703.252    48738.816
+Akaike Information Criterion:           TIM+F+R3
+Corrected Akaike Information Criterion: TIM+F+R3
+Bayesian Information Criterion:         K3Pu+F+R3
+Best-fit model: K3Pu+F+R3 chosen according to BIC
+
+All model information printed to Apis_m_mtDNA_NA_total.fst.model.gz
+CPU time for ModelFinder: 247.973 seconds (0h:4m:7s)
+Wall-clock time for ModelFinder: 248.722 seconds (0h:4m:8s)
+
+NOTE: 12 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22418.395
+2. Current log-likelihood: -22418.265
+3. Current log-likelihood: -22418.169
+4. Current log-likelihood: -22418.102
+5. Current log-likelihood: -22418.047
+6. Current log-likelihood: -22418.001
+7. Current log-likelihood: -22417.963
+8. Current log-likelihood: -22417.930
+9. Current log-likelihood: -22417.899
+10. Current log-likelihood: -22417.875
+11. Current log-likelihood: -22417.853
+12. Current log-likelihood: -22417.835
+13. Current log-likelihood: -22417.818
+14. Current log-likelihood: -22417.805
+15. Current log-likelihood: -22417.794
+Optimal log-likelihood: -22417.785
+Rate parameters:  A-C: 1.00000  A-G: 30.60869  A-T: 1.67543  C-G: 1.67543  C-T: 30.60869  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Site proportion and rates:  (0.814,0.000) (0.162,3.593) (0.024,17.655)
+Parameters optimization took 15 rounds (3.866 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -22417.785
+Total tree length: 0.129
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 251.861 sec (0h:4m:11s)
+Total wall-clock time used: 252.706 sec (0h:4m:12s)
+
+Analysis results written to: 
+  IQ-TREE report:                Apis_m_mtDNA_NA_total.fst.iqtree
+  Tree used for ModelFinder:     Apis_m_mtDNA_NA_total.fst.treefile
+  Screen log file:               Apis_m_mtDNA_NA_total.fst.log
+
+Date and Time: Wed Jul  1 00:07:51 2026

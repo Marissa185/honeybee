@@ -1,0 +1,366 @@
+{
+ "MLE":{
+   "content":{
+     "0":      [
+[0, 0, 0, 0, 1, 0],
+      [0, 0.5679869334422171, 0.5513912837323093, 0.07979933665947847, 0.777569527831983, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0.2209007720051256, 1.736550249703532, 1.738199232838448, 0.007627823637648135, 0.930403316684395, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [9.960263692423734, 0, 1.141426341126614, 4.269954726646143, 0.0387919640199188, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [11.75362318840591, 0, 2.449894631955219, 2.733937438497502, 0.09823682129587141, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [3.210526315789475, 0, 1.177268164284732, 1.762558337786009, 0.184305731311163, 0],
+      [0, 0, 0, 0, 1, 0],
+      [46.57296036075105, 0, 2.969324759593409, 4.405832324541077, 0.03581624296541652, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [3.210526315789475, 0, 1.177268164284732, 1.762558337786009, 0.184305731311163, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [8.190787997470522, 0, 0.5251421505771597, 8.083548489851937, 0.004466889382681805, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [6.247458499549598, 0, 2.036977416772321, 2.03289919866603, 0.153926733207457, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [3.210526315789475, 0, 1.177268164284732, 1.849215826140426, 0.1738746260379249, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [4.605095541401273, 0, 1.512510387862382, 2.354283816622306, 0.124939253068427, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 1.415400314658827, 0.8182344192753043, 0.8993842539283499, 0.342946869007219, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [1.563214030092421, 1.986538338847419, 1.800897484364917, 0.03406445310201178, 0.8535697857220073, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 3.219236877119202, 2.843707193527864, 0.25112519251471, 0.6162839069047232, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 1, 0] 
+      ]
+    },
+   "headers":    [
+["alpha", "Synonymous substitution rate at a site"],
+    ["beta", "Non-synonymous substitution rate at a site"],
+    ["alpha=beta", "The rate estimate under the neutral model"],
+    ["LRT", "Likelihood ration test statistic for beta = alpha, versus beta &neq; alpha"],
+    ["p-value", "Asymptotic p-value for evidence of selection, i.e. beta &neq; alpha"],
+    ["Total branch length", "The total length of branches contributing to inference at this site, and used to scale dN-dS"] 
+    ]
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond and Simon DW Frost",
+   "citation":"Not So Different After All: A Comparison of Methods for Detecting Amino Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222",
+   "contact":"spond@temple.edu",
+   "info":"FEL (Fixed Effects Likelihood)\n    estimates site-wise synonymous (&alpha;) and non-synonymous (&beta;) rates, and\n    uses a likelihood ratio test to determine if beta &neq; alpha at a site.\n    The estimates aggregate information over all branches,\n    so the signal is derived from\n    pervasive diversification or conservation. A subset of branches can be selected\n    for testing as well, in which case an additional (nuisance) parameter will be\n    inferred -- the non-synonymous rate on branches NOT selected for testing.\n    Multiple partitions within a NEXUS file are also supported\n    for recombination - aware analysis.\n    ",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.1"
+  },
+ "branch attributes":{
+   "0":{
+     "AMIB_POR_N_127":{
+       "Global MG94xREV":0.002778429398310534,
+       "Nucleotide GTR":0.002836107614326623,
+       "original name":"AMIB_POR_N_127"
+      },
+     "AMME_FRA_A_329":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"AMME_FRA_A_329"
+      },
+     "AMME_FRA_A_332":{
+       "Global MG94xREV":0.003026340796650559,
+       "Nucleotide GTR":0.002846503512819075,
+       "original name":"AMME_FRA_A_332"
+      },
+     "AMME_FRA_A_333":{
+       "Global MG94xREV":0.002972300485376108,
+       "Nucleotide GTR":0.002834405093755217,
+       "original name":"AMME_FRA_A_333"
+      },
+     "AMME_FRA_A_336":{
+       "Global MG94xREV":0.003066521317846418,
+       "Nucleotide GTR":0.002852697304697218,
+       "original name":"AMME_FRA_A_336"
+      },
+     "AMME_IRL_F_001":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"AMME_IRL_F_001"
+      },
+     "AMME_IRL_F_002":{
+       "Global MG94xREV":0,
+       "Nucleotide GTR":0,
+       "original name":"AMME_IRL_F_002"
+      },
+     "AMME_IRL_F_013":{
+       "Global MG94xREV":0.003120355230117222,
+       "Nucleotide GTR":0.002872426879284021,
+       "original name":"AMME_IRL_F_013"
+      },
+     "AMME_IRL_M_062":{
+       "Global MG94xREV":0.003241543241378084,
+       "Nucleotide GTR":0.002912485896581767,
+       "original name":"AMME_IRL_M_062"
+      },
+     "AM_SAU_N_253":{
+       "Global MG94xREV":0.001481192241810305,
+       "Nucleotide GTR":0.002473349626778218,
+       "original name":"AM_SAU_N_253"
+      },
+     "NODE2":{
+       "Global MG94xREV":0.003077827589406573,
+       "Nucleotide GTR":0.002860822883119349
+      },
+     "NODE23":{
+       "Global MG94xREV":0.01103282913626429,
+       "Nucleotide GTR":0.009010111768574261
+      },
+     "NODE24":{
+       "Global MG94xREV":0.02196312333727364,
+       "Nucleotide GTR":0.01806650788556048
+      }
+    },
+   "attributes":{
+     "Global MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116] 
+      ],
+     "name":"fel.filter.default"
+    }
+  },
+ "fits":{
+   "Global MG94xREV":{
+     "AIC-c":966.1797063036843,
+     "Equilibrium frequencies":      [
+[0.06016909418386169],
+      [0.006187075796902882],
+      [0.0001102980168640562],
+      [0.04611852120458154],
+      [0.03527179165206082],
+      [0.00362693258730159],
+      [6.465792319519329e-05],
+      [0.02703518963171381],
+      [0.01205314102922676],
+      [0.001239402024413188],
+      [2.209502354222041e-05],
+      [0.009238514351563898],
+      [0.1154121140960707],
+      [0.01186761255888602],
+      [0.0002115658791203658],
+      [0.08846129567682336],
+      [0.008993796946306228],
+      [0.0009248153751278387],
+      [1.648683565393696e-05],
+      [0.006893582507831326],
+      [0.005272263715350056],
+      [0.0005421370501017244],
+      [9.664766273702772e-06],
+      [0.00404109467244953],
+      [0.001801647580912619],
+      [0.0001852600623893533],
+      [3.302661573321233e-06],
+      [0.00138093024817029],
+      [0.0172512671730131],
+      [0.001773915646226939],
+      [3.162388570718577e-05],
+      [0.0132227839178257],
+      [0.0113522635640776],
+      [0.001167332101140484],
+      [2.081022117782992e-05],
+      [0.008701304465380094],
+      [0.006654823055634832],
+      [0.0006843030499075227],
+      [1.219918291232303e-05],
+      [0.005100801372648078],
+      [0.002274098282428187],
+      [0.0002338412873558541],
+      [4.168727053449006e-06],
+      [0.001743055156173463],
+      [0.0217751115498329],
+      [0.00223909413083647],
+      [3.991669898837138e-05],
+      [0.01669022871898991],
+      [0.007662063949211245],
+      [0.05711309677011629],
+      [0.0436805256817169],
+      [0.00449158703329511],
+      [8.00722600800775e-05],
+      [0.0334803320077211],
+      [0.01492658897132418],
+      [0.001534873320056853],
+      [2.736243888018399e-05],
+      [0.01144096016939415],
+      [0.1429261621718644],
+      [0.01469683083503923],
+      [0.0002620028182138633],
+      [0.1095503153275082] 
+      ],
+     "Log Likelihood":-454.3781967101243,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *test*":        [
+[0.06208574246311272, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":28
+    },
+   "Nucleotide GTR":{
+     "AIC-c":1017.354282570833,
+     "Equilibrium frequencies":      [
+[0.3774928774928775],
+      [0.09715099715099715],
+      [0.04586894586894587],
+      [0.4794871794871794] 
+      ],
+     "Log Likelihood":-487.5446871569764,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.1202569287841094,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.07176242818352919,
+       "Substitution rate from nucleotide C to nucleotide G":0,
+       "Substitution rate from nucleotide C to nucleotide T":0.8709795374268765,
+       "Substitution rate from nucleotide G to nucleotide T":0
+      },
+     "display order":0,
+     "estimated parameters":21
+    }
+  },
+ "input":{
+   "file name":"/home/marissa/Documents/Msc_project/7_Analysis/4_smaller_subset/3_gene_seperated/07_NAD3/07_NAD3_unique.fst",
+   "number of sequences":10,
+   "number of sites":117,
+   "partition count":1,
+   "trees":{
+     "0":"(AMME_IRL_F_001:1e-06,(AMME_IRL_F_002:1e-06,((AMME_IRL_M_062:0.0029182537,AMME_FRA_A_329:1e-06)NODE24:0.0181239889,AM_SAU_N_253:1e-06)NODE23:0.009048135000000001,AMIB_POR_N_127:0.0028409833,AMME_FRA_A_332:1e-06,AMME_FRA_A_333:1e-06,AMME_FRA_A_336:1e-06)NODE2:0.0028720691,AMME_IRL_F_013:1e-06)"
+    }
+  },
+ "tested":{
+   "0":{
+     "AMIB_POR_N_127":"test",
+     "AMME_FRA_A_329":"test",
+     "AMME_FRA_A_332":"test",
+     "AMME_FRA_A_333":"test",
+     "AMME_FRA_A_336":"test",
+     "AMME_IRL_F_001":"test",
+     "AMME_IRL_F_002":"test",
+     "AMME_IRL_F_013":"test",
+     "AMME_IRL_M_062":"test",
+     "AM_SAU_N_253":"test",
+     "NODE2":"test",
+     "NODE23":"test",
+     "NODE24":"test"
+    }
+  },
+ "timers":{
+   "FEL analysis":{
+     "order":2,
+     "timer":3
+    },
+   "Model fitting":{
+     "order":1,
+     "timer":4
+    },
+   "Total time":{
+     "order":0,
+     "timer":7
+    }
+  }
+}

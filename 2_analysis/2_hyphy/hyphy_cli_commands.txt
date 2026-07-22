@@ -1,0 +1,15 @@
+mv remove-duplicates.bf ../01_NAD2/
+cd ../<file>/
+awk '{print $1}' <file>.fst > <file>_clean.fst
+hyphy remove-duplicates.bf --msa <file>.fst --tree <file>.treefile --output <file>.fst --output-tree <file>.treefile
+hyphy fubar --alignment <file>.fst --tree <file>.treefile --code Invertebrate-mtDNA
+hyphy meme --alignment <file>.fst --tree <file>.treefile --code Invertebrate-mtDNA
+hyphy absrel --alignment <file>.fst --tree <file>.treefile --code Invertebrate-mtDNA
+
+
+# for the complete subset
+mv label-tree.bf irl.txt forground.txt ../02_
+hyphy label-tree.bf --msa <file>.fst.treefile  --list forground.txt --label Foreground --output intermediate.treefile
+hyphy label-tree.bf --tree intermediate.treefile  --list irl.txt --label Irish --output final.treefile
+hyphy contrast-fel --alignment <file>.fst --tree final.treefile --code Invertebrate-mtDNA
+

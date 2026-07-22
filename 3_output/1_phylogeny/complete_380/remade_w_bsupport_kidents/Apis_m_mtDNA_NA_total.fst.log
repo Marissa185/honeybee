@@ -1,0 +1,516 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May  7 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    marissa-ASUS-TUF-Gaming-F16-FX607VJ-FX607VJ (AVX2, FMA3, 15 GB RAM)
+Command: /home/marissa/anaconda3/envs/2_phylogeny/bin/iqtree3_intel -s Apis_m_mtDNA_NA_total.fst --seqtype DNA -m K3Pu+F+R3 -bb 1000 -alrt 1000 -keep-ident -minsupnew 80/95 -czb
+Seed:    606707 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  6 16:22:14 2026
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Apis_m_mtDNA_NA_total.fst ... Fasta format detected
+Reading fasta file: done in 0.052654 secs using 88.23% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0265181 secs using 66.03% CPU
+WARNING: 78 sites contain only gaps or ambiguous characters.
+Alignment has 380 sequences with 11190 columns, 620 distinct patterns
+586 parsimony-informative, 224 singleton sites, 10380 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000476122 secs using 99.76% CPU
+   1  AmMe_IRL_F_001      1.74%    passed     99.98%
+   2  AmMe_IRL_F_002      1.74%    passed     99.99%
+   3  AmMe_IRL_F_003      1.74%    passed     99.94%
+   4  AmMe_IRL_F_004      1.74%    passed     99.97%
+   5  AmMe_IRL_F_005      1.74%    passed     99.99%
+   6  AmMe_IRL_F_006      1.74%    passed     99.95%
+   7  AmMe_IRL_F_007      1.74%    passed     99.99%
+   8  AmMe_IRL_F_008      1.74%    passed     99.95%
+   9  AmMe_IRL_F_009      1.74%    passed     99.98%
+  10  AmMe_IRL_F_010      1.85%    passed    100.00%
+  11  AmMe_IRL_F_011      1.75%    passed     99.91%
+  12  AmMe_IRL_F_012      1.74%    passed     99.98%
+  13  AmMe_IRL_F_013      1.74%    passed     99.99%
+  14  AmMe_IRL_F_014      1.74%    passed     99.99%
+  15  AmMe_IRL_F_015      1.74%    passed     99.92%
+  16  AmMe_IRL_F_016      1.74%    passed     99.99%
+  17  AmMe_IRL_F_017      1.74%    passed     99.99%
+  18  AmMe_IRL_F_018      1.74%    passed     99.99%
+  19  AmMe_IRL_F_019      1.74%    passed     99.99%
+  20  AmMe_IRL_F_020      1.74%    passed     99.99%
+  21  AmMe_IRL_F_021      1.74%    passed     99.99%
+  22  AmMe_IRL_F_022      1.74%    passed     99.99%
+  23  AmMe_IRL_F_023      1.74%    passed     99.99%
+  24  AmMe_IRL_F_024      1.74%    passed     99.97%
+  25  AmMe_IRL_F_025      1.74%    passed     99.99%
+  26  AmMe_IRL_F_026      1.74%    passed     99.42%
+  27  AmMe_IRL_F_027      1.74%    passed     99.99%
+  28  AmMe_IRL_F_028      1.74%    passed     99.99%
+  29  AmMe_IRL_F_029      1.74%    passed     99.99%
+  30  AmMe_IRL_F_030      1.74%    passed     99.99%
+  31  AmMe_IRL_F_031      1.74%    passed     99.99%
+  32  AmMe_IRL_F_032      1.74%    passed     99.99%
+  33  AmHy_IRL_F_033      1.74%    passed     99.76%
+  34  AmHy_IRL_F_034      1.75%    passed     98.87%
+  35  AmHy_IRL_F_035      1.74%    passed     99.99%
+  36  AmHy_IRL_F_036      1.75%    passed     99.86%
+  37  AmHy_IRL_F_037      1.74%    passed     99.90%
+  38  AmHy_IRL_F_038      1.74%    passed     99.90%
+  39  AmHy_IRL_F_039      1.74%    passed    100.00%
+  40  AmHy_IRL_F_040      1.74%    passed    100.00%
+  41  AmHy_IRL_F_041      1.74%    passed     99.89%
+  42  AmHy_IRL_F_042      1.75%    passed     99.84%
+  43  AmHy_IRL_F_043      1.74%    passed     99.19%
+  44  AmHy_GBR_F_044      1.74%    passed     99.94%
+  45  AmHy_IRL_M_045      1.74%    passed     91.37%
+  46  AmHy_IRL_M_046      1.74%    passed     99.99%
+  47  AmHy_IRL_M_047      1.74%    passed     99.99%
+  48  AmHy_IRL_M_048      1.96%    passed     99.90%
+  49  AmHy_IRL_M_049      1.74%    passed     99.98%
+  50  AmHy_IRL_M_050      1.74%    passed     99.98%
+  51  AmHy_IRL_M_051      1.74%    passed     99.99%
+  52  AmMe_IRL_M_052      1.74%    passed     99.99%
+  53  AmMe_IRL_M_053      1.74%    passed     99.99%
+  54  AmMe_IRL_M_055      1.74%    passed     99.99%
+  55  AmMe_IRL_M_056      1.74%    passed     99.99%
+  56  AmMe_IRL_M_057      1.74%    passed     99.99%
+  57  AmMe_IRL_M_058      1.74%    passed     99.97%
+  58  AmMe_IRL_M_059      1.75%    passed     99.99%
+  59  AmMe_IRL_M_060      1.74%    passed     99.99%
+  60  AmMe_IRL_M_061      1.74%    passed     99.99%
+  61  AmMe_IRL_M_062      1.74%    passed     99.06%
+  62  AmMe_IRL_M_063      1.74%    passed     99.99%
+  63  AmMe_IRL_M_064      1.74%    passed     99.96%
+  64  AmMe_IRL_M_065      1.74%    passed     99.99%
+  65  AmMe_IRL_M_066      1.74%    passed     99.95%
+  66  AmMe_IRL_M_068      1.74%    passed     99.99%
+  67  AmMe_IRL_M_069      1.75%    passed     99.62%
+  68  AmMe_IRL_M_070      1.74%    passed     99.99%
+  69  AmMe_IRL_M_071      1.74%    passed     99.99%
+  70  AmMe_IRL_M_072      1.74%    passed     99.99%
+  71  AmMe_IRL_M_073      1.74%    passed     99.99%
+  72  AmMe_IRL_M_074      1.75%    passed     99.99%
+  73  AmMe_IRL_M_075      1.74%    passed     99.99%
+  74  AmMe_IRL_F_076      1.75%    passed     99.99%
+  75  AmMe_IRL_F_077      1.74%    passed     99.98%
+  76  AmMe_IRL_F_078      1.74%    passed     99.19%
+  77  AmMe_IRL_F_079      1.74%    passed     99.99%
+  78  AmMe_IRL_M_080      1.74%    passed     99.98%
+  79  AmCr_DEU_M_081      1.74%    passed     99.92%
+  80  AmCr_DEU_M_082      1.74%    passed     99.97%
+  81  AmCr_DEU_M_083      1.74%    passed     99.56%
+  82  AmMe_IRL_C_295      1.74%    passed     99.83%
+  83  Am_IRL_B_296        1.74%    passed     99.99%
+  84  Am_IRL_B_297        1.74%    passed     99.98%
+  85  Am_IRL_B_298        1.74%    passed    100.00%
+  86  Am_IRL_B_299        1.74%    passed     99.88%
+  87  AmMe_GBR_A_300      1.74%    passed     99.99%
+  88  Am_GBR_B_301        1.74%    passed     99.06%
+  89  Am_GBR_B_302        1.74%    passed     99.91%
+  90  Am_GBR_B_303        1.74%    passed     98.52%
+  91  Am_GBR_B_304        1.74%    passed     99.69%
+  92  Am_GBR_B_305        1.74%    passed     99.43%
+  93  Am_GBR_B_306        1.74%    passed     99.84%
+  94  Am_GBR_B_307        1.74%    passed     99.13%
+  95  Am_GBR_B_308        1.74%    passed     99.89%
+  96  Am_GBR_B_309        1.74%    passed     99.89%
+  97  Am_GBR_B_310        1.74%    passed     99.42%
+  98  Am_GBR_B_312        1.74%    passed     99.98%
+  99  Am_GBR_B_313        1.74%    passed     99.91%
+ 100  Am_GBR_B_314        1.74%    passed     99.42%
+ 101  Am_GBR_B_315        1.74%    passed     99.88%
+ 102  Am_GBR_B_316        1.74%    passed     99.98%
+ 103  Am_GBR_B_317        1.74%    passed     99.99%
+ 104  Am_GBR_B_318        1.74%    passed     99.42%
+ 105  Am_GBR_B_319        1.74%    passed    100.00%
+ 106  Am_GBR_B_320        1.74%    passed     99.89%
+ 107  Am_JEY_B_321        1.74%    passed     99.89%
+ 108  Am_JEY_B_322        1.74%    passed     99.75%
+ 109  Am_CHE_B_323        1.74%    passed     99.89%
+ 110  Am_CHE_B_324        1.74%    passed     99.76%
+ 111  AmMe_FRA_A_325      1.74%    passed     99.39%
+ 112  AmMe_FRA_A_326      1.74%    passed     99.62%
+ 113  AmMe_FRA_A_327      1.74%    passed     99.62%
+ 114  AmMe_FRA_A_328      1.74%    passed     99.87%
+ 115  AmMe_FRA_A_329      1.80%    passed     99.47%
+ 116  AmMe_FRA_A_330      1.74%    passed     99.89%
+ 117  AmMe_FRA_A_331      1.74%    passed     99.87%
+ 118  AmMe_FRA_A_332      1.74%    passed     99.40%
+ 119  AmMe_FRA_A_333      1.74%    passed     99.64%
+ 120  AmMe_FRA_A_334      1.74%    passed     99.64%
+ 121  AmMe_FRA_A_335      1.74%    passed     99.64%
+ 122  AmMe_FRA_A_336      1.74%    passed     99.96%
+ 123  AmMe_FRA_A_337      1.74%    passed     99.96%
+ 124  AmMe_FRA_A_338      1.74%    passed     99.96%
+ 125  AmMe_FRA_A_339      1.74%    passed     99.96%
+ 126  AmMe_FRA_A_340      1.74%    passed     99.41%
+ 127  AmMe_FRA_A_341      1.74%    passed     99.41%
+ 128  AmMe_FRA_A_342      1.74%    passed     99.99%
+ 129  AmMe_FRA_A_343      1.74%    passed     99.99%
+ 130  AmMe_FRA_A_344      1.74%    passed     99.41%
+ 131  AmMe_FRA_A_345      1.74%    passed     99.42%
+ 132  AmMe_FRA_A_346      1.74%    passed     99.42%
+ 133  AmMe_FRA_A_347      1.74%    passed     99.22%
+ 134  AmMe_FRA_A_348      1.74%    passed     99.42%
+ 135  AmMe_FRA_A_349      1.74%    passed     99.41%
+ 136  AmMe_FRA_A_350      1.74%    passed     99.41%
+ 137  AmMe_FRA_A_351      1.74%    passed     99.85%
+ 138  AmMe_FRA_A_352      1.74%    passed     99.85%
+ 139  AmMe_FRA_A_353      1.74%    passed     99.39%
+ 140  AmMe_FRA_A_354      1.74%    passed     99.39%
+ 141  AmMe_FRA_A_355      1.74%    passed     99.39%
+ 142  AmMe_FRA_A_356      1.74%    passed     99.62%
+ 143  AmMe_FRA_A_357      1.74%    passed     99.42%
+ 144  AmMe_FRA_A_358      1.74%    passed     99.64%
+ 145  AmMe_FRA_A_359      1.74%    passed     99.64%
+ 146  AmMe_FRA_A_360      1.74%    passed     99.62%
+ 147  AmMe_FRA_A_361      1.74%    passed     99.41%
+ 148  AmMe_FRA_A_362      1.74%    passed     99.96%
+ 149  AmMe_FRA_A_363      1.74%    passed     99.41%
+ 150  AmMe_FRA_A_364      1.74%    passed     99.41%
+ 151  AmMe_FRA_A_365      1.74%    passed     99.41%
+ 152  AmMe_FRA_A_366      1.74%    passed     99.69%
+ 153  AmMe_FRA_A_367      1.74%    passed     99.99%
+ 154  AmMe_FRA_A_368      1.74%    passed     99.78%
+ 155  AmMe_FRA_A_369      1.74%    passed     99.80%
+ 156  Am_NOR_B_370        1.74%    passed     99.96%
+ 157  Am_NOR_B_371        1.74%    passed     99.92%
+ 158  Am_NOR_B_372        1.74%    passed     99.92%
+ 159  Am_NOR_B_373        1.74%    passed     99.56%
+ 160  Am_NOR_B_374        1.74%    passed     99.96%
+ 161  Am_NOR_B_375        1.74%    passed     99.92%
+ 162  Am_NOR_B_376        1.74%    passed     99.92%
+ 163  Am_NOR_B_377        1.74%    passed     99.99%
+ 164  Am_NOR_B_378        1.74%    passed     99.92%
+ 165  Am_SWE_B_379        1.74%    passed     99.97%
+ 166  Am_SWE_B_380        1.74%    passed     99.96%
+ 167  Am_SWE_B_381        1.74%    passed     99.96%
+ 168  Am_SWE_B_382        1.74%    passed     99.96%
+ 169  Am_SWE_B_383        1.74%    passed     99.96%
+ 170  AmLi_ITA_N_084      1.76%    passed     99.96%
+ 171  AmLi_ITA_N_085      1.47%    passed     99.48%
+ 172  AmSi_ITA_N_086      1.76%    passed     90.88%
+ 173  AmLi_ITA_N_087      1.76%    passed     99.99%
+ 174  AmLi_ITA_N_088      1.76%    passed     99.99%
+ 175  AmLi_ITA_N_089      1.76%    passed     99.99%
+ 176  AmLi_ITA_N_090      1.76%    passed     99.91%
+ 177  AmLi_ITA_N_091      1.76%    passed     99.99%
+ 178  AmLi_ITA_N_092      1.76%    passed     99.99%
+ 179  AmLi_ITA_N_093      1.76%    passed     99.91%
+ 180  AmLi_ITA_N_094      1.76%    passed     99.98%
+ 181  AmLi_ITA_N_095      1.76%    passed     99.99%
+ 182  AmLi_ITA_N_096      1.76%    passed     99.72%
+ 183  AmLi_ITA_N_097      1.76%    passed     99.99%
+ 184  AmLi_ITA_N_098      1.76%    passed     99.99%
+ 185  AmLi_ITA_N_099      1.76%    passed     99.91%
+ 186  AmLi_ITA_N_100      1.76%    passed     99.99%
+ 187  AmLi_ITA_N_101      1.76%    passed     99.99%
+ 188  AmLi_ITA_N_102      1.76%    passed     99.91%
+ 189  AmLi_ITA_N_103      1.76%    passed     99.99%
+ 190  AmLi_ITA_N_104      1.76%    passed     99.99%
+ 191  AmLi_ITA_N_105      1.76%    passed     99.47%
+ 192  AmLi_ITA_N_106      1.76%    passed     99.99%
+ 193  AmLi_ITA_N_107      1.76%    passed     99.99%
+ 194  AmLi_ITA_N_108      1.76%    passed     99.99%
+ 195  AmLi_ITA_N_109      1.76%    passed     99.99%
+ 196  AmLi_ITA_N_110      1.76%    passed     99.99%
+ 197  AmLi_ITA_N_111      1.76%    passed     99.99%
+ 198  AmLi_ITA_N_112      1.76%    passed     99.99%
+ 199  AmLi_ITA_N_113      1.76%    passed     99.99%
+ 200  AmLi_ITA_N_114      1.76%    passed     99.99%
+ 201  AmLi_ITA_N_115      1.76%    passed     99.99%
+ 202  AmLi_ITA_N_116      1.76%    passed     99.99%
+ 203  AmRu_MLT_N_117      1.76%    passed     87.21%
+ 204  AmMe_NOR_N_118      1.47%    passed     99.82%
+ 205  AmCr_POL_N_119      0.82%    passed     97.82%
+ 206  AmCr_POL_N_120      0.82%    passed     97.82%
+ 207  AmCr_POL_N_121      1.04%    passed     97.86%
+ 208  AmCr_POL_N_122      0.82%    passed     97.08%
+ 209  AmCr_POL_N_123      0.82%    passed     97.08%
+ 210  AmCr_POL_N_124      0.82%    passed     97.82%
+ 211  AmCr_POL_N_125      0.82%    passed     97.82%
+ 212  AmIb_POR_N_126      1.76%    passed     94.86%
+ 213  AmIb_POR_N_127      1.76%    passed     99.89%
+ 214  AmCr_SEE_N_128      1.76%    passed     99.96%
+ 215  AmCr_SVN_N_129      1.47%    passed     99.20%
+ 216  AmCr_SVN_N_130      1.47%    passed     99.20%
+ 217  AmLi_AUS_N_131      1.47%    passed     99.84%
+ 218  AmCu_EUA_N_132      1.76%    passed     99.22%
+ 219  AmSc_MEX_N_133      1.77%    passed     94.70%
+ 220  AmJe_ARA_N_134      1.76%    passed     99.57%
+ 221  AmSc_ASI_N_135      1.76%    passed     99.81%
+ 222  AmSn_CHN_N_136      1.44%    passed    100.00%
+ 223  AmLi_CHN_N_137      1.76%    passed     99.91%
+ 224  AmLi_CHN_N_138      1.76%    passed     99.91%
+ 225  AmLi_CHN_N_139      1.76%    passed     99.91%
+ 226  AmLi_CHN_N_140      1.76%    passed     99.91%
+ 227  AmLi_CHN_N_141      1.76%    passed     99.91%
+ 228  AmLi_CHN_N_142      1.76%    passed     99.91%
+ 229  AmLi_CHN_N_143      1.76%    passed     99.91%
+ 230  AmLi_CHN_N_144      1.76%    passed     99.91%
+ 231  AmLi_CHN_N_145      1.76%    passed     99.91%
+ 232  AmLi_CHN_N_146      1.76%    passed     99.91%
+ 233  AmLi_CHN_N_147      1.76%    passed     99.99%
+ 234  AmLi_CHN_N_148      1.76%    passed     99.91%
+ 235  AmLi_CHN_N_149      1.76%    passed     99.78%
+ 236  AmLi_CHN_N_150      1.76%    passed     98.94%
+ 237  AmLi_CHN_N_151      1.76%    passed     99.99%
+ 238  AmLi_CHN_N_152      1.76%    passed     99.95%
+ 239  AmLi_CHN_N_153      1.76%    passed     99.91%
+ 240  AmLi_CHN_N_154      1.76%    passed     99.91%
+ 241  AmLi_CHN_N_155      1.76%    passed     99.91%
+ 242  AmLi_CHN_N_156      1.76%    passed     99.91%
+ 243  AmLi_CHN_N_157      1.76%    passed     99.91%
+ 244  AmLi_CHN_N_158      1.76%    passed     99.91%
+ 245  AmLi_CHN_N_159      1.76%    passed     99.91%
+ 246  AmLi_CHN_N_160      1.76%    passed     99.91%
+ 247  AmLi_CHN_N_161      1.76%    passed     99.91%
+ 248  AmLi_CHN_N_162      1.76%    passed     99.91%
+ 249  AmLi_CHN_N_163      1.76%    passed     99.91%
+ 250  AmLi_CHN_N_164      1.76%    passed     99.91%
+ 251  AmLi_CHN_N_165      1.76%    passed     99.91%
+ 252  AmLi_CHN_N_166      1.76%    passed     99.91%
+ 253  AmLi_CHN_N_167      1.76%    passed     99.91%
+ 254  AmLi_CHN_N_168      1.76%    passed     99.91%
+ 255  AmLi_CHN_N_169      1.76%    passed     99.91%
+ 256  AmLi_CHN_N_170      1.76%    passed     99.91%
+ 257  AmLi_CHN_N_171      1.76%    passed     99.84%
+ 258  AmLi_CHN_N_172      1.76%    passed     99.91%
+ 259  AmLi_CHN_N_173      1.76%    passed     99.99%
+ 260  AmLi_CHN_N_174      1.76%    passed     99.99%
+ 261  AmLi_CHN_N_175      1.76%    passed     99.99%
+ 262  AmLi_CHN_N_176      1.76%    passed     99.99%
+ 263  AmLi_CHN_N_177      1.76%    passed     99.91%
+ 264  AmLi_CHN_N_178      1.76%    passed     99.91%
+ 265  AmLi_CHN_N_179      1.76%    passed     99.91%
+ 266  AmLi_CHN_N_180      1.76%    passed     99.91%
+ 267  AmLi_CHN_N_181      1.76%    passed     99.91%
+ 268  AmLi_CHN_N_182      1.76%    passed     99.91%
+ 269  AmLi_CHN_N_183      1.76%    passed     99.91%
+ 270  AmLi_CHN_N_184      1.76%    passed     99.91%
+ 271  AmLi_CHN_N_185      1.76%    passed     99.91%
+ 272  AmLi_CHN_N_186      1.76%    passed     99.91%
+ 273  AmLi_CHN_N_187      1.76%    passed     99.91%
+ 274  AmLi_CHN_N_188      1.76%    passed     99.91%
+ 275  AmLi_CHN_N_189      1.76%    passed     99.99%
+ 276  AmLi_CHN_N_190      1.76%    passed     99.91%
+ 277  AmLi_CHN_N_191      1.76%    passed     99.91%
+ 278  AmLi_CHN_N_192      1.76%    passed     99.87%
+ 279  AmLi_CHN_N_193      1.76%    passed     99.92%
+ 280  AmLi_CHN_N_194      1.76%    passed     99.91%
+ 281  AmLi_CHN_N_195      1.76%    passed     99.92%
+ 282  AmLi_CHN_N_196      1.76%    passed     99.91%
+ 283  AmLi_CHN_N_197      1.76%    passed     99.91%
+ 284  AmLi_CHN_N_198      1.76%    passed     99.91%
+ 285  AmLi_CHN_N_199      1.76%    passed     99.91%
+ 286  AmLi_CHN_N_200      1.76%    passed     99.91%
+ 287  AmLi_CHN_N_201      1.76%    passed     99.91%
+ 288  AmLi_CHN_N_202      1.76%    passed     99.91%
+ 289  AmLi_CHN_N_203      1.76%    passed     99.99%
+ 290  AmLi_CHN_N_204      1.76%    passed     99.91%
+ 291  AmLi_CHN_N_205      1.76%    passed     99.91%
+ 292  AmLi_CHN_N_206      1.76%    passed     99.91%
+ 293  AmLi_CHN_N_207      1.76%    passed     99.91%
+ 294  AmLi_CHN_N_208      1.76%    passed     99.91%
+ 295  AmLi_CHN_N_209      1.76%    passed     99.91%
+ 296  AmLi_CHN_N_210      1.76%    passed     99.91%
+ 297  AmLi_CHN_N_211      1.76%    passed     99.91%
+ 298  AmLi_CHN_N_212      1.76%    passed     99.91%
+ 299  AmLi_CHN_N_213      1.76%    passed     99.91%
+ 300  AmLi_CHN_N_214      1.76%    passed     99.91%
+ 301  AmLi_CHN_N_215      1.76%    passed     99.91%
+ 302  AmLi_CHN_N_216      1.76%    passed     99.91%
+ 303  AmLi_CHN_N_217      1.76%    passed     99.91%
+ 304  AmLi_CHN_N_218      1.76%    passed     99.99%
+ 305  AmLi_CHN_N_219      1.76%    passed     99.99%
+ 306  AmLi_CHN_N_220      1.76%    passed     99.99%
+ 307  AmLi_CHN_N_221      1.76%    passed     99.91%
+ 308  AmLi_CHN_N_222      1.76%    passed     99.91%
+ 309  AmLi_CHN_N_223      1.76%    passed     99.91%
+ 310  AmLi_CHN_N_224      1.76%    passed     99.91%
+ 311  AmLi_CHN_N_225      1.76%    passed     99.91%
+ 312  AmLi_CHN_N_226      1.76%    passed     99.91%
+ 313  AmLi_CHN_N_227      1.76%    passed     99.91%
+ 314  AmLi_CHN_N_228      1.76%    passed     99.91%
+ 315  AmLi_CHN_N_229      1.76%    passed     99.91%
+ 316  AmLi_CHN_N_230      1.76%    passed     99.91%
+ 317  AmLi_CHN_N_231      1.76%    passed     99.91%
+ 318  AmLi_CHN_N_232      1.76%    passed     99.98%
+ 319  AmLi_CHN_N_233      1.76%    passed     99.91%
+ 320  AmLi_CHN_N_234      1.76%    passed     99.91%
+ 321  AmLi_CHN_N_235      1.76%    passed     99.91%
+ 322  AmLi_CHN_N_236      1.76%    passed     99.91%
+ 323  AmMd_IRN_N_237      1.49%    passed     98.79%
+ 324  Am_IRQ_N_238        1.76%    passed     99.60%
+ 325  Am_IRQ_N_239        1.76%    passed     99.91%
+ 326  AmLi_KOR_N_240      1.76%    passed     99.98%
+ 327  AmLi_KOR_N_241      1.76%    passed     99.80%
+ 328  Am_SAU_N_242        1.76%    passed     98.96%
+ 329  Am_SAU_N_243        1.76%    passed     98.96%
+ 330  Am_SAU_N_244        1.77%    passed     98.92%
+ 331  Am_SAU_N_245        1.73%    passed     98.71%
+ 332  Am_SAU_N_246        1.77%    passed     98.71%
+ 333  Am_SAU_N_247        1.77%    passed     98.71%
+ 334  Am_SAU_N_248        1.76%    passed     99.56%
+ 335  Am_SAU_N_249        1.76%    passed     99.47%
+ 336  Am_SAU_N_250        1.76%    passed     99.33%
+ 337  Am_SAU_N_251        1.76%    passed     99.47%
+ 338  Am_SAU_N_252        1.77%    passed     99.51%
+ 339  Am_SAU_N_253        1.76%    passed     99.84%
+ 340  Am_SAU_N_254        1.76%    passed     99.77%
+ 341  Am_SAU_N_255        1.76%    passed     99.84%
+ 342  Am_SAU_N_256        1.76%    passed     99.84%
+ 343  Am_SAU_N_257        1.76%    passed     98.96%
+ 344  AmSy_SYR_N_258      1.76%    passed     99.53%
+ 345  AmSy_SYR_N_259      1.69%    passed     96.33%
+ 346  AmAn_TUR_N_260      1.76%    passed     98.65%
+ 347  AmIn_DZA_N_261      1.52%    passed     93.83%
+ 348  AmSa_DZA_N_262      1.89%    passed     93.42%
+ 349  AmSa_DZA_N_263      1.89%    passed     93.42%
+ 350  AmLa_EGY_N_264      1.76%    passed     99.68%
+ 351  AmSm_ETH_N_265      1.76%    passed     98.05%
+ 352  AmMo_KEN_N_266      1.58%    passed     99.85%
+ 353  AmIn_MAR_N_267      1.75%    passed     67.92%
+ 354  AmUn_MDG_N_268      1.76%    passed     90.74%
+ 355  AmAd_WAF_N_269      1.79%    passed     93.73%
+ 356  AmCa_ZAF_N_270      1.76%    passed     97.35%
+ 357  AmScCa_ZAF_N_271    1.76%    passed     98.97%
+ 358  AmCa_ZAF_N_272      1.76%    passed     99.50%
+ 359  AmCa_ZAF_N_273      1.79%    passed     97.08%
+ 360  AmCa_ZAF_N_274      1.76%    passed     98.86%
+ 361  AmCa_ZAF_N_275      1.76%    passed     99.06%
+ 362  AmCa_ZAF_N_276      1.76%    passed     97.21%
+ 363  AmCa_ZAF_N_277      1.76%    passed     97.23%
+ 364  AmCa_ZAF_N_278      1.79%    passed     94.53%
+ 365  AmCa_ZAF_N_279      1.76%    passed     99.06%
+ 366  AmCa_ZAF_N_280      1.73%    passed     99.50%
+ 367  AmCa_ZAF_N_281      1.76%    passed     99.40%
+ 368  AmCa_ZAF_N_282      1.73%    passed     98.85%
+ 369  AmCa_ZAF_N_283      1.76%    passed     97.98%
+ 370  AmCa_ZAF_N_284      1.76%    passed     99.62%
+ 371  AmCa_ZAF_N_285      1.79%    passed     96.14%
+ 372  AmCa_ZAF_N_286      1.76%    passed     99.06%
+ 373  AmCa_ZAF_N_287      1.76%    passed     99.30%
+ 374  AmCaSc_ZAF_N_288    1.79%    passed     94.53%
+ 375  AmSc_ZAF_N_289      1.76%    passed     99.72%
+ 376  AmSc_ZAF_N_290      1.79%    passed     97.51%
+ 377  AmSc_ZAF_N_291      1.79%    passed     96.20%
+ 378  AmSc_ZAF_N_292      1.79%    passed     94.29%
+ 379  AmSc_ZAF_N_293      1.79%    passed     96.69%
+ 380  AmSc_ZAF_N_294      1.79%    passed     94.46%
+****  TOTAL               1.73%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.055 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 606707)...
+
+NOTE: 25 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -24148.789
+2. Current log-likelihood: -22815.399
+3. Current log-likelihood: -22625.408
+4. Current log-likelihood: -22538.974
+5. Current log-likelihood: -22471.290
+6. Current log-likelihood: -22432.833
+7. Current log-likelihood: -22417.695
+8. Current log-likelihood: -22413.381
+9. Current log-likelihood: -22412.368
+10. Current log-likelihood: -22412.158
+Optimal log-likelihood: -22412.115
+Rate parameters:  A-C: 1.00000  A-G: 29.43909  A-T: 1.57438  C-G: 1.57438  C-T: 29.43909  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Site proportion and rates:  (0.480,0.191) (0.443,0.237) (0.077,10.432)
+Parameters optimization took 10 rounds (3.198 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.671958 secs using 99.84% CPU
+Computing ML distances took 0.673920 sec (of wall-clock time) 0.671825 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00337887 secs using 188.6% CPU
+Constructing RapidNJ tree: done in 0.00653911 secs using 207.1% CPU
+Computing RapidNJ tree took 0.009978 sec (of wall-clock time) 0.019970 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22454.619
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.583 second
+Computing log-likelihood of 98 initial trees ... 3.088 seconds
+Current best score: -22394.328
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -22391.297
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -22390.152
+Iteration 10 / LogL: -22392.145 / Time: 0h:0m:25s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -22389.100
+Iteration 20 / LogL: -22392.508 / Time: 0h:0m:39s
+Finish initializing candidate tree set (20)
+Current best tree score: -22389.100 / CPU time: 34.743
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -22387.471
+Iteration 30 / LogL: -22388.220 / Time: 0h:0m:48s (0h:2m:32s left)
+Iteration 40 / LogL: -22387.719 / Time: 0h:0m:58s (0h:2m:1s left)
+Iteration 50 / LogL: -22392.924 / Time: 0h:1m:12s (0h:1m:45s left)
+Log-likelihood cutoff on original alignment: -22426.141
+Iteration 60 / LogL: -22388.356 / Time: 0h:1m:28s (0h:1m:31s left)
+Iteration 70 / LogL: -22389.281 / Time: 0h:1m:41s (0h:1m:14s left)
+Iteration 80 / LogL: -22387.900 / Time: 0h:1m:53s (0h:0m:58s left)
+Iteration 90 / LogL: -22387.711 / Time: 0h:2m:6s (0h:0m:43s left)
+Iteration 100 / LogL: -22389.738 / Time: 0h:2m:19s (0h:0m:29s left)
+Log-likelihood cutoff on original alignment: -22426.669
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 110 / LogL: -22387.785 / Time: 0h:2m:35s (0h:2m:8s left)
+Iteration 120 / LogL: -22389.247 / Time: 0h:2m:48s (0h:1m:53s left)
+TREE SEARCH COMPLETED AFTER 122 ITERATIONS / Time: 0h:2m:52s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22387.472
+Optimal log-likelihood: -22387.471
+Rate parameters:  A-C: 1.00000  A-G: 31.45441  A-T: 1.69261  C-G: 1.69261  C-T: 31.45441  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Site proportion and rates:  (0.480,0.191) (0.443,0.238) (0.077,10.437)
+Parameters optimization took 1 rounds (0.174 sec)
+BEST SCORE FOUND : -22387.471
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+20.917 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Apis_m_mtDNA_NA_total.fst.splits.nex
+Collapsing near-zero internal branches... 250 collapsed
+Total tree length: 0.128
+
+Total number of iterations: 122
+CPU time used for tree search: 167.578 sec (0h:2m:47s)
+Wall-clock time used for tree search: 167.824 sec (0h:2m:47s)
+Total CPU time used: 193.743 sec (0h:3m:13s)
+Total wall-clock time used: 194.009 sec (0h:3m:14s)
+
+Computing bootstrap consensus tree...
+Reading input file Apis_m_mtDNA_NA_total.fst.splits.nex...
+380 taxa and 9379 splits.
+Consensus tree written to Apis_m_mtDNA_NA_total.fst.contree
+Reading input trees file Apis_m_mtDNA_NA_total.fst.contree
+Log-likelihood of consensus tree: -22395.158
+
+Analysis results written to: 
+  IQ-TREE report:                Apis_m_mtDNA_NA_total.fst.iqtree
+  Maximum-likelihood tree:       Apis_m_mtDNA_NA_total.fst.treefile
+  Likelihood distances:          Apis_m_mtDNA_NA_total.fst.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Apis_m_mtDNA_NA_total.fst.splits.nex
+  Consensus tree:                Apis_m_mtDNA_NA_total.fst.contree
+  Screen log file:               Apis_m_mtDNA_NA_total.fst.log
+
+Date and Time: Mon Jul  6 16:25:29 2026

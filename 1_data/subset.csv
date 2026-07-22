@@ -1,0 +1,133 @@
+file_id,location,organism,org,loc,type,county,unique_id,db,seq_name
+SRR15173511,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_325,B,AmMe_FRA_A_325 #B:13_SRR15173511
+SRR15173531,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_326,B,AmMe_FRA_A_326 #B:23_SRR15173531
+SRR15173532,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_327,B,AmMe_FRA_A_327 #B:24_SRR15173532
+SRR15173539,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_328,B,AmMe_FRA_A_328 #B:27_SRR15173539
+SRR15173540,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_329,B,AmMe_FRA_A_329 #B:28_SRR15173540
+SRR15173542,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_330,B,AmMe_FRA_A_330 #B:30_SRR15173542
+SRR15173564,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_331,B,AmMe_FRA_A_331 #B:31_SRR15173564
+SRR15173566,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_332,B,AmMe_FRA_A_332 #B:33_SRR15173566
+SRR15173569,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_333,B,AmMe_FRA_A_333 #B:35_SRR15173569
+SRR15173570,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_334,B,AmMe_FRA_A_334 #B:36_SRR15173570
+SRR15173573,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_335,B,AmMe_FRA_A_335 #B:39_SRR15173573
+SRR15173883,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_336,B,AmMe_FRA_A_336 #B:40_SRR15173883
+SRR15173884,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_337,B,AmMe_FRA_A_337 #B:41_SRR15173884
+SRR15173885,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_338,B,AmMe_FRA_A_338 #B:42_SRR15173885
+SRR15173886,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_339,B,AmMe_FRA_A_339 #B:43_SRR15173886
+SRR15173887,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_340,B,AmMe_FRA_A_340 #B:44_SRR15173887
+SRR15173896,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_341,B,AmMe_FRA_A_341 #B:46_SRR15173896
+SRR15173924,France,Apis mellifera mellifera,AmMe,FRA,A,Ouessant,_342,B,AmMe_FRA_A_342 #B:49_SRR15173924
+SRR15173925,France,Apis mellifera mellifera,AmMe,FRA,A,Ouessant,_343,B,AmMe_FRA_A_343 #B:50_SRR15173925
+SRR15266709,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_344,B,AmMe_FRA_A_344 #B:52_SRR15266709
+SRR15173389,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_349,B,AmMe_FRA_A_349 #B:58_SRR15173389
+SRR15173400,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_350,B,AmMe_FRA_A_350 #B:59_SRR15173400
+SRR15173422,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_351,B,AmMe_FRA_A_351 #B:60_SRR15173422
+SRR15173445,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_352,B,AmMe_FRA_A_352 #B:62_SRR15173445
+SRR15173478,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_353,B,AmMe_FRA_A_353 #B:65_SRR15173478
+SRR15173489,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_354,B,AmMe_FRA_A_354 #B:66_SRR15173489
+SRR15173500,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_355,B,AmMe_FRA_A_355 #B:70_SRR15173500
+SRR15173530,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_356,B,AmMe_FRA_A_356 #B:77_SRR15173530
+SRR15173536,France,Apis mellifera mellifera,AmMe,FRA,A,Sollies,_357,B,AmMe_FRA_A_357 #B:79_SRR15173536
+SRR15173574,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_358,B,AmMe_FRA_A_358 #B:80_SRR15173574
+SRR15173575,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_359,B,AmMe_FRA_A_359 #B:81_SRR15173575
+SRR15173577,France,Apis mellifera mellifera,AmMe,FRA,A,Porquerolles,_360,B,AmMe_FRA_A_360 #B:83_SRR15173577
+SRR15173889,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_361,B,AmMe_FRA_A_361 #B:85_SRR15173889
+SRR15173891,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_362,B,AmMe_FRA_A_362 #B:87_SRR15173891
+SRR15173892,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_363,B,AmMe_FRA_A_363 #B:88_SRR15173892
+SRR15173899,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_364,B,AmMe_FRA_A_364 #B:93_SRR15173899
+SRR15173900,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_365,B,AmMe_FRA_A_365 #B:94_SRR15173900
+SRR15173901,France,Apis mellifera mellifera,AmMe,FRA,A,Ariege,_366,B,AmMe_FRA_A_366 #B:95_SRR15173901
+SRR15173921,France,Apis mellifera mellifera,AmMe,FRA,A,Ouessant,_367,B,AmMe_FRA_A_367 #B:99_SRR15173921
+SRR15173922,France,Apis mellifera mellifera,AmMe,FRA,A,Ouessant,_368,B,AmMe_FRA_A_368 #B:100_SRR15173922
+SRR15173923,France,Apis mellifera mellifera,AmMe,FRA,A,Ouessant,_369,B,AmMe_FRA_A_369 #B:101_SRR15173923
+SRR15173519,United Kingdom,Apis mellifera mellifera,AmMe,GBR,A,"Scotland, Colonsay",_300,B,AmMe_GBR_A_300 #B:16_SRR15173519
+SRR27783769,Switzerland,Apis mellifera,Am,CHE,B,Twann,_323,B,Am_CHE_B_323 #B:129_SRR27783769
+SRR27783770,Switzerland,Apis mellifera,Am,CHE,B,Twann,_324,B,Am_CHE_B_324 #B:130_SRR27783770
+SRR27783685,United Kingdom,Apis mellifera,Am,GBR,B,"Wales, Abagaveny",_302,B,Am_GBR_B_302 #B:161_SRR27783685
+SRR27783720,United Kingdom,Apis mellifera,Am,GBR,B,"England, Bradford",_312,B,Am_GBR_B_312 #B:192_SRR27783720
+SRR27783776,United Kingdom,Apis mellifera,Am,GBR,B,"England, Nottingham",_317,B,Am_GBR_B_317 #B:207_SRR27783776
+SRR27783698,Ireland,Apis mellifera,Am,IRL,B,Tipperary,_296,B,Am_IRL_B_296 #B:172_SRR27783698
+SRR27783706,Ireland,Apis mellifera,Am,IRL,B,Kildare,_297,B,Am_IRL_B_297 #B:180_SRR27783706
+SRR27783716,Ireland,Apis mellifera,Am,IRL,B,Dublin,_298,B,Am_IRL_B_298 #B:189_SRR27783716
+SRR27783704,Jersey,Apis mellifera,Am,JEY,B,Jersey,_321,B,Am_JEY_B_321 #B:178_SRR27783704
+SRR27783804,Jersey,Apis mellifera,Am,JEY,B,Jersey,_322,B,Am_JEY_B_322 #B:233_SRR27783804
+SRR27783753,Norway,Apis mellifera,Am,NOR,B,Norway,_370,B,Am_NOR_B_370 #B:201_SRR27783753
+SRR27783780,Norway,Apis mellifera,Am,NOR,B,Norway,_374,B,Am_NOR_B_374 #B:211_SRR27783780
+SRR27783791,Norway,Apis mellifera,Am,NOR,B,Norway,_377,B,Am_NOR_B_377 #B:221_SRR27783791
+SRR27783732,Sweden,Apis mellifera,Am,SWE,B,Nordens Ark,_380,B,Am_SWE_B_380 #B:118_SRR27783732
+SRR27783737,Sweden,Apis mellifera,Am,SWE,B,Juoksengi,_381,B,Am_SWE_B_381 #B:119_SRR27783737
+SRR27783739,Sweden,Apis mellifera,Am,SWE,B,Juoksengi,_382,B,Am_SWE_B_382 #B:120_SRR27783739
+SRR27783748,Sweden,Apis mellifera,Am,SWE,B,Nordens Ark,_383,B,Am_SWE_B_383 #B:124_SRR27783748
+F148DL2022,Ireland,Apis mellifera hybrid,AmHy,IRL,F,Donegal,_035,G,AmHy_IRL_F_035 #G:F148DL2022
+F29GBK17,Ireland,Apis mellifera hybrid,AmHy,IRL,F,Galway,_039,G,AmHy_IRL_F_039 #G:F29GBK17
+F29GBN17,Ireland,Apis mellifera hybrid,AmHy,IRL,F,Galway,_040,G,AmHy_IRL_F_040 #G:F29GBN17
+F100CE,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Clare,_001,G,AmMe_IRL_F_001 #G:F100CE
+F106LS,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_002,G,AmMe_IRL_F_002 #G:F106LS
+F107LS,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Laois,_003,G,AmMe_IRL_F_003 #G:F107LS
+F112G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_004,G,AmMe_IRL_F_004 #G:F112G
+F117G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_005,G,AmMe_IRL_F_005 #G:F117G
+F118G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_006,G,AmMe_IRL_F_006 #G:F118G
+F120G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_007,G,AmMe_IRL_F_007 #G:F120G
+F124KY,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Kerry,_008,G,AmMe_IRL_F_008 #G:F124KY
+F128C,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Cork,_009,G,AmMe_IRL_F_009 #G:F128C
+F131WM,Ireland,Apis mellifera mellifera,AmMe,IRL,F,West Meath,_010,G,AmMe_IRL_F_010 #G:F131WM
+F132O,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Offaly,_011,G,AmMe_IRL_F_011 #G:F132O
+F134LS,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Laois,_012,G,AmMe_IRL_F_012 #G:F134LS
+F136DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_013,G,AmMe_IRL_F_013 #G:F136DL2021
+F137DL2022,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_014,G,AmMe_IRL_F_014 #G:F137DL2022
+F13R,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Roscommon,_015,G,AmMe_IRL_F_015 #G:F13R
+F140DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_016,G,AmMe_IRL_F_016 #G:F140DL2021
+F141DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_017,G,AmMe_IRL_F_017 #G:F141DL2021
+F142DL2022,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_018,G,AmMe_IRL_F_018 #G:F142DL2022
+F144DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_019,G,AmMe_IRL_F_019 #G:F144DL2021
+F162DL2022,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Donegal,_020,G,AmMe_IRL_F_020 #G:F162DL2022
+F16G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_021,G,AmMe_IRL_F_021 #G:F16G
+F27G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_022,G,AmMe_IRL_F_022 #G:F27G
+F27G19,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_023,G,AmMe_IRL_F_023 #G:F27G19
+F47G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_024,G,AmMe_IRL_F_024 #G:F47G
+F48G17,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_025,G,AmMe_IRL_F_025 #G:F48G17
+F78G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_027,G,AmMe_IRL_F_027 #G:F78G
+F85CE,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Clare,_028,G,AmMe_IRL_F_028 #G:F85CE
+F90CE,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Clare,_029,G,AmMe_IRL_F_029 #G:F90CE
+F94CE,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Clare,_030,G,AmMe_IRL_F_030 #G:F94CE
+F97R,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Roscommon,_031,G,AmMe_IRL_F_031 #G:F97R
+F98G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,Galway,_032,G,AmMe_IRL_F_032 #G:F98G
+F18DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,F,,_076,G,AmMe_IRL_F_076 #G:F18DL2021
+F9210CE,Ireland,Apis mellifera mellifera,AmMe,IRL,F,,_077,G,AmMe_IRL_F_077 #G:F9210CE
+F9820G,Ireland,Apis mellifera mellifera,AmMe,IRL,F,,_079,G,AmMe_IRL_F_079 #G:F9820G
+M136DL2022,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Donegal,_046,G,AmHy_IRL_M_046 #G:M136DL2022
+M149DL2021,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Donegal,_047,G,AmHy_IRL_M_047 #G:M149DL2021
+NUIG22SW,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Galway,_048,G,AmHy_IRL_M_048 #G:NUIG22SW
+TD2BLK,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Galway,_049,G,AmHy_IRL_M_049 #G:TD2BLK
+TD2BND,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Galway,_050,G,AmHy_IRL_M_050 #G:TD2BND
+X211W,Ireland,Apis mellifera hybrid,AmHy,IRL,M,Galway,_051,G,AmHy_IRL_M_051 #G:X211W
+BD1,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Tipperary,_052,G,AmMe_IRL_M_052 #G:BD1
+CA5,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_053,G,AmMe_IRL_M_053 #G:CA5
+CL1,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Tipperary,_055,G,AmMe_IRL_M_055 #G:CL1
+DR11,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Tipperary,_056,G,AmMe_IRL_M_056 #G:DR11
+F93CE,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Clare,_057,G,AmMe_IRL_M_057 #G:F93CE
+H1,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Tipperary,_058,G,AmMe_IRL_M_058 #G:H1
+M140DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_059,G,AmMe_IRL_M_059 #G:M140DL2021
+M141DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_060,G,AmMe_IRL_M_060 #G:M141DL2021
+M143DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_061,G,AmMe_IRL_M_061 #G:M143DL2021
+M147DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_062,G,AmMe_IRL_M_062 #G:M147DL2021
+M162DL2022,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_063,G,AmMe_IRL_M_063 #G:M162DL2022
+M216DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_064,G,AmMe_IRL_M_064 #G:M216DL2021
+M218DL2021,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Donegal,_065,G,AmMe_IRL_M_065 #G:M218DL2021
+MSE2,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_066,G,AmMe_IRL_M_066 #G:MSE2
+RG245,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Louth,_068,G,AmMe_IRL_M_068 #G:RG245
+RG919,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Louth,_069,G,AmMe_IRL_M_069 #G:RG919
+SO20C,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_070,G,AmMe_IRL_M_070 #G:SO20C
+SO20E,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_071,G,AmMe_IRL_M_071 #G:SO20E
+SO20F,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_072,G,AmMe_IRL_M_072 #G:SO20F
+SO20M,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_073,G,AmMe_IRL_M_073 #G:SO20M
+X1,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_074,G,AmMe_IRL_M_074 #G:X1
+X21,Ireland,Apis mellifera mellifera,AmMe,IRL,M,Galway,_075,G,AmMe_IRL_M_075 #G:X21
+TD21W,Ireland,Apis mellifera mellifera,AmMe,IRL,M,,_080,G,AmMe_IRL_M_080 #G:TD21W
+MT745912.1,Saudi Arabia,Apis mellifera,Am,SAU,N,Asia,_253,N,Am_SAU_N_253 #N:MT745912.1
+MT745913.1,Saudi Arabia,Apis mellifera,Am,SAU,N,Asia,_254,N,Am_SAU_N_254 #N:MT745913.1
+MT745914.1,Saudi Arabia,Apis mellifera,Am,SAU,N,Asia,_255,N,Am_SAU_N_255 #N:MT745914.1
+MT745915.1,Saudi Arabia,Apis mellifera,Am,SAU,N,Asia,_256,N,Am_SAU_N_256 #N:MT745915.1
+OK075087.1,Portugal,Apis mellifera iberiensis,AmIb,POR,N,Europe,_127,N,AmIb_POR_N_127 #N:OK075087.1
+KY926884.1,Norway,Apis mellifera mellifera,AmMe,NOR,N,Europe,_118,N,AmMe_NOR_N_118 #N:KY926884.1
+MN733955.1,China,Apis mellifera sinisxinyuan,AmSn,CHN,N,Asia,_136,N,AmSn_CHN_N_136 #N:MN733955.1

@@ -1,0 +1,1651 @@
+IQ-TREE 3.1.2 built May  7 2026
+
+Input file name: Apis_m_mtDNA_NA_total.fst
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 606707
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 380 sequences with 11190 nucleotide sites
+Number of constant sites: 10380 (= 92.7614% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10380 (= 92.7614% of all sites)
+Number of parsimony informative sites: 586
+Number of distinct site patterns: 620
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K3Pu+F+R3
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 31.4544
+  A-T: 1.6926
+  C-G: 1.6926
+  C-T: 31.4544
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3708
+  pi(C) = 0.08555
+  pi(G) = 0.0827
+  pi(T) = 0.4609
+
+Rate matrix Q:
+
+  A   -0.6729   0.01661    0.5049    0.1514
+  C   0.07197    -2.913   0.02717     2.814
+  G     2.264   0.02811    -2.381   0.08947
+  T    0.1218    0.5223   0.01605   -0.6602
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.4801,0.1914) (0.443,0.2378) (0.07692,10.44)
+
+ Category  Relative_rate  Proportion
+  1         0.1914         0.4801
+  2         0.2378         0.443
+  3         10.44          0.07692
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -22387.4714 (s.e. 355.5455)
+Unconstrained log-likelihood (without tree): -20971.1352
+Number of free parameters (#branches + #model parameters): 516
+Akaike information criterion (AIC) score: 45806.9427
+Corrected Akaike information criterion (AICc) score: 45856.9328
+Bayesian information criterion (BIC) score: 49585.4951
+
+Total tree length (sum of branch lengths): 0.1277
+Sum of internal branch lengths: 0.0678 (53.0831% of tree length)
+
+WARNING: 13 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AmMe_IRL_F_001' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**AmMe_IRL_F_001
+|
+|                                   +**AmMe_IRL_F_002
+|                                +--| (99.1/100)
+|                                |  +**AmMe_IRL_F_007
+|                                |  |
+|                                |  |  +**AmMe_IRL_F_019
+|                                |  +--| (95.9/100)
+|                                |  |  +**AmMe_IRL_M_060
+|                                |  |
+|                                |  +**AmMe_IRL_F_025
+|                                |  |
+|                                |  +**AmMe_IRL_F_028
+|                                |  |
+|                                |  +**AmMe_IRL_F_029
+|                                |  |
+|                                |  +**AmHy_IRL_F_035
+|                                |  |
+|                                |  +**AmHy_IRL_M_047
+|                                |  |
+|                                |  +**AmHy_IRL_M_048
+|                                |  |
+|                                |  +**AmMe_IRL_M_052
+|                                |  |
+|                                |  +**AmMe_IRL_M_056
+|                                |  |
+|                                |  +**AmMe_IRL_M_065
+|                                |  |
+|                                |  +**AmMe_IRL_M_068
+|                                |  |
+|                                |  +**AmMe_IRL_M_070
+|                                |  |
+|                                |  +**AmMe_IRL_M_071
+|                                |  |
+|                                |  +**AmMe_IRL_M_074
+|                                |  |
+|                                |  +**AmMe_IRL_M_075
+|                                |  |
+|                                |  +**Am_IRL_B_296
+|                                |  |
+|                                |  +**AmMe_FRA_A_342
+|                                |  |
+|                                |  +**AmMe_FRA_A_343
+|                                |  |
+|                                |  +**AmMe_FRA_A_367
+|                             +**| (72.9/97)
+|                             |  |  +**AmMe_IRL_F_009
+|                             |  +--| (92.9/99)
+|                             |     +**AmHy_IRL_M_049
+|                             |     |
+|                             |     +**AmHy_IRL_M_050
+|                             |     |
+|                             |     +**AmMe_IRL_F_077
+|                             |     |
+|                             |     +**AmMe_IRL_M_080
+|                          +**| (0/93)
+|                          |  +--AmMe_GBR_A_300
+|                       +**| (0/87)
+|                       |  +**AmMe_IRL_F_010
+|                    +--| (96.2/99)
+|                    |  +**AmMe_IRL_F_003
+|                    |  |
+|                    |  +--AmMe_IRL_F_011
+|                    |  |
+|                    |  |  +**AmHy_IRL_F_039
+|                    |  +--| (92.4/99)
+|                    |  |  +**AmHy_IRL_F_040
+|                    |  |
+|                    |  +--AmMe_IRL_M_058
+|                    |  |
+|                    |  +--AmMe_IRL_M_064
+|                 +--| (88.9/98)
+|                 |  |                                                      +**AmMe_IRL_F_026
+|                 |  |                                                   +--| (85.8/98)
+|                 |  |                                                   |  +**Am_GBR_B_310
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +**Am_GBR_B_318
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +**AmMe_FRA_A_345
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +**AmMe_FRA_A_346
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +--AmMe_FRA_A_347
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +**AmMe_FRA_A_348
+|                 |  |                                                   |  |
+|                 |  |                                                   |  +**AmLi_ITA_N_105
+|                 |  |                                                +--| (99.5/100)
+|                 |  |                                                |  +--AmHy_IRL_F_033
+|                 |  |                                 +--------------| (100/100)
+|                 |  |                                 |              |     +**AmHy_IRL_F_034
+|                 |  |                                 |              |  +--| (100/100)
+|                 |  |                                 |              |  |  +**AmMe_IRL_M_062
+|                 |  |                                 |              |  |  |
+|                 |  |                                 |              |  |  +**Am_GBR_B_301
+|                 |  |                                 |              +--| (43.8/66)
+|                 |  |                                 |              |  |     +**AmCr_DEU_M_081
+|                 |  |                                 |              |  |  +--| (74.2/100)
+|                 |  |                                 |              |  |  |  +**Am_NOR_B_371
+|                 |  |                                 |              |  |  |  |
+|                 |  |                                 |              |  |  |  +**Am_NOR_B_372
+|                 |  |                                 |              |  |  |  |
+|                 |  |                                 |              |  |  |  +**Am_NOR_B_375
+|                 |  |                                 |              |  |  |  |
+|                 |  |                                 |              |  |  |  +**Am_NOR_B_376
+|                 |  |                                 |              |  |  |  |
+|                 |  |                                 |              |  |  |  +**Am_NOR_B_378
+|                 |  |                                 |              |  +--| (98.5/100)
+|                 |  |                                 |              |  |  |  +**AmCr_SVN_N_129
+|                 |  |                                 |              |  |  +--| (88.3/100)
+|                 |  |                                 |              |  |     +**AmCr_SVN_N_130
+|                 |  |                                 |              |  |
+|                 |  |                                 |              |  |              +**AmCr_DEU_M_082
+|                 |  |                                 |              |  |           +--| (89.5/99)
+|                 |  |                                 |              |  |           |  +**Am_SWE_B_379
+|                 |  |                                 |              |  |           |  |
+|                 |  |                                 |              |  |           |  +**AmLi_ITA_N_094
+|                 |  |                                 |              |  |           |  |
+|                 |  |                                 |              |  |           |  +**AmLi_KOR_N_240
+|                 |  |                                 |              |  |        +--| (94.6/100)
+|                 |  |                                 |              |  |        |  |  +**Am_GBR_B_316
+|                 |  |                                 |              |  |        |  +--| (76.5/98)
+|                 |  |                                 |              |  |        |     +--Am_GBR_B_319
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +--AmLi_ITA_N_084
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_087
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_088
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_089
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_091
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_092
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_095
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_097
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_098
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_100
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_101
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_103
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_104
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_106
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_107
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_108
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_109
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_110
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_111
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_112
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_113
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_114
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_115
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_ITA_N_116
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_AUS_N_131
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_147
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_151
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_173
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_174
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_175
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_176
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_189
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_203
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_218
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_219
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +**AmLi_CHN_N_220
+|                 |  |                                 |              |  |        |     |
+|                 |  |                                 |              |  |        |     +--AmLi_CHN_N_232
+|                 |  |                                 |              |  |     +--| (84.3/92)
+|                 |  |                                 |              |  |     |  |  +**AmLi_ITA_N_085
+|                 |  |                                 |              |  |     |  +--| (91.6/100)
+|                 |  |                                 |              |  |     |     +**AmLi_ITA_N_090
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_ITA_N_093
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     |  +--AmLi_ITA_N_096
+|                 |  |                                 |              |  |     |     +--| (79.6/97)
+|                 |  |                                 |              |  |     |     |  +--Am_IRQ_N_239
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_ITA_N_099
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_137
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_138
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_139
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_140
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_141
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_142
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_143
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_144
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_145
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_146
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_148
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +--AmLi_CHN_N_152
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_153
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_154
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_155
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_156
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_157
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_158
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_159
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_160
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_161
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_162
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_163
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_164
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_165
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_166
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_167
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_168
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_169
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_170
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +--AmLi_CHN_N_171
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_172
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_177
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_178
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_179
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_180
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_181
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_182
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_183
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_184
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_185
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_186
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_187
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_188
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_190
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_191
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +--AmLi_CHN_N_192
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_194
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_196
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_197
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_198
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_199
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_200
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_201
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_202
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_204
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_205
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_206
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_207
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_208
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_209
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_210
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_211
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_212
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_213
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_214
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_215
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_216
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_217
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_221
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_222
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_223
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_224
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_225
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_226
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_227
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_228
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_229
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_230
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_231
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_233
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_234
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_235
+|                 |  |                                 |              |  |     |     |
+|                 |  |                                 |              |  |     |     +**AmLi_CHN_N_236
+|                 |  |                                 |              |  |  +**| (71.5/86)
+|                 |  |                                 |              |  |  |  |  +**Am_IRL_B_299
+|                 |  |                                 |              |  |  |  +--| (98.6/100)
+|                 |  |                                 |              |  |  |  |  +**Am_GBR_B_315
+|                 |  |                                 |              |  |  |  |
+|                 |  |                                 |              |  |  |  +--Am_GBR_B_306
+|                 |  |                                 |              |  +--| (98.7/100)
+|                 |  |                                 |              |     |     +**AmCr_DEU_M_083
+|                 |  |                                 |              |     |  +--| (98.2/100)
+|                 |  |                                 |              |     |  |  +**Am_NOR_B_373
+|                 |  |                                 |              |     |  |  |
+|                 |  |                                 |              |     |  |  +**AmCr_POL_N_121
+|                 |  |                                 |              |     |  |  |
+|                 |  |                                 |              |     |  |  +**AmCr_POL_N_122
+|                 |  |                                 |              |     |  |  |
+|                 |  |                                 |              |     |  |  +**AmCr_POL_N_123
+|                 |  |                                 |              |     +--| (85.3/99)
+|                 |  |                                 |              |     |  |  +**AmCr_POL_N_119
+|                 |  |                                 |              |     |  +--| (96/100)
+|                 |  |                                 |              |     |     +**AmCr_POL_N_120
+|                 |  |                                 |              |     |     |
+|                 |  |                                 |              |     |     +**AmCr_POL_N_124
+|                 |  |                                 |              |     |     |
+|                 |  |                                 |              |     |     +**AmCr_POL_N_125
+|                 |  |                                 |              |     |
+|                 |  |                                 |              |     +--AmCr_SEE_N_128
+|                 |  |                                 |              |
+|                 |  |                                 |              |        +**AmHy_IRL_F_036
+|                 |  |                                 |              |     +--| (95.8/100)
+|                 |  |                                 |              |     |  +**AmHy_IRL_F_037
+|                 |  |                                 |              |     |  |
+|                 |  |                                 |              |     |  +**AmHy_IRL_F_038
+|                 |  |                                 |              |     |  |
+|                 |  |                                 |              |     |  +**AmHy_IRL_F_042
+|                 |  |                                 |              |  +--| (86.7/98)
+|                 |  |                                 |              |  |  |  +--AmLi_CHN_N_149
+|                 |  |                                 |              |  |  +--| (94.9/100)
+|                 |  |                                 |              |  |     |  +**AmLi_CHN_N_193
+|                 |  |                                 |              |  |     +--| (77.9/100)
+|                 |  |                                 |              |  |        +**AmLi_CHN_N_195
+|                 |  |                                 |              +--| (89.9/99)
+|                 |  |                                 |              |  |           +**AmHy_IRL_F_041
+|                 |  |                                 |              |  |        +**| (75.1/87)
+|                 |  |                                 |              |  |        |  +**Am_GBR_B_308
+|                 |  |                                 |              |  |        |  |
+|                 |  |                                 |              |  |        |  +**Am_GBR_B_309
+|                 |  |                                 |              |  |        |  |
+|                 |  |                                 |              |  |        |  +--Am_GBR_B_313
+|                 |  |                                 |              |  |        |  |
+|                 |  |                                 |              |  |        |  +**AmMe_FRA_A_330
+|                 |  |                                 |              |  |        |  |
+|                 |  |                                 |              |  |        |  +**AmLi_ITA_N_102
+|                 |  |                                 |              |  |     +--| (18.3/71)
+|                 |  |                                 |              |  |     |  +--Am_GBR_B_320
+|                 |  |                                 |              |  |  +--| (79.8/99)
+|                 |  |                                 |              |  |  |  +--AmMe_IRL_C_295
+|                 |  |                                 |              |  +--| (97.4/100)
+|                 |  |                                 |              |     +--AmHy_GBR_F_044
+|                 |  |                                 |              |     |
+|                 |  |                                 |              |     +--AmLi_KOR_N_241
+|                 |  |                                 |              |
+|                 |  |                                 |              |        +**Am_GBR_B_303
+|                 |  |                                 |              |     +--| (95.8/100)
+|                 |  |                                 |              |     |  +**AmAn_TUR_N_260
+|                 |  |                                 |              |  +--| (94.3/52)
+|                 |  |                                 |              |  |  |  +**Am_GBR_B_307
+|                 |  |                                 |              |  |  +--| (91.2/52)
+|                 |  |                                 |              |  |  |  +--Am_IRQ_N_238
+|                 |  |                                 |              |  |  |
+|                 |  |                                 |              |  |  +--AmCu_EUA_N_132
+|                 |  |                                 |              +--| (99.9/100)
+|                 |  |                                 |              |  |  +--Am_GBR_B_305
+|                 |  |                                 |              |  +--| (81/100)
+|                 |  |                                 |              |  |  +**Am_GBR_B_314
+|                 |  |                                 |              |  |  |
+|                 |  |                                 |              |  |  +**AmMd_IRN_N_237
+|                 |  |                                 |              |  |
+|                 |  |                                 |              |  +--AmMe_FRA_A_329
+|                 |  |                                 |              |
+|                 |  |                                 |              +--Am_GBR_B_304
+|                 |  |                              +--| (87.2/95)
+|                 |  |                              |  |                       +--AmJe_ARA_N_134
+|                 |  |                              |  |                   +---| (100/100)
+|                 |  |                              |  |                   |   |        +**Am_SAU_N_242
+|                 |  |                              |  |                   |   |     +--| (88/99)
+|                 |  |                              |  |                   |   |     |  +**Am_SAU_N_243
+|                 |  |                              |  |                   |   |     |  |
+|                 |  |                              |  |                   |   |     |  +**Am_SAU_N_244
+|                 |  |                              |  |                   |   |     |  |
+|                 |  |                              |  |                   |   |     |  +**Am_SAU_N_257
+|                 |  |                              |  |                   |   |  +--| (99.1/100)
+|                 |  |                              |  |                   |   |  |  |  +**Am_SAU_N_245
+|                 |  |                              |  |                   |   |  |  +--| (86.9/100)
+|                 |  |                              |  |                   |   |  |     |  +**Am_SAU_N_246
+|                 |  |                              |  |                   |   |  |     +--| (84.9/100)
+|                 |  |                              |  |                   |   |  |        +**Am_SAU_N_247
+|                 |  |                              |  |                   |   +**| (66.5/100)
+|                 |  |                              |  |                   |      |     +**Am_SAU_N_248
+|                 |  |                              |  |                   |      |  +--| (95.5/100)
+|                 |  |                              |  |                   |      |  |  |  +**Am_SAU_N_249
+|                 |  |                              |  |                   |      |  |  +--| (82.7/100)
+|                 |  |                              |  |                   |      |  |     +--Am_SAU_N_250
+|                 |  |                              |  |                   |      |  |     |
+|                 |  |                              |  |                   |      |  |     +**Am_SAU_N_251
+|                 |  |                              |  |                   |      |  |     |
+|                 |  |                              |  |                   |      |  |     +--Am_SAU_N_252
+|                 |  |                              |  |                   |      +--| (97.7/100)
+|                 |  |                              |  |                   |         +--AmSy_SYR_N_258
+|                 |  |                              |  |                +--| (36.6/46)
+|                 |  |                              |  |                |  +--AmLa_EGY_N_264
+|                 |  |                              |  |             +--| (82.2/60)
+|                 |  |                              |  |             |  +--AmLi_CHN_N_150
+|                 |  |                              |  |  +----------| (100/100)
+|                 |  |                              |  |  |          +--AmSy_SYR_N_259
+|                 |  |                              |  +--| (62.8/54)
+|                 |  |                              |     +----------AmIn_MAR_N_267
+|                 |  |                        +-----| (99.1/100)
+|                 |  |                        |     |                              +**AmHy_IRL_F_043
+|                 |  |                        |     |                           +--| (98.4/100)
+|                 |  |                        |     |                           |  +**AmMe_IRL_F_078
+|                 |  |                        |     |                           |  |
+|                 |  |                        |     |                           |  +--AmScCa_ZAF_N_271
+|                 |  |                        |     |                           |  |
+|                 |  |                        |     |                           |  +--AmCa_ZAF_N_280
+|                 |  |                        |     |                           |  |
+|                 |  |                        |     |                           |  +**AmCa_ZAF_N_281
+|                 |  |                        |     |                        +--| (90.8/100)
+|                 |  |                        |     |                        |  +--AmCa_ZAF_N_274
+|                 |  |                        |     |                        |  |
+|                 |  |                        |     |                        |  |  +**AmCa_ZAF_N_279
+|                 |  |                        |     |                        |  +--| (95.7/100)
+|                 |  |                        |     |                        |  |  +**AmCa_ZAF_N_286
+|                 |  |                        |     |                        |  |  |
+|                 |  |                        |     |                        |  |  +**AmCa_ZAF_N_287
+|                 |  |                        |     |                        |  |
+|                 |  |                        |     |                        |  |  +**AmCa_ZAF_N_282
+|                 |  |                        |     |                        |  +**| (77.2/100)
+|                 |  |                        |     |                        |     +--AmCa_ZAF_N_283
+|                 |  |                        |     |                     +--| (87.5/100)
+|                 |  |                        |     |                     |  |     +**AmCa_ZAF_N_270
+|                 |  |                        |     |                     |  |  +--| (88.9/100)
+|                 |  |                        |     |                     |  |  |  +--AmCa_ZAF_N_276
+|                 |  |                        |     |                     |  +--| (74.9/99)
+|                 |  |                        |     |                     |     +--AmCa_ZAF_N_277
+|                 |  |                        |     |                  +--| (98.5/100)
+|                 |  |                        |     |                  |  |  +--AmCa_ZAF_N_275
+|                 |  |                        |     |                  |  +--| (81.5/99)
+|                 |  |                        |     |                  |     +--AmSc_ZAF_N_289
+|                 |  |                        |     |               +**| (75.4/100)
+|                 |  |                        |     |               |  |  +--AmMo_KEN_N_266
+|                 |  |                        |     |               |  +--| (97.8/100)
+|                 |  |                        |     |               |     +--AmCa_ZAF_N_272
+|                 |  |                        |     |            +--| (89.2/100)
+|                 |  |                        |     |            |  |  +--AmSc_ASI_N_135
+|                 |  |                        |     |            |  +--| (99.4/100)
+|                 |  |                        |     |            |     +--AmCa_ZAF_N_284
+|                 |  |                        |     |         +--| (91/99)
+|                 |  |                        |     |         |  |           +**AmSc_MEX_N_133
+|                 |  |                        |     |         |  |        +--| (90.1/100)
+|                 |  |                        |     |         |  |        |  +**AmCa_ZAF_N_278
+|                 |  |                        |     |         |  |        |  |
+|                 |  |                        |     |         |  |        |  +**AmCaSc_ZAF_N_288
+|                 |  |                        |     |         |  |     +--| (95/100)
+|                 |  |                        |     |         |  |     |  |  +--AmCa_ZAF_N_273
+|                 |  |                        |     |         |  |     |  +--| (97.2/100)
+|                 |  |                        |     |         |  |     |  |  +**AmCa_ZAF_N_285
+|                 |  |                        |     |         |  |     |  |
+|                 |  |                        |     |         |  |     |  |  +--AmSc_ZAF_N_292
+|                 |  |                        |     |         |  |     |  +--| (93.8/100)
+|                 |  |                        |     |         |  |     |     +--AmSc_ZAF_N_293
+|                 |  |                        |     |         |  |  +--| (97.6/100)
+|                 |  |                        |     |         |  |  |  |  +--AmAd_WAF_N_269
+|                 |  |                        |     |         |  |  |  +--| (96.9/100)
+|                 |  |                        |     |         |  |  |  |  +--AmSc_ZAF_N_294
+|                 |  |                        |     |         |  |  |  |
+|                 |  |                        |     |         |  |  |  +--AmSc_ZAF_N_291
+|                 |  |                        |     |         |  +--| (86.6/98)
+|                 |  |                        |     |         |     +--AmSc_ZAF_N_290
+|                 |  |                        |     |      +--| (97/100)
+|                 |  |                        |     |      |  |         +--AmHy_IRL_M_045
+|                 |  |                        |     |      |  |      +--| (42.3/91)
+|                 |  |                        |     |      |  |      |  +--AmIb_POR_N_126
+|                 |  |                        |     |      |  +------| (100/100)
+|                 |  |                        |     |      |         |     +--AmSi_ITA_N_086
+|                 |  |                        |     |      |         |  +--| (62.8/91)
+|                 |  |                        |     |      |         |  |  +--AmRu_MLT_N_117
+|                 |  |                        |     |      |         +--| (91.3/100)
+|                 |  |                        |     |      |            |  +--AmIn_DZA_N_261
+|                 |  |                        |     |      |            +--| (77.6/100)
+|                 |  |                        |     |      |               |  +**AmSa_DZA_N_262
+|                 |  |                        |     |      |               +--| (89.5/100)
+|                 |  |                        |     |      |                  +**AmSa_DZA_N_263
+|                 |  |                        |     |  +---| (99.1/100)
+|                 |  |                        |     |  |   +-----------AmUn_MDG_N_268
+|                 |  |                        |     +--| (95.9/100)
+|                 |  |                        |        +---------------AmSm_ETH_N_265
+|                 |  |     +------------------| (100/100)
+|                 |  |     |                  |                       +**Am_SAU_N_253
+|                 |  |     |                  +-----------------------| (100/100)
+|                 |  |     |                                          +--Am_SAU_N_254
+|                 |  |     |                                          |
+|                 |  |     |                                          +**Am_SAU_N_255
+|                 |  |     |                                          |
+|                 |  |     |                                          +**Am_SAU_N_256
+|                 |  |  +--| (34.9/62)
+|                 |  |  |  |     +**AmMe_FRA_A_336
+|                 |  |  |  |  +--| (87.5/100)
+|                 |  |  |  |  |  +**AmMe_FRA_A_337
+|                 |  |  |  |  |  |
+|                 |  |  |  |  |  +**AmMe_FRA_A_338
+|                 |  |  |  |  |  |
+|                 |  |  |  |  |  +**AmMe_FRA_A_339
+|                 |  |  |  |  |  |
+|                 |  |  |  |  |  +**AmMe_FRA_A_362
+|                 |  |  |  +--| (87.1/99)
+|                 |  |  |     |  +**AmMe_FRA_A_351
+|                 |  |  |     +**| (76.5/100)
+|                 |  |  |        +**AmMe_FRA_A_352
+|                 |  +--| (96.9/97)
+|                 |     |     +--AmMe_IRL_M_069
+|                 |     |  +--| (92/100)
+|                 |     |  |  |  +**AmMe_FRA_A_328
+|                 |     |  |  +--| (93.8/100)
+|                 |     |  |  |  +**AmMe_FRA_A_331
+|                 |     |  |  |
+|                 |     |  |  +--AmMe_FRA_A_368
+|                 |     +**| (75.6/98)
+|                 |        |  +**Am_JEY_B_322
+|                 |        +**| (83.8/96)
+|                 |           +--Am_CHE_B_324
+|                 |           |
+|                 |           |     +**AmMe_FRA_A_325
+|                 |           |  +--| (96.8/100)
+|                 |           |  |  +**AmMe_FRA_A_353
+|                 |           |  |  |
+|                 |           |  |  +**AmMe_FRA_A_354
+|                 |           |  |  |
+|                 |           |  |  +**AmMe_FRA_A_355
+|                 |           +--| (96.2/100)
+|                 |           |  |  +**AmMe_FRA_A_326
+|                 |           |  +--| (94.9/100)
+|                 |           |  |  +**AmMe_FRA_A_327
+|                 |           |  |  |
+|                 |           |  |  +**AmMe_FRA_A_356
+|                 |           |  |  |
+|                 |           |  |  +**AmMe_FRA_A_360
+|                 |           |  |
+|                 |           |  |  +**AmMe_FRA_A_332
+|                 |           |  +--| (90.1/100)
+|                 |           |  |  +**AmMe_FRA_A_357
+|                 |           |  |
+|                 |           |  |  +**AmMe_FRA_A_340
+|                 |           |  +--| (96.3/100)
+|                 |           |     +**AmMe_FRA_A_341
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_344
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_349
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_350
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_361
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_363
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_364
+|                 |           |     |
+|                 |           |     +**AmMe_FRA_A_365
+|                 |           |
+|                 |           |  +**AmMe_FRA_A_333
+|                 |           +--| (99.5/100)
+|                 |           |  +**AmMe_FRA_A_334
+|                 |           |  |
+|                 |           |  +**AmMe_FRA_A_335
+|                 |           |  |
+|                 |           |  +**AmMe_FRA_A_358
+|                 |           |  |
+|                 |           |  +**AmMe_FRA_A_359
+|                 |           |
+|                 |           |  +--AmMe_FRA_A_366
+|                 |           +--| (95/100)
+|                 |           |  +--AmMe_FRA_A_369
+|                 |           |
+|                 |           +--AmIb_POR_N_127
+|              +--| (91.2/100)
+|              |  |     +**AmMe_IRL_F_005
+|              |  |  +--| (87.4/95)
+|              |  |  |  +**AmMe_IRL_F_031
+|              |  +--| (98.7/100)
+|              |  |  +**AmMe_IRL_F_021
+|              |  |  |
+|              |  |  +**AmMe_IRL_F_022
+|              |  |  |
+|              |  |  +**AmMe_IRL_F_023
+|              |  |  |
+|              |  |  +**AmMe_IRL_F_027
+|              |  |  |
+|              |  |  +**AmMe_IRL_F_032
+|              |  |  |
+|              |  |  +**AmHy_IRL_M_051
+|              |  |  |
+|              |  |  +**AmMe_IRL_F_079
+|              |  |
+|              |  |     +**Am_NOR_B_370
+|              |  |  +--| (98.3/100)
+|              |  |  |  +**Am_NOR_B_374
+|              |  |  |  |
+|              |  |  |  +**Am_SWE_B_381
+|              |  |  |  |
+|              |  |  |  +**Am_SWE_B_383
+|              |  +--| (95.6/99)
+|              |     +--AmSn_CHN_N_136
+|           +**| (80.4/90)
+|           |  |  +**AmMe_IRL_F_013
+|           |  +--| (99.7/100)
+|           |  |  +**AmMe_IRL_F_014
+|           |  |  |
+|           |  |  +**AmMe_IRL_F_016
+|           |  |  |
+|           |  |  +**AmMe_IRL_F_018
+|           |  |  |
+|           |  |  +**AmMe_IRL_F_020
+|           |  |  |
+|           |  |  +**AmHy_IRL_M_046
+|           |  |  |
+|           |  |  +**AmMe_IRL_M_059
+|           |  |  |
+|           |  |  +**AmMe_IRL_M_063
+|           |  |  |
+|           |  |  +**AmMe_IRL_F_076
+|           |  |
+|           |  +--Am_CHE_B_323
+|        +--| (79.8/68)
+|        |  +--AmMe_IRL_M_055
+|     +--| (84.6/82)
+|     |  |  +**AmMe_IRL_F_004
+|     |  +--| (96.7/100)
+|     |  |  +**AmMe_IRL_F_024
+|     |  |
+|     |  |     +**AmMe_IRL_F_006
+|     |  |  +--| (77.3/99)
+|     |  |  |  +**AmMe_IRL_F_008
+|     |  |  |  |
+|     |  |  |  +**AmMe_IRL_M_066
+|     |  +--| (87.8/99)
+|     |  |  +--Am_GBR_B_302
+|     |  |
+|     |  |  +--AmMe_IRL_F_015
+|     |  +**| (78/98)
+|     |  |  +--AmMe_IRL_M_057
+|     |  |
+|     |  +--Am_JEY_B_321
+|     |  |
+|     |  |  +**Am_SWE_B_380
+|     |  +--| (93.2/99)
+|     |     +**Am_SWE_B_382
+|  +--| (92.1/100)
+|  |  |  +--AmMe_IRL_F_030
+|  |  +--| (90.3/99)
+|  |  |  +--Am_IRL_B_298
+|  |  |
+|  |  |  +**AmMe_IRL_M_053
+|  |  +--| (95.3/100)
+|  |  |  +**AmMe_IRL_M_072
+|  |  |  |
+|  |  |  +**AmMe_IRL_M_073
+|  |  |
+|  |  +--AmMe_NOR_N_118
++--| (94.1/100)
+|  +**AmMe_IRL_F_012
+|  |
+|  |  +--AmMe_IRL_F_017
+|  +--| (93/100)
+|  |  +**AmMe_IRL_M_061
+|  |
+|  |     +--Am_GBR_B_312
+|  |  +--| (86.8/99)
+|  |  |  +**Am_GBR_B_317
+|  +--| (83.9/100)
+|     +**Am_NOR_B_377
+|
++**Am_IRL_B_297
+
+Tree in newick format:
+
+(AmMe_IRL_F_001:0.0000023915,((((((((((((AmMe_IRL_F_002:0.0000009993,AmMe_IRL_F_007:0.0000009993,(AmMe_IRL_F_019:0.0000009993,AmMe_IRL_M_060:0.0000009993)95.9/100:0.0002704203,AmMe_IRL_F_025:0.0000009993,AmMe_IRL_F_028:0.0000009993,AmMe_IRL_F_029:0.0000009993,AmHy_IRL_F_035:0.0000009993,AmHy_IRL_M_047:0.0000009993,AmHy_IRL_M_048:0.0000009993,AmMe_IRL_M_052:0.0000009993,AmMe_IRL_M_056:0.0000009993,AmMe_IRL_M_065:0.0000009993,AmMe_IRL_M_068:0.0000009993,AmMe_IRL_M_070:0.0000009993,AmMe_IRL_M_071:0.0000009993,AmMe_IRL_M_074:0.0000009993,AmMe_IRL_M_075:0.0000009993,Am_IRL_B_296:0.0000009993,AmMe_FRA_A_342:0.0000009993,AmMe_FRA_A_343:0.0000009993,AmMe_FRA_A_367:0.0000009993)99.1/100:0.0006373337,(AmMe_IRL_F_009:0.0000009993,AmHy_IRL_M_049:0.0000009993,AmHy_IRL_M_050:0.0000009993,AmMe_IRL_F_077:0.0000009993,AmMe_IRL_M_080:0.0000009993)92.9/99:0.0002740371)72.9/97:0.0000868248,AmMe_GBR_A_300:0.0004514682)0/93:0.0000790507,AmMe_IRL_F_010:0.0000009993)0/87:0.0000090645,AmMe_IRL_F_003:0.0000009993,AmMe_IRL_F_011:0.0001785320,(AmHy_IRL_F_039:0.0000009993,AmHy_IRL_F_040:0.0000009993)92.4/99:0.0003601399,AmMe_IRL_M_058:0.0001788093,AmMe_IRL_M_064:0.0000897262)96.2/99:0.0005460791,((((((((AmMe_IRL_F_026:0.0000009993,Am_GBR_B_310:0.0000009993,Am_GBR_B_318:0.0000009993,AmMe_FRA_A_345:0.0000009993,AmMe_FRA_A_346:0.0000009993,AmMe_FRA_A_347:0.0000914773,AmMe_FRA_A_348:0.0000009993,AmLi_ITA_N_105:0.0000009993)85.8/98:0.0001836098,AmHy_IRL_F_033:0.0002738562)99.5/100:0.0008321764,((AmHy_IRL_F_034:0.0000009993,AmMe_IRL_M_062:0.0000009993,Am_GBR_B_301:0.0000009993)100/100:0.0012096222,((AmCr_DEU_M_081:0.0000009993,Am_NOR_B_371:0.0000009993,Am_NOR_B_372:0.0000009993,Am_NOR_B_375:0.0000009993,Am_NOR_B_376:0.0000009993,Am_NOR_B_378:0.0000009993)74.2/100:0.0000896734,(AmCr_SVN_N_129:0.0000009993,AmCr_SVN_N_130:0.0000009993)88.3/100:0.0001830106)98.5/100:0.0006377296,(((((AmCr_DEU_M_082:0.0000009993,Am_SWE_B_379:0.0000009993,AmLi_ITA_N_094:0.0000009993,AmLi_KOR_N_240:0.0000009993)89.5/99:0.0001820662,(Am_GBR_B_316:0.0000009993,Am_GBR_B_319:0.0000902661,AmLi_ITA_N_084:0.0000903295,AmLi_ITA_N_087:0.0000009993,AmLi_ITA_N_088:0.0000009993,AmLi_ITA_N_089:0.0000009993,AmLi_ITA_N_091:0.0000009993,AmLi_ITA_N_092:0.0000009993,AmLi_ITA_N_095:0.0000009993,AmLi_ITA_N_097:0.0000009993,AmLi_ITA_N_098:0.0000009993,AmLi_ITA_N_100:0.0000009993,AmLi_ITA_N_101:0.0000009993,AmLi_ITA_N_103:0.0000009993,AmLi_ITA_N_104:0.0000009993,AmLi_ITA_N_106:0.0000009993,AmLi_ITA_N_107:0.0000009993,AmLi_ITA_N_108:0.0000009993,AmLi_ITA_N_109:0.0000009993,AmLi_ITA_N_110:0.0000009993,AmLi_ITA_N_111:0.0000009993,AmLi_ITA_N_112:0.0000009993,AmLi_ITA_N_113:0.0000009993,AmLi_ITA_N_114:0.0000009993,AmLi_ITA_N_115:0.0000009993,AmLi_ITA_N_116:0.0000009993,AmLi_AUS_N_131:0.0000009993,AmLi_CHN_N_147:0.0000009993,AmLi_CHN_N_151:0.0000009993,AmLi_CHN_N_173:0.0000009993,AmLi_CHN_N_174:0.0000009993,AmLi_CHN_N_175:0.0000009993,AmLi_CHN_N_176:0.0000009993,AmLi_CHN_N_189:0.0000009993,AmLi_CHN_N_203:0.0000009993,AmLi_CHN_N_218:0.0000009993,AmLi_CHN_N_219:0.0000009993,AmLi_CHN_N_220:0.0000009993,AmLi_CHN_N_232:0.0000904155)76.5/98:0.0000898691)94.6/100:0.0003618406,(AmLi_ITA_N_085:0.0000009993,AmLi_ITA_N_090:0.0000009993,AmLi_ITA_N_093:0.0000009993,(AmLi_ITA_N_096:0.0001838698,Am_IRQ_N_239:0.0000915676)79.6/97:0.0000909140,AmLi_ITA_N_099:0.0000009993,AmLi_CHN_N_137:0.0000009993,AmLi_CHN_N_138:0.0000009993,AmLi_CHN_N_139:0.0000009993,AmLi_CHN_N_140:0.0000009993,AmLi_CHN_N_141:0.0000009993,AmLi_CHN_N_142:0.0000009993,AmLi_CHN_N_143:0.0000009993,AmLi_CHN_N_144:0.0000009993,AmLi_CHN_N_145:0.0000009993,AmLi_CHN_N_146:0.0000009993,AmLi_CHN_N_148:0.0000009993,AmLi_CHN_N_152:0.0000909429,AmLi_CHN_N_153:0.0000009993,AmLi_CHN_N_154:0.0000009993,AmLi_CHN_N_155:0.0000009993,AmLi_CHN_N_156:0.0000009993,AmLi_CHN_N_157:0.0000009993,AmLi_CHN_N_158:0.0000009993,AmLi_CHN_N_159:0.0000009993,AmLi_CHN_N_160:0.0000009993,AmLi_CHN_N_161:0.0000009993,AmLi_CHN_N_162:0.0000009993,AmLi_CHN_N_163:0.0000009993,AmLi_CHN_N_164:0.0000009993,AmLi_CHN_N_165:0.0000009993,AmLi_CHN_N_166:0.0000009993,AmLi_CHN_N_167:0.0000009993,AmLi_CHN_N_168:0.0000009993,AmLi_CHN_N_169:0.0000009993,AmLi_CHN_N_170:0.0000009993,AmLi_CHN_N_171:0.0000910784,AmLi_CHN_N_172:0.0000009993,AmLi_CHN_N_177:0.0000009993,AmLi_CHN_N_178:0.0000009993,AmLi_CHN_N_179:0.0000009993,AmLi_CHN_N_180:0.0000009993,AmLi_CHN_N_181:0.0000009993,AmLi_CHN_N_182:0.0000009993,AmLi_CHN_N_183:0.0000009993,AmLi_CHN_N_184:0.0000009993,AmLi_CHN_N_185:0.0000009993,AmLi_CHN_N_186:0.0000009993,AmLi_CHN_N_187:0.0000009993,AmLi_CHN_N_188:0.0000009993,AmLi_CHN_N_190:0.0000009993,AmLi_CHN_N_191:0.0000009993,AmLi_CHN_N_192:0.0000910130,AmLi_CHN_N_194:0.0000009993,AmLi_CHN_N_196:0.0000009993,AmLi_CHN_N_197:0.0000009993,AmLi_CHN_N_198:0.0000009993,AmLi_CHN_N_199:0.0000009993,AmLi_CHN_N_200:0.0000009993,AmLi_CHN_N_201:0.0000009993,AmLi_CHN_N_202:0.0000009993,AmLi_CHN_N_204:0.0000009993,AmLi_CHN_N_205:0.0000009993,AmLi_CHN_N_206:0.0000009993,AmLi_CHN_N_207:0.0000009993,AmLi_CHN_N_208:0.0000009993,AmLi_CHN_N_209:0.0000009993,AmLi_CHN_N_210:0.0000009993,AmLi_CHN_N_211:0.0000009993,AmLi_CHN_N_212:0.0000009993,AmLi_CHN_N_213:0.0000009993,AmLi_CHN_N_214:0.0000009993,AmLi_CHN_N_215:0.0000009993,AmLi_CHN_N_216:0.0000009993,AmLi_CHN_N_217:0.0000009993,AmLi_CHN_N_221:0.0000009993,AmLi_CHN_N_222:0.0000009993,AmLi_CHN_N_223:0.0000009993,AmLi_CHN_N_224:0.0000009993,AmLi_CHN_N_225:0.0000009993,AmLi_CHN_N_226:0.0000009993,AmLi_CHN_N_227:0.0000009993,AmLi_CHN_N_228:0.0000009993,AmLi_CHN_N_229:0.0000009993,AmLi_CHN_N_230:0.0000009993,AmLi_CHN_N_231:0.0000009993,AmLi_CHN_N_233:0.0000009993,AmLi_CHN_N_234:0.0000009993,AmLi_CHN_N_235:0.0000009993,AmLi_CHN_N_236:0.0000009993)91.6/100:0.0002708853)84.3/92:0.0002715102,(Am_IRL_B_299:0.0000009993,Am_GBR_B_315:0.0000009993)98.6/100:0.0005472685,Am_GBR_B_306:0.0006386962)71.5/86:0.0000882187,((AmCr_DEU_M_083:0.0000009993,Am_NOR_B_373:0.0000009993,AmCr_POL_N_121:0.0000009993,AmCr_POL_N_122:0.0000009993,AmCr_POL_N_123:0.0000009993)98.2/100:0.0006393301,(AmCr_POL_N_119:0.0000009993,AmCr_POL_N_120:0.0000009993,AmCr_POL_N_124:0.0000009993,AmCr_POL_N_125:0.0000009993)96/100:0.0003651916)85.3/99:0.0001765411,AmCr_SEE_N_128:0.0004550482)98.7/100:0.0005447736)43.8/66:0.0000902449,(((AmHy_IRL_F_036:0.0000009993,AmHy_IRL_F_037:0.0000009993,AmHy_IRL_F_038:0.0000009993,AmHy_IRL_F_042:0.0000009993)95.8/100:0.0004574456,(AmLi_CHN_N_149:0.0000922335,(AmLi_CHN_N_193:0.0000009993,AmLi_CHN_N_195:0.0000009993)77.9/100:0.0000908688)94.9/100:0.0003679809)86.7/98:0.0001804509,((((AmHy_IRL_F_041:0.0000009993,Am_GBR_B_308:0.0000009993,Am_GBR_B_309:0.0000009993,Am_GBR_B_313:0.0001823558,AmMe_FRA_A_330:0.0000009993,AmLi_ITA_N_102:0.0000009993)75.1/87:0.0000865498,Am_GBR_B_320:0.0000963345)18.3/71:0.0000909867,AmMe_IRL_C_295:0.0003594497)79.8/99:0.0000956548,AmHy_GBR_F_044:0.0004562371,AmLi_KOR_N_241:0.0006401152)97.4/100:0.0003641882)89.9/99:0.0001831891,(((Am_GBR_B_303:0.0000009993,AmAn_TUR_N_260:0.0000009993)95.8/100:0.0002763371,(Am_GBR_B_307:0.0000028408,Am_IRQ_N_238:0.0004592244)91.2/52:0.0001829306,AmCu_EUA_N_132:0.0001839553)94.3/52:0.0002751651,(Am_GBR_B_305:0.0000913058,Am_GBR_B_314:0.0000009993,AmMd_IRN_N_237:0.0000009993)81/100:0.0000905819,AmMe_FRA_A_329:0.0002752859)99.9/100:0.0012811739,Am_GBR_B_304:0.0011991379)100/100:0.0063679408,(((((AmJe_ARA_N_134:0.0015162322,(((Am_SAU_N_242:0.0000009993,Am_SAU_N_243:0.0000009993,Am_SAU_N_244:0.0000009993,Am_SAU_N_257:0.0000009993)88/99:0.0001805324,(Am_SAU_N_245:0.0000023716,(Am_SAU_N_246:0.0000009993,Am_SAU_N_247:0.0000009993)84.9/100:0.0000900369)86.9/100:0.0001771045)99.1/100:0.0006338006,((Am_SAU_N_248:0.0000009993,(Am_SAU_N_249:0.0000893211,Am_SAU_N_250:0.0002687616,Am_SAU_N_251:0.0000892556,Am_SAU_N_252:0.0001790431)82.7/100:0.0000902134)95.5/100:0.0004480170,AmSy_SYR_N_258:0.0009137000)97.7/100:0.0006427308)66.5/100:0.0000411743)100/100:0.0017104209,AmLa_EGY_N_264:0.0008403387)36.6/46:0.0001535265,AmLi_CHN_N_150:0.0008322788)82.2/60:0.0015491160,AmSy_SYR_N_259:0.0014900475)100/100:0.0046306008,AmIn_MAR_N_267:0.0045403159)62.8/54:0.0014794687)87.2/95:0.0006687534,((((((((((AmHy_IRL_F_043:0.0000009993,AmMe_IRL_F_078:0.0000009993,AmScCa_ZAF_N_271:0.0001779469,AmCa_ZAF_N_280:0.0002675652,AmCa_ZAF_N_281:0.0000884655)98.4/100:0.0003571233,AmCa_ZAF_N_274:0.0005357614,(AmCa_ZAF_N_279:0.0000883633,AmCa_ZAF_N_286:0.0000883614,AmCa_ZAF_N_287:0.0000884313)95.7/100:0.0002668944,(AmCa_ZAF_N_282:0.0000885221,AmCa_ZAF_N_283:0.0003550984)77.2/100:0.0000888302)90.8/100:0.0001897360,((AmCa_ZAF_N_270:0.0000876855,AmCa_ZAF_N_276:0.0001759113)88.9/100:0.0002534316,AmCa_ZAF_N_277:0.0009970058)74.9/99:0.0000893910)87.5/100:0.0001781435,(AmCa_ZAF_N_275:0.0010129084,AmSc_ZAF_N_289:0.0008121130)81.5/99:0.0001675120)98.5/100:0.0005538256,(AmMo_KEN_N_266:0.0010321539,AmCa_ZAF_N_272:0.0007198684)97.8/100:0.0008204593)75.4/100:0.0000766431,(AmSc_ASI_N_135:0.0004543612,AmCa_ZAF_N_284:0.0006343926)99.4/100:0.0010126751)89.2/100:0.0001797268,((((AmSc_MEX_N_133:0.0000009993,AmCa_ZAF_N_278:0.0000009993,AmCaSc_ZAF_N_288:0.0000009993)90.1/100:0.0001753960,(AmCa_ZAF_N_273:0.0001761786,AmCa_ZAF_N_285:0.0000009993)97.2/100:0.0003530016,(AmSc_ZAF_N_292:0.0005289760,AmSc_ZAF_N_293:0.0001764613)93.8/100:0.0003525188)95/100:0.0002638408,(AmAd_WAF_N_269:0.0003501731,AmSc_ZAF_N_294:0.0004398062)96.9/100:0.0004437712,AmSc_ZAF_N_291:0.0003529131)97.6/100:0.0005314446,AmSc_ZAF_N_290:0.0013504591)86.6/98:0.0002565728)91/99:0.0004712115,((AmHy_IRL_M_045:0.0006191128,AmIb_POR_N_126:0.0010733627)42.3/91:0.0001559140,((AmSi_ITA_N_086:0.0003027620,AmRu_MLT_N_117:0.0006549782)62.8/91:0.0002596870,(AmIn_DZA_N_261:0.0001213705,(AmSa_DZA_N_262:0.0000009993,AmSa_DZA_N_263:0.0000009993)89.5/100:0.0001746668)77.6/100:0.0001831337)91.3/100:0.0004534079)100/100:0.0029031633)97/100:0.0013224215,AmUn_MDG_N_268:0.0051197101)99.1/100:0.0019691511,AmSm_ETH_N_265:0.0065628943)95.9/100:0.0012925203)99.1/100:0.0026378217,(Am_SAU_N_253:0.0000009993,Am_SAU_N_254:0.0000904756,Am_SAU_N_255:0.0000009993,Am_SAU_N_256:0.0000009993)100/100:0.0097983785)100/100:0.0078377242,((AmMe_FRA_A_336:0.0000009993,AmMe_FRA_A_337:0.0000009993,AmMe_FRA_A_338:0.0000009993,AmMe_FRA_A_339:0.0000009993,AmMe_FRA_A_362:0.0000009993)87.5/100:0.0001808226,(AmMe_FRA_A_351:0.0000009993,AmMe_FRA_A_352:0.0000009993)76.5/100:0.0000880617)87.1/99:0.0002962684)34.9/62:0.0002487121,((AmMe_IRL_M_069:0.0003608469,(AmMe_FRA_A_328:0.0000009993,AmMe_FRA_A_331:0.0000009993)93.8/100:0.0002703877,AmMe_FRA_A_368:0.0006312833)92/100:0.0001785298,(Am_JEY_B_322:0.0000009993,Am_CHE_B_324:0.0003585044,((AmMe_FRA_A_325:0.0000009993,AmMe_FRA_A_353:0.0000009993,AmMe_FRA_A_354:0.0000009993,AmMe_FRA_A_355:0.0000009993)96.8/100:0.0003572979,(AmMe_FRA_A_326:0.0000009993,AmMe_FRA_A_327:0.0000009993,AmMe_FRA_A_356:0.0000009993,AmMe_FRA_A_360:0.0000022369)94.9/100:0.0001778413,(AmMe_FRA_A_332:0.0000009993,AmMe_FRA_A_357:0.0000887332)90.1/100:0.0001782614,(AmMe_FRA_A_340:0.0000009993,AmMe_FRA_A_341:0.0000009993,AmMe_FRA_A_344:0.0000009993,AmMe_FRA_A_349:0.0000009993,AmMe_FRA_A_350:0.0000009993,AmMe_FRA_A_361:0.0000009993,AmMe_FRA_A_363:0.0000009993,AmMe_FRA_A_364:0.0000009993,AmMe_FRA_A_365:0.0000009993)96.3/100:0.0003580423)96.2/100:0.0002674997,(AmMe_FRA_A_333:0.0000009993,AmMe_FRA_A_334:0.0000009993,AmMe_FRA_A_335:0.0000009993,AmMe_FRA_A_358:0.0000009993,AmMe_FRA_A_359:0.0000009993)99.5/100:0.0006325876,(AmMe_FRA_A_366:0.0002681357,AmMe_FRA_A_369:0.0001789344)95/100:0.0002696318,AmIb_POR_N_127:0.0005421835)83.8/96:0.0000889867)75.6/98:0.0000856273)96.9/97:0.0005418327)88.9/98:0.0002683773,((AmMe_IRL_F_005:0.0000009993,AmMe_IRL_F_031:0.0000893098)87.4/95:0.0002698396,AmMe_IRL_F_021:0.0000009993,AmMe_IRL_F_022:0.0000009993,AmMe_IRL_F_023:0.0000009993,AmMe_IRL_F_027:0.0000009993,AmMe_IRL_F_032:0.0000009993,AmHy_IRL_M_051:0.0000009993,AmMe_IRL_F_079:0.0000009993)98.7/100:0.0005395208,((Am_NOR_B_370:0.0000009993,Am_NOR_B_374:0.0000009993,Am_SWE_B_381:0.0000009993,Am_SWE_B_383:0.0000009993)98.3/100:0.0006333112,AmSn_CHN_N_136:0.0008165603)95.6/99:0.0004453643)91.2/100:0.0001802036,(AmMe_IRL_F_013:0.0000009993,AmMe_IRL_F_014:0.0000009993,AmMe_IRL_F_016:0.0000009993,AmMe_IRL_F_018:0.0000009993,AmMe_IRL_F_020:0.0000009993,AmHy_IRL_M_046:0.0000009993,AmMe_IRL_M_059:0.0000009993,AmMe_IRL_M_063:0.0000009993,AmMe_IRL_F_076:0.0000009993)99.7/100:0.0007260960,Am_CHE_B_323:0.0005408567)80.4/90:0.0000893428,AmMe_IRL_M_055:0.0002710785)79.8/68:0.0000894014,(AmMe_IRL_F_004:0.0000009993,AmMe_IRL_F_024:0.0000009993)96.7/100:0.0002700607,((AmMe_IRL_F_006:0.0000009993,AmMe_IRL_F_008:0.0000009993,AmMe_IRL_M_066:0.0000009993)77.3/99:0.0000907622,Am_GBR_B_302:0.0003625790)87.8/99:0.0001788553,(AmMe_IRL_F_015:0.0002720714,AmMe_IRL_M_057:0.0002723668)78/98:0.0000882116,Am_JEY_B_321:0.0001788483,(Am_SWE_B_380:0.0000023920,Am_SWE_B_382:0.0000023884)93.2/99:0.0001793400)84.6/82:0.0000893905,(AmMe_IRL_F_030:0.0001797005,Am_IRL_B_298:0.0000900785)90.3/99:0.0001793779,(AmMe_IRL_M_053:0.0000009993,AmMe_IRL_M_072:0.0000009993,AmMe_IRL_M_073:0.0000009993)95.3/100:0.0002707573,AmMe_NOR_N_118:0.0005423204)92.1/100:0.0001803451,AmMe_IRL_F_012:0.0000009993,(AmMe_IRL_F_017:0.0000899043,AmMe_IRL_M_061:0.0000023971)93/100:0.0001801750,((Am_GBR_B_312:0.0000902766,Am_GBR_B_317:0.0000023780)86.8/99:0.0000903132,Am_NOR_B_377:0.0000025119)83.9/100:0.0000898086)94.1/100:0.0001804772,Am_IRL_B_297:0.0000023914);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -22395.158191
+Robinson-Foulds distance between ML tree and consensus tree: 500
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--AmMe_IRL_F_001
+|
+|                                                                                   +--AmMe_IRL_F_002
+|                                                                                +--| (27)
+|                                                                                |  +--AmHy_IRL_M_047
+|                                                                             +--| (30)
+|                                                                             |  |           +--AmMe_IRL_F_028
+|                                                                             |  |        +--| (27)
+|                                                                             |  |        |  |  +--AmHy_IRL_M_048
+|                                                                             |  |        |  +--| (27)
+|                                                                             |  |        |     +--AmMe_IRL_M_070
+|                                                                             |  |     +--| (17)
+|                                                                             |  |     |  +--AmMe_IRL_F_029
+|                                                                             |  |  +--| (26)
+|                                                                             |  |  |  +--AmMe_FRA_A_367
+|                                                                             |  +--| (25)
+|                                                                             |     +--AmMe_FRA_A_343
+|                                                                          +--| (18)
+|                                                                          |  +--AmMe_IRL_F_007
+|                                                                       +--| (23)
+|                                                                       |  |  +--AmMe_IRL_F_025
+|                                                                       |  +--| (24)
+|                                                                       |     |  +--AmMe_IRL_M_065
+|                                                                       |     +--| (20)
+|                                                                       |        +--Am_IRL_B_296
+|                                                                    +--| (9)
+|                                                                    |  |  +--AmHy_IRL_F_035
+|                                                                    |  +--| (17)
+|                                                                    |     +--AmMe_IRL_M_052
+|                                                                 +--| (20)
+|                                                                 |  |     +--AmMe_IRL_F_019
+|                                                                 |  |  +--| (100)
+|                                                                 |  |  |  +--AmMe_IRL_M_060
+|                                                                 |  +--| (42)
+|                                                                 |     +--AmMe_IRL_M_074
+|                                                              +--| (22)
+|                                                              |  +--AmMe_IRL_M_068
+|                                                           +--| (31)
+|                                                           |  +--AmMe_FRA_A_342
+|                                                        +--| (100)
+|                                                        |  |     +--AmMe_IRL_M_056
+|                                                        |  |  +--| (22)
+|                                                        |  |  |  +--AmMe_IRL_M_071
+|                                                        |  +--| (13)
+|                                                        |     +--AmMe_IRL_M_075
+|                                                     +--| (97)
+|                                                     |  |        +--AmMe_IRL_F_009
+|                                                     |  |     +--| (33)
+|                                                     |  |     |  +--AmHy_IRL_M_049
+|                                                     |  |  +--| (18)
+|                                                     |  |  |  +--AmMe_IRL_F_077
+|                                                     |  +--| (99)
+|                                                     |     |  +--AmHy_IRL_M_050
+|                                                     |     +--| (36)
+|                                                     |        +--AmMe_IRL_M_080
+|                                                  +--| (93)
+|                                                  |  +--AmMe_GBR_A_300
+|                                               +--| (87)
+|                                               |  +--AmMe_IRL_F_010
+|                                            +--| (17)
+|                                            |  +--AmMe_IRL_M_064
+|                                         +--| (14)
+|                                         |  +--AmMe_IRL_F_003
+|                                      +--| (92)
+|                                      |  |  +--AmMe_IRL_F_011
+|                                      |  +--| (39)
+|                                      |     +--AmMe_IRL_M_058
+|                                   +--| (99)
+|                                   |  |  +--AmHy_IRL_F_039
+|                                   |  +--| (99)
+|                                   |     +--AmHy_IRL_F_040
+|                                +--| (98)
+|                                |  |                                                                           +--AmMe_IRL_F_026
+|                                |  |                                                                        +--| (18)
+|                                |  |                                                                        |  +--Am_GBR_B_318
+|                                |  |                                                                     +--| (18)
+|                                |  |                                                                     |  +--AmMe_FRA_A_345
+|                                |  |                                                                  +--| (14)
+|                                |  |                                                                  |  |  +--AmMe_FRA_A_346
+|                                |  |                                                                  |  +--| (26)
+|                                |  |                                                                  |     +--AmMe_FRA_A_348
+|                                |  |                                                               +--| (22)
+|                                |  |                                                               |  +--Am_GBR_B_310
+|                                |  |                                                            +--| (38)
+|                                |  |                                                            |  +--AmLi_ITA_N_105
+|                                |  |                                                         +--| (98)
+|                                |  |                                                         |  +--AmMe_FRA_A_347
+|                                |  |                                                      +--| (100)
+|                                |  |                                                      |  +--AmHy_IRL_F_033
+|                                |  |                                                   +--| (35)
+|                                |  |                                                   |  |           +--AmHy_IRL_F_036
+|                                |  |                                                   |  |        +--| (100)
+|                                |  |                                                   |  |        |  |     +--AmHy_IRL_F_037
+|                                |  |                                                   |  |        |  |  +--| (42)
+|                                |  |                                                   |  |        |  |  |  +--AmHy_IRL_F_038
+|                                |  |                                                   |  |        |  +--| (57)
+|                                |  |                                                   |  |        |     +--AmHy_IRL_F_042
+|                                |  |                                                   |  |     +--| (98)
+|                                |  |                                                   |  |     |  |  +--AmLi_CHN_N_149
+|                                |  |                                                   |  |     |  +--| (100)
+|                                |  |                                                   |  |     |     |  +--AmLi_CHN_N_193
+|                                |  |                                                   |  |     |     +--| (100)
+|                                |  |                                                   |  |     |        +--AmLi_CHN_N_195
+|                                |  |                                                   |  |  +--| (99)
+|                                |  |                                                   |  |  |  |                       +--AmHy_IRL_F_041
+|                                |  |                                                   |  |  |  |                    +--| (19)
+|                                |  |                                                   |  |  |  |                    |  +--AmMe_FRA_A_330
+|                                |  |                                                   |  |  |  |                 +--| (34)
+|                                |  |                                                   |  |  |  |                 |  |  +--Am_GBR_B_308
+|                                |  |                                                   |  |  |  |                 |  +--| (37)
+|                                |  |                                                   |  |  |  |                 |     +--Am_GBR_B_309
+|                                |  |                                                   |  |  |  |              +--| (73)
+|                                |  |                                                   |  |  |  |              |  +--AmLi_ITA_N_102
+|                                |  |                                                   |  |  |  |           +--| (87)
+|                                |  |                                                   |  |  |  |           |  +--Am_GBR_B_313
+|                                |  |                                                   |  |  |  |        +--| (71)
+|                                |  |                                                   |  |  |  |        |  +--Am_GBR_B_320
+|                                |  |                                                   |  |  |  |     +--| (99)
+|                                |  |                                                   |  |  |  |     |  +--AmMe_IRL_C_295
+|                                |  |                                                   |  |  |  |  +--| (64)
+|                                |  |                                                   |  |  |  |  |  +--AmHy_GBR_F_044
+|                                |  |                                                   |  |  |  +--| (100)
+|                                |  |                                                   |  |  |     +--AmLi_KOR_N_241
+|                                |  |                                                   |  +--| (59)
+|                                |  |                                                   |     +--Am_GBR_B_304
+|                                |  |                                                +--| (77)
+|                                |  |                                                |  |     +--AmHy_IRL_F_034
+|                                |  |                                                |  |  +--| (100)
+|                                |  |                                                |  |  |  |  +--AmMe_IRL_M_062
+|                                |  |                                                |  |  |  +--| (57)
+|                                |  |                                                |  |  |     +--Am_GBR_B_301
+|                                |  |                                                |  +--| (66)
+|                                |  |                                                |     |                 +--AmCr_DEU_M_081
+|                                |  |                                                |     |              +--| (19)
+|                                |  |                                                |     |              |  +--Am_NOR_B_372
+|                                |  |                                                |     |           +--| (32)
+|                                |  |                                                |     |           |  |  +--Am_NOR_B_375
+|                                |  |                                                |     |           |  +--| (28)
+|                                |  |                                                |     |           |     +--Am_NOR_B_376
+|                                |  |                                                |     |        +--| (24)
+|                                |  |                                                |     |        |  +--Am_NOR_B_378
+|                                |  |                                                |     |     +--| (100)
+|                                |  |                                                |     |     |  +--Am_NOR_B_371
+|                                |  |                                                |     |  +--| (100)
+|                                |  |                                                |     |  |  |  +--AmCr_SVN_N_129
+|                                |  |                                                |     |  |  +--| (100)
+|                                |  |                                                |     |  |     +--AmCr_SVN_N_130
+|                                |  |                                                |     +--| (62)
+|                                |  |                                                |        |                 +--AmCr_DEU_M_082
+|                                |  |                                                |        |              +--| (71)
+|                                |  |                                                |        |              |  +--Am_SWE_B_379
+|                                |  |                                                |        |           +--| (99)
+|                                |  |                                                |        |           |  |  +--AmLi_ITA_N_094
+|                                |  |                                                |        |           |  +--| (84)
+|                                |  |                                                |        |           |     +--AmLi_KOR_N_240
+|                                |  |                                                |        |        +--| (100)
+|                                |  |                                                |        |        |  |        +--Am_GBR_B_316
+|                                |  |                                                |        |        |  |     +--| (52)
+|                                |  |                                                |        |        |  |     |  +--Am_GBR_B_319
+|                                |  |                                                |        |        |  |  +--| (66)
+|                                |  |                                                |        |        |  |  |  |              +--AmLi_ITA_N_084
+|                                |  |                                                |        |        |  |  |  |           +--| (22)
+|                                |  |                                                |        |        |  |  |  |           |  +--AmLi_CHN_N_232
+|                                |  |                                                |        |        |  |  |  |        +--| (9)
+|                                |  |                                                |        |        |  |  |  |        |  +--AmLi_CHN_N_151
+|                                |  |                                                |        |        |  |  |  |     +--| (4)
+|                                |  |                                                |        |        |  |  |  |     |  |        +--AmLi_ITA_N_097
+|                                |  |                                                |        |        |  |  |  |     |  |     +--| (22)
+|                                |  |                                                |        |        |  |  |  |     |  |     |  +--AmLi_CHN_N_220
+|                                |  |                                                |        |        |  |  |  |     |  |  +--| (14)
+|                                |  |                                                |        |        |  |  |  |     |  |  |  |  +--AmLi_ITA_N_098
+|                                |  |                                                |        |        |  |  |  |     |  |  |  +--| (27)
+|                                |  |                                                |        |        |  |  |  |     |  |  |     +--AmLi_ITA_N_115
+|                                |  |                                                |        |        |  |  |  |     |  +--| (8)
+|                                |  |                                                |        |        |  |  |  |     |     +--AmLi_CHN_N_174
+|                                |  |                                                |        |        |  |  |  |  +--| (10)
+|                                |  |                                                |        |        |  |  |  |  |  |        +--AmLi_ITA_N_101
+|                                |  |                                                |        |        |  |  |  |  |  |     +--| (38)
+|                                |  |                                                |        |        |  |  |  |  |  |     |  +--AmLi_ITA_N_114
+|                                |  |                                                |        |        |  |  |  |  |  |  +--| (12)
+|                                |  |                                                |        |        |  |  |  |  |  |  |  |        +--AmLi_ITA_N_103
+|                                |  |                                                |        |        |  |  |  |  |  |  |  |     +--| (26)
+|                                |  |                                                |        |        |  |  |  |  |  |  |  |     |  +--AmLi_ITA_N_116
+|                                |  |                                                |        |        |  |  |  |  |  |  |  |  +--| (28)
+|                                |  |                                                |        |        |  |  |  |  |  |  |  |  |  +--AmLi_CHN_N_175
+|                                |  |                                                |        |        |  |  |  |  |  |  |  +--| (16)
+|                                |  |                                                |        |        |  |  |  |  |  |  |     +--AmLi_CHN_N_176
+|                                |  |                                                |        |        |  |  |  |  |  +--| (11)
+|                                |  |                                                |        |        |  |  |  |  |     +--AmLi_ITA_N_107
+|                                |  |                                                |        |        |  |  |  +--| (57)
+|                                |  |                                                |        |        |  |  |     |              +--AmLi_ITA_N_087
+|                                |  |                                                |        |        |  |  |     |           +--| (35)
+|                                |  |                                                |        |        |  |  |     |           |  +--AmLi_ITA_N_095
+|                                |  |                                                |        |        |  |  |     |        +--| (30)
+|                                |  |                                                |        |        |  |  |     |        |  +--AmLi_ITA_N_113
+|                                |  |                                                |        |        |  |  |     |     +--| (15)
+|                                |  |                                                |        |        |  |  |     |     |  |  +--AmLi_ITA_N_100
+|                                |  |                                                |        |        |  |  |     |     |  +--| (29)
+|                                |  |                                                |        |        |  |  |     |     |     |  +--AmLi_ITA_N_109
+|                                |  |                                                |        |        |  |  |     |     |     +--| (20)
+|                                |  |                                                |        |        |  |  |     |     |        +--AmLi_CHN_N_147
+|                                |  |                                                |        |        |  |  |     |  +--| (21)
+|                                |  |                                                |        |        |  |  |     |  |  |        +--AmLi_ITA_N_088
+|                                |  |                                                |        |        |  |  |     |  |  |     +--| (26)
+|                                |  |                                                |        |        |  |  |     |  |  |     |  |  +--AmLi_ITA_N_089
+|                                |  |                                                |        |        |  |  |     |  |  |     |  +--| (19)
+|                                |  |                                                |        |        |  |  |     |  |  |     |     |  +--AmLi_CHN_N_173
+|                                |  |                                                |        |        |  |  |     |  |  |     |     +--| (16)
+|                                |  |                                                |        |        |  |  |     |  |  |     |        +--AmLi_CHN_N_219
+|                                |  |                                                |        |        |  |  |     |  |  |  +--| (17)
+|                                |  |                                                |        |        |  |  |     |  |  |  |  +--AmLi_CHN_N_203
+|                                |  |                                                |        |        |  |  |     |  |  +--| (29)
+|                                |  |                                                |        |        |  |  |     |  |     +--AmLi_ITA_N_110
+|                                |  |                                                |        |        |  |  |     +--| (23)
+|                                |  |                                                |        |        |  |  |        |                 +--AmLi_ITA_N_091
+|                                |  |                                                |        |        |  |  |        |              +--| (31)
+|                                |  |                                                |        |        |  |  |        |              |  +--AmLi_ITA_N_106
+|                                |  |                                                |        |        |  |  |        |           +--| (22)
+|                                |  |                                                |        |        |  |  |        |           |  +--AmLi_ITA_N_111
+|                                |  |                                                |        |        |  |  |        |        +--| (21)
+|                                |  |                                                |        |        |  |  |        |        |  +--AmLi_CHN_N_218
+|                                |  |                                                |        |        |  |  |        |     +--| (25)
+|                                |  |                                                |        |        |  |  |        |     |  |     +--AmLi_ITA_N_092
+|                                |  |                                                |        |        |  |  |        |     |  |  +--| (28)
+|                                |  |                                                |        |        |  |  |        |     |  |  |  +--AmLi_CHN_N_189
+|                                |  |                                                |        |        |  |  |        |     |  +--| (30)
+|                                |  |                                                |        |        |  |  |        |     |     +--AmLi_ITA_N_112
+|                                |  |                                                |        |        |  |  |        |  +--| (15)
+|                                |  |                                                |        |        |  |  |        |  |  +--AmLi_ITA_N_108
+|                                |  |                                                |        |        |  |  |        +--| (17)
+|                                |  |                                                |        |        |  |  |           +--AmLi_ITA_N_104
+|                                |  |                                                |        |        |  +--| (98)
+|                                |  |                                                |        |        |     +--AmLi_AUS_N_131
+|                                |  |                                                |        |     +--| (92)
+|                                |  |                                                |        |     |  |  +--AmLi_ITA_N_085
+|                                |  |                                                |        |     |  +--| (100)
+|                                |  |                                                |        |     |     |                                                                             +--AmLi_ITA_N_090
+|                                |  |                                                |        |     |     |                                                                          +--| (32)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                        +--AmLi_ITA_N_093
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     +--| (22)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |              +--AmLi_ITA_N_096
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |           +--| (97)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |           |  +--Am_IRQ_N_239
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |        +--| (14)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |        |  |  +--AmLi_CHN_N_180
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |        |  +--| (22)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |        |     +--AmLi_CHN_N_194
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     +--| (22)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                               +--AmLi_ITA_N_099
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                            +--| (19)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                            |  +--AmLi_CHN_N_206
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                         +--| (17)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                         |  |  +--AmLi_CHN_N_168
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                         |  +--| (36)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                         |     +--AmLi_CHN_N_230
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                      +--| (17)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                      |  +--AmLi_CHN_N_170
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                   +--| (23)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                   |  +--AmLi_CHN_N_142
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                +--| (40)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                                |  +--AmLi_CHN_N_178
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                             +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                             |  +--AmLi_CHN_N_182
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                          +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                          |  |  +--AmLi_CHN_N_137
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                          |  +--| (29)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                          |     +--AmLi_CHN_N_190
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                       +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                       |  +--AmLi_CHN_N_156
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                    +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                    |  +--AmLi_CHN_N_172
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |        +--AmLi_CHN_N_146
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |     +--| (21)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |     |  |  +--AmLi_CHN_N_152
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |     |  +--| (52)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |     |     +--AmLi_CHN_N_192
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |  +--| (18)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  |  |  +--AmLi_CHN_N_225
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |  +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |                 |     +--AmLi_CHN_N_222
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |              +--| (20)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |              |  +--AmLi_CHN_N_138
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           +--| (21)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |           +--AmLi_CHN_N_155
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |        +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |        |  +--AmLi_CHN_N_205
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |     +--| (21)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |     |  +--AmLi_CHN_N_208
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |  +--| (25)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  |  |  +--AmLi_CHN_N_215
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |  +--| (25)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |           |     +--AmLi_CHN_N_185
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |        +--| (21)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |        |  +--AmLi_CHN_N_157
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |     +--| (23)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |     |  +--AmLi_CHN_N_162
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |  +--| (36)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  |  |  +--AmLi_CHN_N_210
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |  +--| (25)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |     |     +--AmLi_CHN_N_199
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |  +--| (19)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  |  |  +--AmLi_CHN_N_167
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |  +--| (31)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |     |     +--AmLi_CHN_N_143
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |     |  +--| (18)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |     |  |  +--AmLi_CHN_N_153
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |     +--| (19)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                     |        +--AmLi_CHN_N_166
+|                                |  |                                                |        |     |     |                                                                          |  |                                                  +--| (22)
+|                                |  |                                                |        |     |     |                                                                          |  |                                                  |  +--AmLi_CHN_N_204
+|                                |  |                                                |        |     |     |                                                                          |  |                                               +--| (25)
+|                                |  |                                                |        |     |     |                                                                          |  |                                               |  |  +--AmLi_CHN_N_161
+|                                |  |                                                |        |     |     |                                                                          |  |                                               |  +--| (22)
+|                                |  |                                                |        |     |     |                                                                          |  |                                               |     +--AmLi_CHN_N_217
+|                                |  |                                                |        |     |     |                                                                          |  |                                            +--| (27)
+|                                |  |                                                |        |     |     |                                                                          |  |                                            |  +--AmLi_CHN_N_233
+|                                |  |                                                |        |     |     |                                                                          |  |                                         +--| (30)
+|                                |  |                                                |        |     |     |                                                                          |  |                                         |  +--AmLi_CHN_N_191
+|                                |  |                                                |        |     |     |                                                                          |  |                                      +--| (27)
+|                                |  |                                                |        |     |     |                                                                          |  |                                      |  +--AmLi_CHN_N_223
+|                                |  |                                                |        |     |     |                                                                          |  |                                   +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                   |  +--AmLi_CHN_N_207
+|                                |  |                                                |        |     |     |                                                                          |  |                                +--| (28)
+|                                |  |                                                |        |     |     |                                                                          |  |                                |  +--AmLi_CHN_N_145
+|                                |  |                                                |        |     |     |                                                                          |  |                             +--| (16)
+|                                |  |                                                |        |     |     |                                                                          |  |                             |  +--AmLi_CHN_N_221
+|                                |  |                                                |        |     |     |                                                                          |  |                          +--| (19)
+|                                |  |                                                |        |     |     |                                                                          |  |                          |  +--AmLi_CHN_N_179
+|                                |  |                                                |        |     |     |                                                                          |  |                       +--| (16)
+|                                |  |                                                |        |     |     |                                                                          |  |                       |  +--AmLi_CHN_N_141
+|                                |  |                                                |        |     |     |                                                                          |  |                    +--| (21)
+|                                |  |                                                |        |     |     |                                                                          |  |                    |  +--AmLi_CHN_N_171
+|                                |  |                                                |        |     |     |                                                                          |  |                 +--| (27)
+|                                |  |                                                |        |     |     |                                                                          |  |                 |  +--AmLi_CHN_N_213
+|                                |  |                                                |        |     |     |                                                                          |  |              +--| (23)
+|                                |  |                                                |        |     |     |                                                                          |  |              |  +--AmLi_CHN_N_140
+|                                |  |                                                |        |     |     |                                                                          |  |           +--| (20)
+|                                |  |                                                |        |     |     |                                                                          |  |           |  +--AmLi_CHN_N_234
+|                                |  |                                                |        |     |     |                                                                          |  |        +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |  |        |  +--AmLi_CHN_N_188
+|                                |  |                                                |        |     |     |                                                                          |  |     +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |  |     |  +--AmLi_CHN_N_158
+|                                |  |                                                |        |     |     |                                                                          |  |  +--| (26)
+|                                |  |                                                |        |     |     |                                                                          |  |  |  +--AmLi_CHN_N_169
+|                                |  |                                                |        |     |     |                                                                          |  +--| (25)
+|                                |  |                                                |        |     |     |                                                                          |     |     +--AmLi_CHN_N_144
+|                                |  |                                                |        |     |     |                                                                          |     |  +--| (26)
+|                                |  |                                                |        |     |     |                                                                          |     |  |  +--AmLi_CHN_N_163
+|                                |  |                                                |        |     |     |                                                                          |     +--| (24)
+|                                |  |                                                |        |     |     |                                                                          |        +--AmLi_CHN_N_177
+|                                |  |                                                |        |     |     |                                                                       +--| (27)
+|                                |  |                                                |        |     |     |                                                                       |  +--AmLi_CHN_N_186
+|                                |  |                                                |        |     |     |                                                                    +--| (32)
+|                                |  |                                                |        |     |     |                                                                    |  +--AmLi_CHN_N_212
+|                                |  |                                                |        |     |     |                                                                 +--| (29)
+|                                |  |                                                |        |     |     |                                                                 |  |  +--AmLi_CHN_N_187
+|                                |  |                                                |        |     |     |                                                                 |  +--| (16)
+|                                |  |                                                |        |     |     |                                                                 |     +--AmLi_CHN_N_231
+|                                |  |                                                |        |     |     |                                                              +--| (39)
+|                                |  |                                                |        |     |     |                                                              |  +--AmLi_CHN_N_183
+|                                |  |                                                |        |     |     |                                                           +--| (36)
+|                                |  |                                                |        |     |     |                                                           |  +--AmLi_CHN_N_201
+|                                |  |                                                |        |     |     |                                                        +--| (34)
+|                                |  |                                                |        |     |     |                                                        |  +--AmLi_CHN_N_154
+|                                |  |                                                |        |     |     |                                                     +--| (29)
+|                                |  |                                                |        |     |     |                                                     |  +--AmLi_CHN_N_216
+|                                |  |                                                |        |     |     |                                                  +--| (24)
+|                                |  |                                                |        |     |     |                                                  |  +--AmLi_CHN_N_211
+|                                |  |                                                |        |     |     |                                               +--| (22)
+|                                |  |                                                |        |     |     |                                               |  +--AmLi_CHN_N_181
+|                                |  |                                                |        |     |     |                                            +--| (32)
+|                                |  |                                                |        |     |     |                                            |  +--AmLi_CHN_N_228
+|                                |  |                                                |        |     |     |                                         +--| (28)
+|                                |  |                                                |        |     |     |                                         |  +--AmLi_CHN_N_209
+|                                |  |                                                |        |     |     |                                      +--| (24)
+|                                |  |                                                |        |     |     |                                      |  |  +--AmLi_CHN_N_164
+|                                |  |                                                |        |     |     |                                      |  +--| (23)
+|                                |  |                                                |        |     |     |                                      |     +--AmLi_CHN_N_200
+|                                |  |                                                |        |     |     |                                   +--| (21)
+|                                |  |                                                |        |     |     |                                   |  |  +--AmLi_CHN_N_229
+|                                |  |                                                |        |     |     |                                   |  +--| (38)
+|                                |  |                                                |        |     |     |                                   |     +--AmLi_CHN_N_236
+|                                |  |                                                |        |     |     |                                +--| (19)
+|                                |  |                                                |        |     |     |                                |  +--AmLi_CHN_N_224
+|                                |  |                                                |        |     |     |                             +--| (15)
+|                                |  |                                                |        |     |     |                             |  +--AmLi_CHN_N_235
+|                                |  |                                                |        |     |     |                          +--| (32)
+|                                |  |                                                |        |     |     |                          |  +--AmLi_CHN_N_226
+|                                |  |                                                |        |     |     |                       +--| (30)
+|                                |  |                                                |        |     |     |                       |  |  +--AmLi_CHN_N_148
+|                                |  |                                                |        |     |     |                       |  +--| (35)
+|                                |  |                                                |        |     |     |                       |     +--AmLi_CHN_N_165
+|                                |  |                                                |        |     |     |                    +--| (17)
+|                                |  |                                                |        |     |     |                    |  +--AmLi_CHN_N_159
+|                                |  |                                                |        |     |     |                 +--| (19)
+|                                |  |                                                |        |     |     |                 |  +--AmLi_CHN_N_160
+|                                |  |                                                |        |     |     |              +--| (28)
+|                                |  |                                                |        |     |     |              |  |  +--AmLi_CHN_N_198
+|                                |  |                                                |        |     |     |              |  +--| (18)
+|                                |  |                                                |        |     |     |              |     +--AmLi_CHN_N_227
+|                                |  |                                                |        |     |     |           +--| (20)
+|                                |  |                                                |        |     |     |           |  +--AmLi_CHN_N_197
+|                                |  |                                                |        |     |     |        +--| (17)
+|                                |  |                                                |        |     |     |        |  +--AmLi_CHN_N_196
+|                                |  |                                                |        |     |     |     +--| (18)
+|                                |  |                                                |        |     |     |     |  |  +--AmLi_CHN_N_202
+|                                |  |                                                |        |     |     |     |  +--| (18)
+|                                |  |                                                |        |     |     |     |     +--AmLi_CHN_N_214
+|                                |  |                                                |        |     |     |  +--| (24)
+|                                |  |                                                |        |     |     |  |  +--AmLi_CHN_N_184
+|                                |  |                                                |        |     |     +--| (55)
+|                                |  |                                                |        |     |        +--AmLi_CHN_N_139
+|                                |  |                                                |        |  +--| (86)
+|                                |  |                                                |        |  |  |     +--Am_IRL_B_299
+|                                |  |                                                |        |  |  |  +--| (100)
+|                                |  |                                                |        |  |  |  |  +--Am_GBR_B_315
+|                                |  |                                                |        |  |  +--| (84)
+|                                |  |                                                |        |  |     +--Am_GBR_B_306
+|                                |  |                                                |        +--| (100)
+|                                |  |                                                |           |           +--AmCr_DEU_M_083
+|                                |  |                                                |           |        +--| (55)
+|                                |  |                                                |           |        |  |  +--AmCr_POL_N_121
+|                                |  |                                                |           |        |  +--| (82)
+|                                |  |                                                |           |        |     |  +--AmCr_POL_N_122
+|                                |  |                                                |           |        |     +--| (90)
+|                                |  |                                                |           |        |        +--AmCr_POL_N_123
+|                                |  |                                                |           |     +--| (100)
+|                                |  |                                                |           |     |  +--Am_NOR_B_373
+|                                |  |                                                |           |  +--| (99)
+|                                |  |                                                |           |  |  |     +--AmCr_POL_N_119
+|                                |  |                                                |           |  |  |  +--| (38)
+|                                |  |                                                |           |  |  |  |  +--AmCr_POL_N_125
+|                                |  |                                                |           |  |  +--| (100)
+|                                |  |                                                |           |  |     |  +--AmCr_POL_N_120
+|                                |  |                                                |           |  |     +--| (43)
+|                                |  |                                                |           |  |        +--AmCr_POL_N_124
+|                                |  |                                                |           +--| (51)
+|                                |  |                                                |              +--AmCr_SEE_N_128
+|                                |  |                                 +--------------| (100)
+|                                |  |                                 |              |           +--Am_GBR_B_303
+|                                |  |                                 |              |        +--| (100)
+|                                |  |                                 |              |        |  +--AmAn_TUR_N_260
+|                                |  |                                 |              |     +--| (51)
+|                                |  |                                 |              |     |  +--AmCu_EUA_N_132
+|                                |  |                                 |              |  +--| (52)
+|                                |  |                                 |              |  |  |  +--Am_GBR_B_307
+|                                |  |                                 |              |  |  +--| (52)
+|                                |  |                                 |              |  |     +--Am_IRQ_N_238
+|                                |  |                                 |              +--| (100)
+|                                |  |                                 |                 |        +--Am_GBR_B_305
+|                                |  |                                 |                 |     +--| (87)
+|                                |  |                                 |                 |     |  +--Am_GBR_B_314
+|                                |  |                                 |                 |  +--| (100)
+|                                |  |                                 |                 |  |  +--AmMd_IRN_N_237
+|                                |  |                                 |                 +--| (53)
+|                                |  |                                 |                    +--AmMe_FRA_A_329
+|                                |  |                              +--| (95)
+|                                |  |                              |  |                       +--AmJe_ARA_N_134
+|                                |  |                              |  |                   +---| (100)
+|                                |  |                              |  |                   |   |              +--Am_SAU_N_242
+|                                |  |                              |  |                   |   |           +--| (34)
+|                                |  |                              |  |                   |   |           |  +--Am_SAU_N_257
+|                                |  |                              |  |                   |   |        +--| (74)
+|                                |  |                              |  |                   |   |        |  +--Am_SAU_N_243
+|                                |  |                              |  |                   |   |     +--| (99)
+|                                |  |                              |  |                   |   |     |  +--Am_SAU_N_244
+|                                |  |                              |  |                   |   |  +--| (100)
+|                                |  |                              |  |                   |   |  |  |  +--Am_SAU_N_245
+|                                |  |                              |  |                   |   |  |  +--| (100)
+|                                |  |                              |  |                   |   |  |     |  +--Am_SAU_N_246
+|                                |  |                              |  |                   |   |  |     +--| (100)
+|                                |  |                              |  |                   |   |  |        +--Am_SAU_N_247
+|                                |  |                              |  |                   |   +--| (100)
+|                                |  |                              |  |                   |      |     +--Am_SAU_N_248
+|                                |  |                              |  |                   |      |  +--| (100)
+|                                |  |                              |  |                   |      |  |  |  +--Am_SAU_N_249
+|                                |  |                              |  |                   |      |  |  +--| (100)
+|                                |  |                              |  |                   |      |  |     |     +--Am_SAU_N_250
+|                                |  |                              |  |                   |      |  |     |  +--| (39)
+|                                |  |                              |  |                   |      |  |     |  |  +--Am_SAU_N_252
+|                                |  |                              |  |                   |      |  |     +--| (36)
+|                                |  |                              |  |                   |      |  |        +--Am_SAU_N_251
+|                                |  |                              |  |                   |      +--| (100)
+|                                |  |                              |  |                   |         +--AmSy_SYR_N_258
+|                                |  |                              |  |                +--| (46)
+|                                |  |                              |  |                |  +--AmLa_EGY_N_264
+|                                |  |                              |  |             +--| (60)
+|                                |  |                              |  |             |  +--AmLi_CHN_N_150
+|                                |  |                              |  |  +----------| (100)
+|                                |  |                              |  |  |          +--AmSy_SYR_N_259
+|                                |  |                              |  +--| (54)
+|                                |  |                              |     +----------AmIn_MAR_N_267
+|                                |  |                        +-----| (100)
+|                                |  |                        |     |                                          +--AmHy_IRL_F_043
+|                                |  |                        |     |                                       +--| (78)
+|                                |  |                        |     |                                       |  +--AmMe_IRL_F_078
+|                                |  |                        |     |                                    +--| (37)
+|                                |  |                        |     |                                    |  |  +--AmScCa_ZAF_N_271
+|                                |  |                        |     |                                    |  +--| (35)
+|                                |  |                        |     |                                    |     +--AmCa_ZAF_N_280
+|                                |  |                        |     |                                 +--| (100)
+|                                |  |                        |     |                                 |  +--AmCa_ZAF_N_281
+|                                |  |                        |     |                              +--| (49)
+|                                |  |                        |     |                              |  +--AmCa_ZAF_N_274
+|                                |  |                        |     |                           +--| (44)
+|                                |  |                        |     |                           |  |  +--AmCa_ZAF_N_282
+|                                |  |                        |     |                           |  +--| (100)
+|                                |  |                        |     |                           |     +--AmCa_ZAF_N_283
+|                                |  |                        |     |                        +--| (100)
+|                                |  |                        |     |                        |  |  +--AmCa_ZAF_N_279
+|                                |  |                        |     |                        |  +--| (100)
+|                                |  |                        |     |                        |     |  +--AmCa_ZAF_N_286
+|                                |  |                        |     |                        |     +--| (50)
+|                                |  |                        |     |                        |        +--AmCa_ZAF_N_287
+|                                |  |                        |     |                     +--| (100)
+|                                |  |                        |     |                     |  |     +--AmCa_ZAF_N_270
+|                                |  |                        |     |                     |  |  +--| (100)
+|                                |  |                        |     |                     |  |  |  +--AmCa_ZAF_N_276
+|                                |  |                        |     |                     |  +--| (99)
+|                                |  |                        |     |                     |     +--AmCa_ZAF_N_277
+|                                |  |                        |     |                  +--| (100)
+|                                |  |                        |     |                  |  |  +--AmCa_ZAF_N_275
+|                                |  |                        |     |                  |  +--| (99)
+|                                |  |                        |     |                  |     +--AmSc_ZAF_N_289
+|                                |  |                        |     |               +--| (100)
+|                                |  |                        |     |               |  |  +--AmMo_KEN_N_266
+|                                |  |                        |     |               |  +--| (100)
+|                                |  |                        |     |               |     +--AmCa_ZAF_N_272
+|                                |  |                        |     |            +--| (100)
+|                                |  |                        |     |            |  |  +--AmSc_ASI_N_135
+|                                |  |                        |     |            |  +--| (100)
+|                                |  |                        |     |            |     +--AmCa_ZAF_N_284
+|                                |  |                        |     |         +--| (99)
+|                                |  |                        |     |         |  |              +--AmSc_MEX_N_133
+|                                |  |                        |     |         |  |           +--| (100)
+|                                |  |                        |     |         |  |           |  |  +--AmCa_ZAF_N_278
+|                                |  |                        |     |         |  |           |  +--| (83)
+|                                |  |                        |     |         |  |           |     +--AmCaSc_ZAF_N_288
+|                                |  |                        |     |         |  |        +--| (76)
+|                                |  |                        |     |         |  |        |  |  +--AmSc_ZAF_N_292
+|                                |  |                        |     |         |  |        |  +--| (100)
+|                                |  |                        |     |         |  |        |     +--AmSc_ZAF_N_293
+|                                |  |                        |     |         |  |     +--| (100)
+|                                |  |                        |     |         |  |     |  |  +--AmCa_ZAF_N_273
+|                                |  |                        |     |         |  |     |  +--| (100)
+|                                |  |                        |     |         |  |     |     +--AmCa_ZAF_N_285
+|                                |  |                        |     |         |  |  +--| (100)
+|                                |  |                        |     |         |  |  |  |     +--AmAd_WAF_N_269
+|                                |  |                        |     |         |  |  |  |  +--| (100)
+|                                |  |                        |     |         |  |  |  |  |  +--AmSc_ZAF_N_294
+|                                |  |                        |     |         |  |  |  +--| (65)
+|                                |  |                        |     |         |  |  |     +--AmSc_ZAF_N_291
+|                                |  |                        |     |         |  +--| (98)
+|                                |  |                        |     |         |     +--AmSc_ZAF_N_290
+|                                |  |                        |     |      +--| (100)
+|                                |  |                        |     |      |  |         +--AmHy_IRL_M_045
+|                                |  |                        |     |      |  |      +--| (91)
+|                                |  |                        |     |      |  |      |  +--AmIb_POR_N_126
+|                                |  |                        |     |      |  +------| (100)
+|                                |  |                        |     |      |         |     +--AmSi_ITA_N_086
+|                                |  |                        |     |      |         |  +--| (91)
+|                                |  |                        |     |      |         |  |  +--AmRu_MLT_N_117
+|                                |  |                        |     |      |         +--| (100)
+|                                |  |                        |     |      |            |  +--AmIn_DZA_N_261
+|                                |  |                        |     |      |            +--| (100)
+|                                |  |                        |     |      |               |  +--AmSa_DZA_N_262
+|                                |  |                        |     |      |               +--| (100)
+|                                |  |                        |     |      |                  +--AmSa_DZA_N_263
+|                                |  |                        |     |  +---| (100)
+|                                |  |                        |     |  |   +-----------AmUn_MDG_N_268
+|                                |  |                        |     +--| (100)
+|                                |  |                        |        +---------------AmSm_ETH_N_265
+|                                |  |     +------------------| (100)
+|                                |  |     |                  |                             +--Am_SAU_N_253
+|                                |  |     |                  |                          +--| (40)
+|                                |  |     |                  |                          |  +--Am_SAU_N_255
+|                                |  |     |                  |                       +--| (76)
+|                                |  |     |                  |                       |  +--Am_SAU_N_256
+|                                |  |     |                  +-----------------------| (100)
+|                                |  |     |                                          +--Am_SAU_N_254
+|                                |  |  +--| (62)
+|                                |  |  |  |           +--AmMe_FRA_A_336
+|                                |  |  |  |        +--| (24)
+|                                |  |  |  |        |  +--AmMe_FRA_A_362
+|                                |  |  |  |     +--| (35)
+|                                |  |  |  |     |  +--AmMe_FRA_A_337
+|                                |  |  |  |  +--| (100)
+|                                |  |  |  |  |  |  +--AmMe_FRA_A_338
+|                                |  |  |  |  |  +--| (43)
+|                                |  |  |  |  |     +--AmMe_FRA_A_339
+|                                |  |  |  +--| (99)
+|                                |  |  |     |  +--AmMe_FRA_A_351
+|                                |  |  |     +--| (100)
+|                                |  |  |        +--AmMe_FRA_A_352
+|                                |  +--| (97)
+|                                |     |        +--AmMe_IRL_M_069
+|                                |     |     +--| (94)
+|                                |     |     |  |  +--AmMe_FRA_A_328
+|                                |     |     |  +--| (100)
+|                                |     |     |     +--AmMe_FRA_A_331
+|                                |     |  +--| (100)
+|                                |     |  |  +--AmMe_FRA_A_368
+|                                |     +--| (98)
+|                                |        |        +--Am_JEY_B_322
+|                                |        |     +--| (16)
+|                                |        |     |  |  +--Am_CHE_B_324
+|                                |        |     |  +--| (13)
+|                                |        |     |     |     +--AmMe_FRA_A_366
+|                                |        |     |     |  +--| (100)
+|                                |        |     |     |  |  +--AmMe_FRA_A_369
+|                                |        |     |     +--| (31)
+|                                |        |     |        +--AmIb_POR_N_127
+|                                |        |  +--| (46)
+|                                |        |  |  |              +--AmMe_FRA_A_325
+|                                |        |  |  |           +--| (39)
+|                                |        |  |  |           |  +--AmMe_FRA_A_355
+|                                |        |  |  |        +--| (100)
+|                                |        |  |  |        |  |  +--AmMe_FRA_A_353
+|                                |        |  |  |        |  +--| (39)
+|                                |        |  |  |        |     +--AmMe_FRA_A_354
+|                                |        |  |  |     +--| (84)
+|                                |        |  |  |     |  |        +--AmMe_FRA_A_340
+|                                |        |  |  |     |  |     +--| (19)
+|                                |        |  |  |     |  |     |  +--AmMe_FRA_A_341
+|                                |        |  |  |     |  |  +--| (28)
+|                                |        |  |  |     |  |  |  +--AmMe_FRA_A_344
+|                                |        |  |  |     |  +--| (100)
+|                                |        |  |  |     |     |  +--AmMe_FRA_A_349
+|                                |        |  |  |     |     +--| (23)
+|                                |        |  |  |     |        |           +--AmMe_FRA_A_350
+|                                |        |  |  |     |        |        +--| (22)
+|                                |        |  |  |     |        |        |  +--AmMe_FRA_A_361
+|                                |        |  |  |     |        |     +--| (23)
+|                                |        |  |  |     |        |     |  +--AmMe_FRA_A_364
+|                                |        |  |  |     |        |  +--| (10)
+|                                |        |  |  |     |        |  |  +--AmMe_FRA_A_363
+|                                |        |  |  |     |        +--| (17)
+|                                |        |  |  |     |           +--AmMe_FRA_A_365
+|                                |        |  |  |  +--| (84)
+|                                |        |  |  |  |  |        +--AmMe_FRA_A_326
+|                                |        |  |  |  |  |     +--| (40)
+|                                |        |  |  |  |  |     |  +--AmMe_FRA_A_327
+|                                |        |  |  |  |  |  +--| (67)
+|                                |        |  |  |  |  |  |  +--AmMe_FRA_A_356
+|                                |        |  |  |  |  +--| (100)
+|                                |        |  |  |  |     +--AmMe_FRA_A_360
+|                                |        |  |  +--| (100)
+|                                |        |  |     |  +--AmMe_FRA_A_332
+|                                |        |  |     +--| (100)
+|                                |        |  |        +--AmMe_FRA_A_357
+|                                |        +--| (96)
+|                                |           |        +--AmMe_FRA_A_333
+|                                |           |     +--| (31)
+|                                |           |     |  +--AmMe_FRA_A_335
+|                                |           |  +--| (20)
+|                                |           |  |  |  +--AmMe_FRA_A_334
+|                                |           |  |  +--| (26)
+|                                |           |  |     +--AmMe_FRA_A_359
+|                                |           +--| (100)
+|                                |              +--AmMe_FRA_A_358
+|                             +--| (80)
+|                             |  |        +--Am_NOR_B_370
+|                             |  |     +--| (33)
+|                             |  |     |  +--Am_NOR_B_374
+|                             |  |  +--| (100)
+|                             |  |  |  |  +--Am_SWE_B_381
+|                             |  |  |  +--| (36)
+|                             |  |  |     +--Am_SWE_B_383
+|                             |  +--| (99)
+|                             |     +--AmSn_CHN_N_136
+|                          +--| (100)
+|                          |  |     +--AmMe_IRL_F_005
+|                          |  |  +--| (95)
+|                          |  |  |  +--AmMe_IRL_F_031
+|                          |  +--| (100)
+|                          |     |        +--AmMe_IRL_F_021
+|                          |     |     +--| (38)
+|                          |     |     |  +--AmMe_IRL_F_032
+|                          |     |  +--| (43)
+|                          |     |  |  |     +--AmMe_IRL_F_022
+|                          |     |  |  |  +--| (20)
+|                          |     |  |  |  |  +--AmMe_IRL_F_079
+|                          |     |  |  +--| (12)
+|                          |     |  |     +--AmHy_IRL_M_051
+|                          |     +--| (69)
+|                          |        |  +--AmMe_IRL_F_023
+|                          |        +--| (48)
+|                          |           +--AmMe_IRL_F_027
+|                       +--| (80)
+|                       |  +--Am_CHE_B_323
+|                    +--| (90)
+|                    |  |                    +--AmMe_IRL_F_013
+|                    |  |                 +--| (27)
+|                    |  |                 |  +--AmMe_IRL_F_020
+|                    |  |              +--| (22)
+|                    |  |              |  +--AmMe_IRL_M_063
+|                    |  |           +--| (21)
+|                    |  |           |  +--AmMe_IRL_F_016
+|                    |  |        +--| (26)
+|                    |  |        |  +--AmMe_IRL_F_014
+|                    |  |     +--| (31)
+|                    |  |     |  +--AmMe_IRL_F_018
+|                    |  |  +--| (45)
+|                    |  |  |  +--AmHy_IRL_M_046
+|                    |  +--| (100)
+|                    |     |  +--AmMe_IRL_M_059
+|                    |     +--| (77)
+|                    |        +--AmMe_IRL_F_076
+|                 +--| (68)
+|                 |  +--AmMe_IRL_M_055
+|              +--| (49)
+|              |  |  +--AmMe_IRL_F_004
+|              |  +--| (100)
+|              |     +--AmMe_IRL_F_024
+|           +--| (82)
+|           |  |              +--AmMe_IRL_F_006
+|           |  |           +--| (56)
+|           |  |           |  +--AmMe_IRL_F_008
+|           |  |        +--| (99)
+|           |  |        |  +--AmMe_IRL_M_066
+|           |  |     +--| (99)
+|           |  |     |  +--Am_GBR_B_302
+|           |  |  +--| (35)
+|           |  |  |  +--Am_JEY_B_321
+|           |  +--| (31)
+|           |     |     +--AmMe_IRL_F_015
+|           |     |  +--| (98)
+|           |     |  |  +--AmMe_IRL_M_057
+|           |     +--| (31)
+|           |        |  +--Am_SWE_B_380
+|           |        +--| (99)
+|           |           +--Am_SWE_B_382
+|        +--| (77)
+|        |  +--AmMe_NOR_N_118
+|     +--| (70)
+|     |  |  +--AmMe_IRL_F_030
+|     |  +--| (99)
+|     |     +--Am_IRL_B_298
+|  +--| (100)
+|  |  |     +--AmMe_IRL_M_053
+|  |  |  +--| (54)
+|  |  |  |  +--AmMe_IRL_M_072
+|  |  +--| (100)
+|  |     +--AmMe_IRL_M_073
++--| (100)
+|  |  +--AmMe_IRL_F_012
+|  +--| (53)
+|     |     +--AmMe_IRL_F_017
+|     |  +--| (100)
+|     |  |  +--AmMe_IRL_M_061
+|     +--| (54)
+|        |     +--Am_GBR_B_312
+|        |  +--| (99)
+|        |  |  +--Am_GBR_B_317
+|        +--| (100)
+|           +--Am_NOR_B_377
+|
++--Am_IRL_B_297
+
+
+Consensus tree in newick format: 
+
+(AmMe_IRL_F_001:0.0000023809,((((((((((((((((((((((((((((AmMe_IRL_F_002:0.0000023809,AmHy_IRL_M_047:0.0000023809)27:0.0000023809,((((AmMe_IRL_F_028:0.0000023809,(AmHy_IRL_M_048:0.0000023809,AmMe_IRL_M_070:0.0000023809)27:0.0000023809)27:0.0000023809,AmMe_IRL_F_029:0.0000023809)17:0.0000023809,AmMe_FRA_A_367:0.0000023809)26:0.0000023809,AmMe_FRA_A_343:0.0000023809)25:0.0000023809)30:0.0000023809,AmMe_IRL_F_007:0.0000023809)18:0.0000023809,(AmMe_IRL_F_025:0.0000023809,(AmMe_IRL_M_065:0.0000023809,Am_IRL_B_296:0.0000023809)20:0.0000023809)24:0.0000023809)23:0.0000023809,(AmHy_IRL_F_035:0.0000023809,AmMe_IRL_M_052:0.0000023809)17:0.0000023809)9:0.0000023809,((AmMe_IRL_F_019:0.0000023809,AmMe_IRL_M_060:0.0000023809)100:0.0002723396,AmMe_IRL_M_074:0.0000023809)42:0.0000023809)20:0.0000023809,AmMe_IRL_M_068:0.0000023809)22:0.0000023809,AmMe_FRA_A_342:0.0000023809)31:0.0000023809,((AmMe_IRL_M_056:0.0000023809,AmMe_IRL_M_071:0.0000023809)22:0.0000023809,AmMe_IRL_M_075:0.0000023809)13:0.0000023809)100:0.0006406601,(((AmMe_IRL_F_009:0.0000023809,AmHy_IRL_M_049:0.0000023809)33:0.0000023809,AmMe_IRL_F_077:0.0000023809)18:0.0000023809,(AmHy_IRL_M_050:0.0000023809,AmMe_IRL_M_080:0.0000023809)36:0.0000023809)99:0.0002765192)97:0.0000870913,AmMe_GBR_A_300:0.0004536996)93:0.0000873315,AmMe_IRL_F_010:0.0000023809)87:0.0000021286,AmMe_IRL_M_064:0.0000902228)17:0.0000023809,AmMe_IRL_F_003:0.0000023809)14:0.0000023809,(AmMe_IRL_F_011:0.0001805133,AmMe_IRL_M_058:0.0001807696)39:0.0000023809)92:0.0000020572,(AmHy_IRL_F_039:0.0000023809,AmHy_IRL_F_040:0.0000023809)99:0.0003616164)99:0.0005489097,(((((((((((((((AmMe_IRL_F_026:0.0000023809,Am_GBR_B_318:0.0000023809)18:0.0000023809,AmMe_FRA_A_345:0.0000023809)18:0.0000023809,(AmMe_FRA_A_346:0.0000023809,AmMe_FRA_A_348:0.0000023809)26:0.0000023809)14:0.0000023809,Am_GBR_B_310:0.0000023809)22:0.0000023809,AmLi_ITA_N_105:0.0000023809)38:0.0000023809,AmMe_FRA_A_347:0.0000919120)98:0.0001844813,AmHy_IRL_F_033:0.0002756239)100:0.0008365690,((((AmHy_IRL_F_036:0.0000023809,((AmHy_IRL_F_037:0.0000023809,AmHy_IRL_F_038:0.0000023809)42:0.0000023809,AmHy_IRL_F_042:0.0000023809)57:0.0000023809)100:0.0004598464,(AmLi_CHN_N_149:0.0000925701,(AmLi_CHN_N_193:0.0000023809,AmLi_CHN_N_195:0.0000023809)100:0.0000911624)100:0.0003704752)98:0.0001810170,((((((((AmHy_IRL_F_041:0.0000023809,AmMe_FRA_A_330:0.0000023809)19:0.0000023809,(Am_GBR_B_308:0.0000023809,Am_GBR_B_309:0.0000023809)37:0.0000023809)34:0.0000023809,AmLi_ITA_N_102:0.0000023809)73:0.0000023809,Am_GBR_B_313:0.0001831286)87:0.0000868673,Am_GBR_B_320:0.0000962823)71:0.0000912525,AmMe_IRL_C_295:0.0003619836)99:0.0000961358,AmHy_GBR_F_044:0.0004585679)64:0.0000023809,AmLi_KOR_N_241:0.0006434989)100:0.0003668838)99:0.0001837482,Am_GBR_B_304:0.0012044342)59:0.0000023809)35:0.0000023809,((AmHy_IRL_F_034:0.0000023809,(AmMe_IRL_M_062:0.0000023809,Am_GBR_B_301:0.0000023809)57:0.0000023809)100:0.0012149675,((((((AmCr_DEU_M_081:0.0000023809,Am_NOR_B_372:0.0000023809)19:0.0000023809,(Am_NOR_B_375:0.0000023809,Am_NOR_B_376:0.0000023809)28:0.0000023809)32:0.0000023809,Am_NOR_B_378:0.0000023809)24:0.0000023809,Am_NOR_B_371:0.0000023809)100:0.0000900409,(AmCr_SVN_N_129:0.0000023809,AmCr_SVN_N_130:0.0000023809)100:0.0001836675)100:0.0006411221,((((((AmCr_DEU_M_082:0.0000023809,Am_SWE_B_379:0.0000023809)71:0.0000023809,(AmLi_ITA_N_094:0.0000023809,AmLi_KOR_N_240:0.0000023809)84:0.0000023809)99:0.0001828271,(((Am_GBR_B_316:0.0000023809,Am_GBR_B_319:0.0000906201)52:0.0000023809,(((((AmLi_ITA_N_084:0.0000906876,AmLi_CHN_N_232:0.0000907699)22:0.0000023809,AmLi_CHN_N_151:0.0000023809)9:0.0000023809,(((AmLi_ITA_N_097:0.0000023809,AmLi_CHN_N_220:0.0000023809)22:0.0000023809,(AmLi_ITA_N_098:0.0000023809,AmLi_ITA_N_115:0.0000023809)27:0.0000023809)14:0.0000023809,AmLi_CHN_N_174:0.0000023809)8:0.0000023809)4:0.0000023809,(((AmLi_ITA_N_101:0.0000023809,AmLi_ITA_N_114:0.0000023809)38:0.0000023809,(((AmLi_ITA_N_103:0.0000023809,AmLi_ITA_N_116:0.0000023809)26:0.0000023809,AmLi_CHN_N_175:0.0000023809)28:0.0000023809,AmLi_CHN_N_176:0.0000023809)16:0.0000023809)12:0.0000023809,AmLi_ITA_N_107:0.0000023809)11:0.0000023809)10:0.0000023809,(((((AmLi_ITA_N_087:0.0000023809,AmLi_ITA_N_095:0.0000023809)35:0.0000023809,AmLi_ITA_N_113:0.0000023809)30:0.0000023809,(AmLi_ITA_N_100:0.0000023809,(AmLi_ITA_N_109:0.0000023809,AmLi_CHN_N_147:0.0000023809)20:0.0000023809)29:0.0000023809)15:0.0000023809,(((AmLi_ITA_N_088:0.0000023809,(AmLi_ITA_N_089:0.0000023809,(AmLi_CHN_N_173:0.0000023809,AmLi_CHN_N_219:0.0000023809)16:0.0000023809)19:0.0000023809)26:0.0000023809,AmLi_CHN_N_203:0.0000023809)17:0.0000023809,AmLi_ITA_N_110:0.0000023809)29:0.0000023809)21:0.0000023809,((((((AmLi_ITA_N_091:0.0000023809,AmLi_ITA_N_106:0.0000023809)31:0.0000023809,AmLi_ITA_N_111:0.0000023809)22:0.0000023809,AmLi_CHN_N_218:0.0000023809)21:0.0000023809,((AmLi_ITA_N_092:0.0000023809,AmLi_CHN_N_189:0.0000023809)28:0.0000023809,AmLi_ITA_N_112:0.0000023809)30:0.0000023809)25:0.0000023809,AmLi_ITA_N_108:0.0000023809)15:0.0000023809,AmLi_ITA_N_104:0.0000023809)17:0.0000023809)23:0.0000023809)57:0.0000023809)66:0.0000023809,AmLi_AUS_N_131:0.0000023809)98:0.0000902295)100:0.0003631395,(AmLi_ITA_N_085:0.0000023809,((((((((((((((((((((((((((AmLi_ITA_N_090:0.0000023809,(((((((((((((((((((AmLi_ITA_N_093:0.0000023809,(((((AmLi_ITA_N_096:0.0001845398,Am_IRQ_N_239:0.0000919014)97:0.0000915696,(AmLi_CHN_N_180:0.0000023809,AmLi_CHN_N_194:0.0000023809)22:0.0000023809)14:0.0000023809,((((((((((((((((AmLi_ITA_N_099:0.0000023809,AmLi_CHN_N_206:0.0000023809)19:0.0000023809,(AmLi_CHN_N_168:0.0000023809,AmLi_CHN_N_230:0.0000023809)36:0.0000023809)17:0.0000023809,AmLi_CHN_N_170:0.0000023809)17:0.0000023809,AmLi_CHN_N_142:0.0000023809)23:0.0000023809,AmLi_CHN_N_178:0.0000023809)40:0.0000023809,AmLi_CHN_N_182:0.0000023809)24:0.0000023809,(AmLi_CHN_N_137:0.0000023809,AmLi_CHN_N_190:0.0000023809)29:0.0000023809)24:0.0000023809,AmLi_CHN_N_156:0.0000023809)24:0.0000023809,AmLi_CHN_N_172:0.0000023809)28:0.0000023809,(((AmLi_CHN_N_146:0.0000023809,(AmLi_CHN_N_152:0.0000915611,AmLi_CHN_N_192:0.0000916445)52:0.0000023809)21:0.0000023809,AmLi_CHN_N_225:0.0000023809)18:0.0000023809,AmLi_CHN_N_222:0.0000023809)28:0.0000023809)28:0.0000023809,AmLi_CHN_N_138:0.0000023809)20:0.0000023809,((((AmLi_CHN_N_155:0.0000023809,AmLi_CHN_N_205:0.0000023809)28:0.0000023809,AmLi_CHN_N_208:0.0000023809)21:0.0000023809,AmLi_CHN_N_215:0.0000023809)25:0.0000023809,AmLi_CHN_N_185:0.0000023809)25:0.0000023809)21:0.0000023809,AmLi_CHN_N_157:0.0000023809)21:0.0000023809,AmLi_CHN_N_162:0.0000023809)23:0.0000023809,AmLi_CHN_N_210:0.0000023809)36:0.0000023809,AmLi_CHN_N_199:0.0000023809)25:0.0000023809)22:0.0000023809,AmLi_CHN_N_167:0.0000023809)19:0.0000023809,((AmLi_CHN_N_143:0.0000023809,AmLi_CHN_N_153:0.0000023809)18:0.0000023809,AmLi_CHN_N_166:0.0000023809)19:0.0000023809)31:0.0000023809)22:0.0000023809,AmLi_CHN_N_204:0.0000023809)22:0.0000023809,(AmLi_CHN_N_161:0.0000023809,AmLi_CHN_N_217:0.0000023809)22:0.0000023809)25:0.0000023809,AmLi_CHN_N_233:0.0000023809)27:0.0000023809,AmLi_CHN_N_191:0.0000023809)30:0.0000023809,AmLi_CHN_N_223:0.0000023809)27:0.0000023809,AmLi_CHN_N_207:0.0000023809)28:0.0000023809,AmLi_CHN_N_145:0.0000023809)28:0.0000023809,AmLi_CHN_N_221:0.0000023809)16:0.0000023809,AmLi_CHN_N_179:0.0000023809)19:0.0000023809,AmLi_CHN_N_141:0.0000023809)16:0.0000023809,AmLi_CHN_N_171:0.0000917062)21:0.0000023809,AmLi_CHN_N_213:0.0000023809)27:0.0000023809,AmLi_CHN_N_140:0.0000023809)23:0.0000023809,AmLi_CHN_N_234:0.0000023809)20:0.0000023809,AmLi_CHN_N_188:0.0000023809)24:0.0000023809,AmLi_CHN_N_158:0.0000023809)24:0.0000023809,AmLi_CHN_N_169:0.0000023809)26:0.0000023809,((AmLi_CHN_N_144:0.0000023809,AmLi_CHN_N_163:0.0000023809)26:0.0000023809,AmLi_CHN_N_177:0.0000023809)24:0.0000023809)25:0.0000023809)32:0.0000023809,AmLi_CHN_N_186:0.0000023809)27:0.0000023809,AmLi_CHN_N_212:0.0000023809)32:0.0000023809,(AmLi_CHN_N_187:0.0000023809,AmLi_CHN_N_231:0.0000023809)16:0.0000023809)29:0.0000023809,AmLi_CHN_N_183:0.0000023809)39:0.0000023809,AmLi_CHN_N_201:0.0000023809)36:0.0000023809,AmLi_CHN_N_154:0.0000023809)34:0.0000023809,AmLi_CHN_N_216:0.0000023809)29:0.0000023809,AmLi_CHN_N_211:0.0000023809)24:0.0000023809,AmLi_CHN_N_181:0.0000023809)22:0.0000023809,AmLi_CHN_N_228:0.0000023809)32:0.0000023809,AmLi_CHN_N_209:0.0000023809)28:0.0000023809,(AmLi_CHN_N_164:0.0000023809,AmLi_CHN_N_200:0.0000023809)23:0.0000023809)24:0.0000023809,(AmLi_CHN_N_229:0.0000023809,AmLi_CHN_N_236:0.0000023809)38:0.0000023809)21:0.0000023809,AmLi_CHN_N_224:0.0000023809)19:0.0000023809,AmLi_CHN_N_235:0.0000023809)15:0.0000023809,AmLi_CHN_N_226:0.0000023809)32:0.0000023809,(AmLi_CHN_N_148:0.0000023809,AmLi_CHN_N_165:0.0000023809)35:0.0000023809)30:0.0000023809,AmLi_CHN_N_159:0.0000023809)17:0.0000023809,AmLi_CHN_N_160:0.0000023809)19:0.0000023809,(AmLi_CHN_N_198:0.0000023809,AmLi_CHN_N_227:0.0000023809)18:0.0000023809)28:0.0000023809,AmLi_CHN_N_197:0.0000023809)20:0.0000023809,AmLi_CHN_N_196:0.0000023809)17:0.0000023809,(AmLi_CHN_N_202:0.0000023809,AmLi_CHN_N_214:0.0000023809)18:0.0000023809)18:0.0000023809,AmLi_CHN_N_184:0.0000023809)24:0.0000023809,AmLi_CHN_N_139:0.0000023809)55:0.0000023809)100:0.0002729676)92:0.0002726257,((Am_IRL_B_299:0.0000023809,Am_GBR_B_315:0.0000023809)100:0.0005496806,Am_GBR_B_306:0.0006415121)84:0.0000023809)86:0.0000894856,((((AmCr_DEU_M_083:0.0000023809,(AmCr_POL_N_121:0.0000023809,(AmCr_POL_N_122:0.0000023809,AmCr_POL_N_123:0.0000023809)90:0.0000023809)82:0.0000023809)55:0.0000023809,Am_NOR_B_373:0.0000023809)100:0.0006423102,((AmCr_POL_N_119:0.0000023809,AmCr_POL_N_125:0.0000023809)38:0.0000023809,(AmCr_POL_N_120:0.0000023809,AmCr_POL_N_124:0.0000023809)43:0.0000023809)100:0.0003671109)99:0.0001778814,AmCr_SEE_N_128:0.0004574529)51:0.0000023809)100:0.0005476525)62:0.0000023809)66:0.0000906311)77:0.0000027427,((((Am_GBR_B_303:0.0000023809,AmAn_TUR_N_260:0.0000023809)100:0.0002774388,AmCu_EUA_N_132:0.0001845779)51:0.0000023809,(Am_GBR_B_307:0.0000023809,Am_IRQ_N_238:0.0004611760)52:0.0001844715)52:0.0002762489,(((Am_GBR_B_305:0.0000916839,Am_GBR_B_314:0.0000023809)87:0.0000023809,AmMd_IRN_N_237:0.0000023809)100:0.0000910158,AmMe_FRA_A_329:0.0002762118)53:0.0000023809)100:0.0012866717)100:0.0063958991,(((((AmJe_ARA_N_134:0.0015234532,(((((Am_SAU_N_242:0.0000023809,Am_SAU_N_257:0.0000023809)34:0.0000023809,Am_SAU_N_243:0.0000023809)74:0.0000023809,Am_SAU_N_244:0.0000023809)99:0.0001816219,(Am_SAU_N_245:0.0000023809,(Am_SAU_N_246:0.0000023809,Am_SAU_N_247:0.0000023809)100:0.0000896001)100:0.0001781084)100:0.0006374816,((Am_SAU_N_248:0.0000023809,(Am_SAU_N_249:0.0000907896,((Am_SAU_N_250:0.0002703041,Am_SAU_N_252:0.0001800793)39:0.0000023809,Am_SAU_N_251:0.0000907275)36:0.0000023809)100:0.0000907771)100:0.0004505822,AmSy_SYR_N_258:0.0009179594)100:0.0006464697)100:0.0000408643)100:0.0017187182,AmLa_EGY_N_264:0.0008441854)46:0.0001547092,AmLi_CHN_N_150:0.0008352715)60:0.0015555693,AmSy_SYR_N_259:0.0014958102)100:0.0046520579,AmIn_MAR_N_267:0.0045623656)54:0.0014839873)95:0.0006713067,((((((((((((((AmHy_IRL_F_043:0.0000023809,AmMe_IRL_F_078:0.0000023809)78:0.0000023809,(AmScCa_ZAF_N_271:0.0001792137,AmCa_ZAF_N_280:0.0002694893)35:0.0000023809)37:0.0000023809,AmCa_ZAF_N_281:0.0000902680)100:0.0003586177,AmCa_ZAF_N_274:0.0005382942)49:0.0000023809,(AmCa_ZAF_N_282:0.0000898862,AmCa_ZAF_N_283:0.0003567869)100:0.0000902060)44:0.0000023809,(AmCa_ZAF_N_279:0.0000901952,(AmCa_ZAF_N_286:0.0000901792,AmCa_ZAF_N_287:0.0000902599)50:0.0000023809)100:0.0002688150)100:0.0001905806,((AmCa_ZAF_N_270:0.0000889794,AmCa_ZAF_N_276:0.0001773639)100:0.0002557613,AmCa_ZAF_N_277:0.0010014603)99:0.0000895287)100:0.0001790121,(AmCa_ZAF_N_275:0.0010176019,AmSc_ZAF_N_289:0.0008154307)99:0.0001678002)100:0.0005567930,(AmMo_KEN_N_266:0.0010366588,AmCa_ZAF_N_272:0.0007232478)100:0.0008235471)100:0.0000772746,(AmSc_ASI_N_135:0.0004570574,AmCa_ZAF_N_284:0.0006375229)100:0.0010168849)100:0.0001808969,(((((AmSc_MEX_N_133:0.0000023809,(AmCa_ZAF_N_278:0.0000023809,AmCaSc_ZAF_N_288:0.0000023809)83:0.0000023809)100:0.0001760410,(AmSc_ZAF_N_292:0.0005319232,AmSc_ZAF_N_293:0.0001774679)100:0.0003547684)76:0.0000023809,(AmCa_ZAF_N_273:0.0001771280,AmCa_ZAF_N_285:0.0000023809)100:0.0003539244)100:0.0002649533,((AmAd_WAF_N_269:0.0003519492,AmSc_ZAF_N_294:0.0004423257)100:0.0004453354,AmSc_ZAF_N_291:0.0003541687)65:0.0000023809)100:0.0005337914,AmSc_ZAF_N_290:0.0013569559)98:0.0002583870)99:0.0004738173,((AmHy_IRL_M_045:0.0006223237,AmIb_POR_N_126:0.0010786396)91:0.0001571258,((AmSi_ITA_N_086:0.0003054518,AmRu_MLT_N_117:0.0006568818)91:0.0002615494,(AmIn_DZA_N_261:0.0001217896,(AmSa_DZA_N_262:0.0000023809,AmSa_DZA_N_263:0.0000023809)100:0.0001759353)100:0.0001848181)100:0.0004544232)100:0.0029151616)100:0.0013281906,AmUn_MDG_N_268:0.0051414323)100:0.0019772911,AmSm_ETH_N_265:0.0065921321)100:0.0012963042)100:0.0026487703,(((Am_SAU_N_253:0.0000023809,Am_SAU_N_255:0.0000023809)40:0.0000023809,Am_SAU_N_256:0.0000023809)76:0.0000023809,Am_SAU_N_254:0.0000916087)100:0.0098428344)100:0.0078715998,((((AmMe_FRA_A_336:0.0000023809,AmMe_FRA_A_362:0.0000023809)24:0.0000023809,AmMe_FRA_A_337:0.0000023809)35:0.0000023809,(AmMe_FRA_A_338:0.0000023809,AmMe_FRA_A_339:0.0000023809)43:0.0000023809)100:0.0001820923,(AmMe_FRA_A_351:0.0000023809,AmMe_FRA_A_352:0.0000023809)100:0.0000891757)99:0.0002976854)62:0.0002495624,(((AmMe_IRL_M_069:0.0003625574,(AmMe_FRA_A_328:0.0000023809,AmMe_FRA_A_331:0.0000023809)100:0.0002719193)94:0.0000023809,AmMe_FRA_A_368:0.0006342870)100:0.0001804384,(((Am_JEY_B_322:0.0000023809,(Am_CHE_B_324:0.0003598804,((AmMe_FRA_A_366:0.0002703483,AmMe_FRA_A_369:0.0001804891)100:0.0002710874,AmIb_POR_N_127:0.0005447344)31:0.0000023809)13:0.0000023809)16:0.0000023809,(((((AmMe_FRA_A_325:0.0000023809,AmMe_FRA_A_355:0.0000023809)39:0.0000023809,(AmMe_FRA_A_353:0.0000023809,AmMe_FRA_A_354:0.0000023809)39:0.0000023809)100:0.0003586642,(((AmMe_FRA_A_340:0.0000023809,AmMe_FRA_A_341:0.0000023809)19:0.0000023809,AmMe_FRA_A_344:0.0000023809)28:0.0000023809,(AmMe_FRA_A_349:0.0000023809,((((AmMe_FRA_A_350:0.0000023809,AmMe_FRA_A_361:0.0000023809)22:0.0000023809,AmMe_FRA_A_364:0.0000023809)23:0.0000023809,AmMe_FRA_A_363:0.0000023809)10:0.0000023809,AmMe_FRA_A_365:0.0000023809)17:0.0000023809)23:0.0000023809)100:0.0003594108)84:0.0000023809,(((AmMe_FRA_A_326:0.0000023809,AmMe_FRA_A_327:0.0000023809)40:0.0000023809,AmMe_FRA_A_356:0.0000023809)67:0.0000023809,AmMe_FRA_A_360:0.0000023809)100:0.0001794260)84:0.0000023809,(AmMe_FRA_A_332:0.0000023809,AmMe_FRA_A_357:0.0000896109)100:0.0001794543)100:0.0002697875)46:0.0000023809,(((AmMe_FRA_A_333:0.0000023809,AmMe_FRA_A_335:0.0000023809)31:0.0000023809,(AmMe_FRA_A_334:0.0000023809,AmMe_FRA_A_359:0.0000023809)26:0.0000023809)20:0.0000023809,AmMe_FRA_A_358:0.0000023809)100:0.0006353809)96:0.0000900503)98:0.0000870236)97:0.0005434702)98:0.0002700442,(((Am_NOR_B_370:0.0000023809,Am_NOR_B_374:0.0000023809)33:0.0000023809,(Am_SWE_B_381:0.0000023809,Am_SWE_B_383:0.0000023809)36:0.0000023809)100:0.0006358632,AmSn_CHN_N_136:0.0008208427)99:0.0004482712)80:0.0000029426,((AmMe_IRL_F_005:0.0000023809,AmMe_IRL_F_031:0.0000905906)95:0.0002722104,(((AmMe_IRL_F_021:0.0000023809,AmMe_IRL_F_032:0.0000023809)38:0.0000023809,((AmMe_IRL_F_022:0.0000023809,AmMe_IRL_F_079:0.0000023809)20:0.0000023809,AmHy_IRL_M_051:0.0000023809)12:0.0000023809)43:0.0000023809,(AmMe_IRL_F_023:0.0000023809,AmMe_IRL_F_027:0.0000023809)48:0.0000023809)69:0.0000023809)100:0.0005417309)100:0.0001814745,Am_CHE_B_323:0.0005433675)80:0.0000023809,(((((((AmMe_IRL_F_013:0.0000023809,AmMe_IRL_F_020:0.0000023809)27:0.0000023809,AmMe_IRL_M_063:0.0000023809)22:0.0000023809,AmMe_IRL_F_016:0.0000023809)21:0.0000023809,AmMe_IRL_F_014:0.0000023809)26:0.0000023809,AmMe_IRL_F_018:0.0000023809)31:0.0000023809,AmHy_IRL_M_046:0.0000023809)45:0.0000023809,(AmMe_IRL_M_059:0.0000023809,AmMe_IRL_F_076:0.0000023809)77:0.0000023809)100:0.0007294778)90:0.0000896690,AmMe_IRL_M_055:0.0002725982)68:0.0000894874,(AmMe_IRL_F_004:0.0000023809,AmMe_IRL_F_024:0.0000023809)100:0.0002716044)49:0.0000023809,(((((AmMe_IRL_F_006:0.0000023809,AmMe_IRL_F_008:0.0000023809)56:0.0000023809,AmMe_IRL_M_066:0.0000023809)99:0.0000912899,Am_GBR_B_302:0.0003650387)99:0.0001807819,Am_JEY_B_321:0.0001808749)35:0.0000023809,((AmMe_IRL_F_015:0.0002744551,AmMe_IRL_M_057:0.0002746467)98:0.0000884455,(Am_SWE_B_380:0.0000023809,Am_SWE_B_382:0.0000023809)99:0.0001810755)31:0.0000023809)31:0.0000023809)82:0.0000898541,AmMe_NOR_N_118:0.0005448248)77:0.0000023809,(AmMe_IRL_F_030:0.0001816504,Am_IRL_B_298:0.0000910398)99:0.0001813833)70:0.0000023809,((AmMe_IRL_M_053:0.0000023809,AmMe_IRL_M_072:0.0000023809)54:0.0000023809,AmMe_IRL_M_073:0.0000023809)100:0.0002724795)100:0.0001812691,(AmMe_IRL_F_012:0.0000023809,((AmMe_IRL_F_017:0.0000908093,AmMe_IRL_M_061:0.0000023809)100:0.0001814902,((Am_GBR_B_312:0.0000907979,Am_GBR_B_317:0.0000023809)99:0.0000907880,Am_NOR_B_377:0.0000023809)100:0.0000906713)54:0.0000023809)53:0.0000023809)100:0.0001814814,Am_IRL_B_297:0.0000023809);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Apis_m_mtDNA_NA_total.fst.treefile -m "K3Pu{31.4544,1.69261}+F{0.3708,0.0855524,0.0826983,0.460949}+R3{0.48009,0.19139,0.442994,0.237797,0.0769163,10.437}" --length 11190
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Apis_m_mtDNA_NA_total.fst --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Apis_m_mtDNA_NA_total.fst --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul  6 16:25:29 2026
+Total CPU time used: 193.742543 seconds (0h:3m:13s)
+Total wall-clock time used: 194.4788671 seconds (0h:3m:14s)
+

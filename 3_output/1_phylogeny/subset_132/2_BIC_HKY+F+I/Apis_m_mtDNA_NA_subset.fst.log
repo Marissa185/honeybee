@@ -1,0 +1,344 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May  7 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    marissa-ASUS-TUF-Gaming-F16-FX607VJ-FX607VJ (AVX2, FMA3, 15 GB RAM)
+Command: /home/marissa/anaconda3/envs/2_phylogeny/bin/iqtree3_intel -s Apis_m_mtDNA_NA_subset.fst --seqtype DNA -m HKY+F+I -bb 1000 -alrt 1000 --keep-ident
+Seed:    304730 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul  7 22:12:18 2026
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Apis_m_mtDNA_NA_subset.fst ... Fasta format detected
+Reading fasta file: done in 0.0316501 secs using 94.25% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.026875 secs using 66.43% CPU
+WARNING: 72 sites contain only gaps or ambiguous characters.
+Alignment has 132 sequences with 11103 columns, 216 distinct patterns
+333 parsimony-informative, 77 singleton sites, 10693 constant sites
+                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000192881 secs using 100.1% CPU
+   1  AmMe_IRL_F_001    0.97%    passed     99.99%
+   2  AmMe_IRL_F_002    0.97%    passed     99.99%
+   3  AmMe_IRL_F_003    0.97%    passed     99.99%
+   4  AmMe_IRL_F_004    0.97%    passed     99.99%
+   5  AmMe_IRL_F_005    0.97%    passed     99.98%
+   6  AmMe_IRL_F_006    0.97%    passed     99.98%
+   7  AmMe_IRL_F_007    0.97%    passed     99.99%
+   8  AmMe_IRL_F_008    0.97%    passed     99.98%
+   9  AmMe_IRL_F_009    0.97%    passed    100.00%
+  10  AmMe_IRL_F_010    1.08%    passed     99.96%
+  11  AmMe_IRL_F_011    0.98%    passed     99.99%
+  12  AmMe_IRL_F_012    0.97%    passed     99.99%
+  13  AmMe_IRL_F_013    0.97%    passed     99.95%
+  14  AmMe_IRL_F_014    0.97%    passed     99.95%
+  15  AmMe_IRL_F_015    0.97%    passed     99.98%
+  16  AmMe_IRL_F_016    0.97%    passed     99.95%
+  17  AmMe_IRL_F_017    0.97%    passed     99.98%
+  18  AmMe_IRL_F_018    0.97%    passed     99.95%
+  19  AmMe_IRL_F_019    0.97%    passed     99.98%
+  20  AmMe_IRL_F_020    0.97%    passed     99.95%
+  21  AmMe_IRL_F_021    0.97%    passed     99.98%
+  22  AmMe_IRL_F_022    0.97%    passed     99.98%
+  23  AmMe_IRL_F_023    0.97%    passed     99.98%
+  24  AmMe_IRL_F_024    0.97%    passed     99.99%
+  25  AmMe_IRL_F_025    0.97%    passed     99.99%
+  26  AmMe_IRL_F_027    0.97%    passed     99.98%
+  27  AmMe_IRL_F_028    0.97%    passed     99.99%
+  28  AmMe_IRL_F_029    0.97%    passed     99.99%
+  29  AmMe_IRL_F_030    0.97%    passed    100.00%
+  30  AmMe_IRL_F_031    0.97%    passed    100.00%
+  31  AmMe_IRL_F_032    0.97%    passed     99.98%
+  32  AmHy_IRL_F_035    0.97%    passed     99.99%
+  33  AmHy_IRL_F_039    0.97%    passed     99.99%
+  34  AmHy_IRL_F_040    0.97%    passed     99.99%
+  35  AmHy_IRL_M_046    0.97%    passed     99.95%
+  36  AmHy_IRL_M_047    0.97%    passed     99.99%
+  37  AmHy_IRL_M_048    1.19%    passed     99.70%
+  38  AmHy_IRL_M_049    0.97%    passed    100.00%
+  39  AmHy_IRL_M_050    0.97%    passed    100.00%
+  40  AmHy_IRL_M_051    0.97%    passed     99.98%
+  41  AmMe_IRL_M_052    0.97%    passed     99.99%
+  42  AmMe_IRL_M_053    0.97%    passed    100.00%
+  43  AmMe_IRL_M_055    0.97%    passed    100.00%
+  44  AmMe_IRL_M_056    0.97%    passed     99.99%
+  45  AmMe_IRL_M_057    0.97%    passed    100.00%
+  46  AmMe_IRL_M_058    0.97%    passed    100.00%
+  47  AmMe_IRL_M_059    0.98%    passed     99.95%
+  48  AmMe_IRL_M_060    0.97%    passed     99.98%
+  49  AmMe_IRL_M_061    0.97%    passed     99.98%
+  50  AmMe_IRL_M_062    0.97%    passed     98.27%
+  51  AmMe_IRL_M_063    0.97%    passed     99.95%
+  52  AmMe_IRL_M_064    0.97%    passed    100.00%
+  53  AmMe_IRL_M_065    0.97%    passed     99.99%
+  54  AmMe_IRL_M_066    0.97%    passed     99.98%
+  55  AmMe_IRL_M_068    0.97%    passed     99.99%
+  56  AmMe_IRL_M_069    0.98%    passed     99.79%
+  57  AmMe_IRL_M_070    0.97%    passed     99.99%
+  58  AmMe_IRL_M_071    0.97%    passed     99.99%
+  59  AmMe_IRL_M_072    0.97%    passed    100.00%
+  60  AmMe_IRL_M_073    0.97%    passed    100.00%
+  61  AmMe_IRL_M_074    0.98%    passed     99.99%
+  62  AmMe_IRL_M_075    0.97%    passed     99.99%
+  63  AmMe_IRL_F_076    0.98%    passed     99.95%
+  64  AmMe_IRL_F_077    0.97%    passed    100.00%
+  65  AmMe_IRL_F_079    0.97%    passed     99.98%
+  66  AmMe_IRL_M_080    0.97%    passed    100.00%
+  67  Am_IRL_B_296      0.97%    passed     99.99%
+  68  Am_IRL_B_297      0.97%    passed     99.99%
+  69  Am_IRL_B_298      0.97%    passed     99.99%
+  70  AmMe_GBR_A_300    0.97%    passed    100.00%
+  71  Am_GBR_B_302      0.97%    passed     99.96%
+  72  Am_GBR_B_312      0.97%    passed     99.95%
+  73  Am_GBR_B_317      0.97%    passed     99.98%
+  74  Am_JEY_B_321      0.97%    passed     99.99%
+  75  Am_JEY_B_322      0.97%    passed     99.95%
+  76  Am_CHE_B_323      0.97%    passed     99.99%
+  77  Am_CHE_B_324      0.97%    passed     99.95%
+  78  AmMe_FRA_A_325    0.97%    passed     99.77%
+  79  AmMe_FRA_A_326    0.97%    passed     99.89%
+  80  AmMe_FRA_A_327    0.97%    passed     99.89%
+  81  AmMe_FRA_A_328    0.97%    passed     99.98%
+  82  AmMe_FRA_A_329    1.03%    passed     98.79%
+  83  AmMe_FRA_A_330    0.97%    passed     99.57%
+  84  AmMe_FRA_A_331    0.97%    passed     99.98%
+  85  AmMe_FRA_A_332    0.97%    passed     99.79%
+  86  AmMe_FRA_A_333    0.97%    passed     99.91%
+  87  AmMe_FRA_A_334    0.97%    passed     99.91%
+  88  AmMe_FRA_A_335    0.97%    passed     99.91%
+  89  AmMe_FRA_A_336    0.97%    passed    100.00%
+  90  AmMe_FRA_A_337    0.97%    passed    100.00%
+  91  AmMe_FRA_A_338    0.97%    passed    100.00%
+  92  AmMe_FRA_A_339    0.97%    passed    100.00%
+  93  AmMe_FRA_A_340    0.97%    passed     99.79%
+  94  AmMe_FRA_A_341    0.97%    passed     99.79%
+  95  AmMe_FRA_A_342    0.97%    passed     99.99%
+  96  AmMe_FRA_A_343    0.97%    passed     99.99%
+  97  AmMe_FRA_A_344    0.97%    passed     99.79%
+  98  AmMe_FRA_A_349    0.97%    passed     99.79%
+  99  AmMe_FRA_A_350    0.97%    passed     99.79%
+ 100  AmMe_FRA_A_351    0.97%    passed     99.98%
+ 101  AmMe_FRA_A_352    0.97%    passed     99.98%
+ 102  AmMe_FRA_A_353    0.97%    passed     99.77%
+ 103  AmMe_FRA_A_354    0.97%    passed     99.77%
+ 104  AmMe_FRA_A_355    0.97%    passed     99.77%
+ 105  AmMe_FRA_A_356    0.97%    passed     99.89%
+ 106  AmMe_FRA_A_357    0.97%    passed     99.80%
+ 107  AmMe_FRA_A_358    0.97%    passed     99.91%
+ 108  AmMe_FRA_A_359    0.97%    passed     99.91%
+ 109  AmMe_FRA_A_360    0.97%    passed     99.89%
+ 110  AmMe_FRA_A_361    0.97%    passed     99.79%
+ 111  AmMe_FRA_A_362    0.97%    passed    100.00%
+ 112  AmMe_FRA_A_363    0.97%    passed     99.79%
+ 113  AmMe_FRA_A_364    0.97%    passed     99.79%
+ 114  AmMe_FRA_A_365    0.97%    passed     99.79%
+ 115  AmMe_FRA_A_366    0.97%    passed     99.92%
+ 116  AmMe_FRA_A_367    0.97%    passed     99.99%
+ 117  AmMe_FRA_A_368    0.97%    passed     99.95%
+ 118  AmMe_FRA_A_369    0.97%    passed     99.96%
+ 119  Am_NOR_B_370      0.97%    passed    100.00%
+ 120  Am_NOR_B_374      0.97%    passed    100.00%
+ 121  Am_NOR_B_377      0.97%    passed     99.98%
+ 122  Am_SWE_B_380      0.97%    passed    100.00%
+ 123  Am_SWE_B_381      0.97%    passed    100.00%
+ 124  Am_SWE_B_382      0.97%    passed    100.00%
+ 125  Am_SWE_B_383      0.97%    passed    100.00%
+ 126  AmMe_NOR_N_118    0.69%    passed     99.70%
+ 127  AmIb_POR_N_127    0.99%    passed     99.98%
+ 128  AmSn_CHN_N_136    0.67%    passed     99.96%
+ 129  Am_SAU_N_253      0.99%    passed     99.89%
+ 130  Am_SAU_N_254      0.99%    passed     99.81%
+ 131  Am_SAU_N_255      0.99%    passed     99.89%
+ 132  Am_SAU_N_256      0.99%    passed     99.89%
+****  TOTAL             0.97%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 304730)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -16704.696
+2. Current log-likelihood: -16288.451
+3. Current log-likelihood: -16284.119
+4. Current log-likelihood: -16283.713
+5. Current log-likelihood: -16283.305
+6. Current log-likelihood: -16282.892
+7. Current log-likelihood: -16282.475
+8. Current log-likelihood: -16282.055
+9. Current log-likelihood: -16281.630
+10. Current log-likelihood: -16281.202
+11. Current log-likelihood: -16280.769
+12. Current log-likelihood: -16280.332
+13. Current log-likelihood: -16279.891
+14. Current log-likelihood: -16279.445
+15. Current log-likelihood: -16278.995
+16. Current log-likelihood: -16278.541
+17. Current log-likelihood: -16278.081
+18. Current log-likelihood: -16277.617
+19. Current log-likelihood: -16277.149
+20. Current log-likelihood: -16276.675
+21. Current log-likelihood: -16276.196
+22. Current log-likelihood: -16275.713
+23. Current log-likelihood: -16275.224
+24. Current log-likelihood: -16274.729
+25. Current log-likelihood: -16274.230
+26. Current log-likelihood: -16273.725
+27. Current log-likelihood: -16273.214
+28. Current log-likelihood: -16272.698
+29. Current log-likelihood: -16272.176
+30. Current log-likelihood: -16271.648
+31. Current log-likelihood: -16271.114
+32. Current log-likelihood: -16270.573
+33. Current log-likelihood: -16270.027
+34. Current log-likelihood: -16269.474
+35. Current log-likelihood: -16268.914
+36. Current log-likelihood: -16268.348
+37. Current log-likelihood: -16267.775
+38. Current log-likelihood: -16267.195
+39. Current log-likelihood: -16266.608
+40. Current log-likelihood: -16266.014
+41. Current log-likelihood: -16265.413
+42. Current log-likelihood: -16264.804
+43. Current log-likelihood: -16264.187
+44. Current log-likelihood: -16263.563
+45. Current log-likelihood: -16262.931
+46. Current log-likelihood: -16262.290
+47. Current log-likelihood: -16261.641
+48. Current log-likelihood: -16260.985
+49. Current log-likelihood: -16260.319
+50. Current log-likelihood: -16259.645
+51. Current log-likelihood: -16258.962
+52. Current log-likelihood: -16258.270
+53. Current log-likelihood: -16257.569
+54. Current log-likelihood: -16256.858
+55. Current log-likelihood: -16256.139
+56. Current log-likelihood: -16255.410
+57. Current log-likelihood: -16254.671
+58. Current log-likelihood: -16253.922
+59. Current log-likelihood: -16253.164
+60. Current log-likelihood: -16252.396
+61. Current log-likelihood: -16251.618
+62. Current log-likelihood: -16250.830
+63. Current log-likelihood: -16250.032
+64. Current log-likelihood: -16249.224
+65. Current log-likelihood: -16248.406
+66. Current log-likelihood: -16247.579
+67. Current log-likelihood: -16246.741
+68. Current log-likelihood: -16245.895
+69. Current log-likelihood: -16245.039
+70. Current log-likelihood: -16244.175
+71. Current log-likelihood: -16243.302
+72. Current log-likelihood: -16242.422
+73. Current log-likelihood: -16241.534
+74. Current log-likelihood: -16240.640
+75. Current log-likelihood: -16239.741
+76. Current log-likelihood: -16238.837
+77. Current log-likelihood: -16237.930
+78. Current log-likelihood: -16237.022
+79. Current log-likelihood: -16221.656
+80. Current log-likelihood: -16221.521
+Optimal log-likelihood: -16221.518
+Rate parameters:  A-C: 1.00000  A-G: 19.43149  A-T: 1.00000  C-G: 1.00000  C-T: 19.43149  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Proportion of invariable sites: 0.856
+Parameters optimization took 80 rounds (1.867 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0479748 secs using 99.96% CPU
+Computing ML distances took 0.048413 sec (of wall-clock time) 0.048398 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00138497 secs using 98.34% CPU
+Constructing RapidNJ tree: done in 0.00251818 secs using 179.3% CPU
+Computing RapidNJ tree took 0.004077 sec (of wall-clock time) 0.006041 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16222.299
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.072 second
+Computing log-likelihood of 98 initial trees ... 0.441 seconds
+Current best score: -16219.883
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16219.831
+BETTER TREE FOUND at iteration 2: -16219.831
+Iteration 10 / LogL: -16219.842 / Time: 0h:0m:4s
+Iteration 20 / LogL: -16219.846 / Time: 0h:0m:6s
+Finish initializing candidate tree set (20)
+Current best tree score: -16219.831 / CPU time: 4.117
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -16220.514 / Time: 0h:0m:7s (0h:0m:18s left)
+Iteration 40 / LogL: -16231.913 / Time: 0h:0m:8s (0h:0m:14s left)
+Iteration 50 / LogL: -16220.038 / Time: 0h:0m:10s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -16249.276
+Iteration 60 / LogL: -16259.327 / Time: 0h:0m:12s (0h:0m:8s left)
+Iteration 70 / LogL: -16223.974 / Time: 0h:0m:13s (0h:0m:6s left)
+Iteration 80 / LogL: -16220.417 / Time: 0h:0m:15s (0h:0m:4s left)
+Iteration 90 / LogL: -16220.036 / Time: 0h:0m:16s (0h:0m:2s left)
+Iteration 100 / LogL: -16229.298 / Time: 0h:0m:18s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -16249.414
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.956
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -16220.136 / Time: 0h:0m:20s (0h:0m:16s left)
+Iteration 120 / LogL: -16220.610 / Time: 0h:0m:22s (0h:0m:14s left)
+Iteration 130 / LogL: -16220.498 / Time: 0h:0m:23s (0h:0m:12s left)
+Iteration 140 / LogL: -16221.447 / Time: 0h:0m:25s (0h:0m:10s left)
+Iteration 150 / LogL: -16257.123 / Time: 0h:0m:26s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -16249.276
+Iteration 160 / LogL: -16220.493 / Time: 0h:0m:28s (0h:0m:7s left)
+Iteration 170 / LogL: -16220.122 / Time: 0h:0m:30s (0h:0m:5s left)
+Iteration 180 / LogL: -16233.834 / Time: 0h:0m:32s (0h:0m:3s left)
+Iteration 190 / LogL: -16220.016 / Time: 0h:0m:34s (0h:0m:1s left)
+Iteration 200 / LogL: -16220.069 / Time: 0h:0m:36s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -16249.869
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16219.831
+Optimal log-likelihood: -16219.830
+Rate parameters:  A-C: 1.00000  A-G: 19.34280  A-T: 1.00000  C-G: 1.00000  C-T: 19.34280  G-T: 1.00000
+Base frequencies:  A: 0.371  C: 0.086  G: 0.083  T: 0.461
+Proportion of invariable sites: 0.856
+Parameters optimization took 1 rounds (0.012 sec)
+BEST SCORE FOUND : -16219.830
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.946 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Apis_m_mtDNA_NA_subset.fst.splits.nex
+Total tree length: 0.049
+
+Total number of iterations: 200
+CPU time used for tree search: 34.559 sec (0h:0m:34s)
+Wall-clock time used for tree search: 35.147 sec (0h:0m:35s)
+Total CPU time used: 40.882 sec (0h:0m:40s)
+Total wall-clock time used: 41.665 sec (0h:0m:41s)
+
+Computing bootstrap consensus tree...
+Reading input file Apis_m_mtDNA_NA_subset.fst.splits.nex...
+132 taxa and 2295 splits.
+Consensus tree written to Apis_m_mtDNA_NA_subset.fst.contree
+Reading input trees file Apis_m_mtDNA_NA_subset.fst.contree
+Log-likelihood of consensus tree: -16222.629
+
+Analysis results written to: 
+  IQ-TREE report:                Apis_m_mtDNA_NA_subset.fst.iqtree
+  Maximum-likelihood tree:       Apis_m_mtDNA_NA_subset.fst.treefile
+  Likelihood distances:          Apis_m_mtDNA_NA_subset.fst.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Apis_m_mtDNA_NA_subset.fst.splits.nex
+  Consensus tree:                Apis_m_mtDNA_NA_subset.fst.contree
+  Screen log file:               Apis_m_mtDNA_NA_subset.fst.log
+
+Date and Time: Tue Jul  7 22:13:00 2026
