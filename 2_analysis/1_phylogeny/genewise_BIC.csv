@@ -1,0 +1,15 @@
+ Gene               ,BIC
+ NAD2               ,HKY+F+I
+ COX1               ,TN+F+I
+ COX2               ,HKY+F
+ ATP8               ,HKY+F
+ ATP6               ,HKY+F
+ COX3               ,HKY+F
+ NAD3               ,HKY+F
+ NAD5               ,HKY+F+I
+ NAD4               ,TN+F+I
+ NAD4L              ,HKY+F
+ NAD6               ,TPM2u+F+I
+ CYTB               ,HKY+F+I
+ NAD1               ,TN+F+I
+ Complete mtDNA ,K3Pu+F+R3
